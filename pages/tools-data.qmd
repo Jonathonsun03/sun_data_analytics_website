@@ -1,50 +1,50 @@
 ---
-title: "Tools & Data"
-description: "Reusable datasets, dashboards, templates, automated reports, research tools, and public data resources."
+title: "Tools & Reports"
+description: "Reusable dashboards, templates, automated reports, research tools, and workflow resources."
 ---
 
-Tools & Data collects reusable materials that make analysis easier to inspect, repeat, or adapt: datasets, dashboards, templates, automated reports, research tools, and public data resources.
+Tools & Reports collects reusable materials that make analysis easier to inspect, repeat, or adapt: dashboards, templates, automated reports, classification systems, scraper workflows, research tools, and documentation patterns.
 
 ## Reusable Resources
 
 :::: {.index-list}
 ::: {.index-item}
-### Public Dataset Placeholder
+### Report Bundle Runners
 
-A cleaned dataset concept with documentation, field definitions, licensing notes, and reproducible scripts.
+Linux and R wrappers for rendering recurring report bundles, routing outputs to a data lake, refreshing artifacts, and scheduling supported report types.
 
-**Status:** Draft  
-**Materials:** CSV, notes, analysis output
+**Status:** In active use  
+**Materials:** Render scripts, report templates, artifact folders, schedule notes
 :::
 
 ::: {.index-item}
-### Classification Export Placeholder
+### Title Classification Exports
 
-Structured classification outputs and validation summaries for reviewed research or content datasets.
+Structured classification outputs for stream and video titles, with modular definitions, talent overlays, validation checks, archived runs, and current exports for report joins.
 
-**Status:** Planned  
-**Materials:** Export table, codebook, review notes
+**Status:** In active use  
+**Materials:** DuckDB tables, prompt definitions, batch runs, CSV exports
 :::
 
 ::: {.index-item}
-### Reporting Bundle Placeholder
+### Qualitative Coding Review Files
 
-A recurring report dataset and rendered output package with source notes and an audit trail.
+Batch-built transcript coding runs with candidate rows, compiled codebooks, review CSVs, QA summaries, apply previews, and logs.
 
-**Status:** Planned  
-**Materials:** Source notes, rendered report, audit log
+**Status:** In active use  
+**Materials:** Codebooks, transcript prep files, review exports, QA summaries
 :::
 
 ::: {.index-item}
-### Dashboard and Report Templates
+### Data Lake Movement Scripts
 
-Reusable layouts for metric definitions, source notes, recurring reports, and stakeholder summaries.
+Push, pull, clean staging, and refresh workflows that keep scraped data, creator analytics, and report contexts organized across local workspaces and a data lake.
 :::
 
 ::: {.index-item}
-### Research Tools
+### Scraper and Public Signal Workflows
 
-Codebooks, qualitative coding sheets, public-data reference files, and repeatable scripts for research workflows.
+Reusable import and analysis scripts for public media sources such as Anime News Network, AniList, gacha trend sources, YouTube topic searches, and billboard references.
 :::
 ::::
 
@@ -53,16 +53,16 @@ Codebooks, qualitative coding sheets, public-data reference files, and repeatabl
 ```{=html}
 <div class="card-grid">
   <article class="content-card">
-    <h3>Datasets</h3>
-    <p>Documented tables, source notes, field definitions, and reuse guidance.</p>
+    <h3>Reporting Tools</h3>
+    <p>Documented report structures, source notes, metric definitions, render wrappers, and reuse guidance.</p>
   </article>
   <article class="content-card">
-    <h3>Dashboards</h3>
-    <p>Published dashboard concepts, reporting examples, and reusable views.</p>
+    <h3>Classification Systems</h3>
+    <p>Prompt bundles, codebooks, schema checks, batch outputs, and review-friendly exports.</p>
   </article>
   <article class="content-card">
-    <h3>Templates</h3>
-    <p>Checklists, reporting structures, data dictionaries, and workflow starting points.</p>
+    <h3>Automation Templates</h3>
+    <p>Checklists, reporting structures, metric dictionaries, staging workflows, and repeatable script entry points.</p>
   </article>
 </div>
 ```

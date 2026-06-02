@@ -3,57 +3,69 @@ title: "Portfolio"
 description: "Selected analytics work, dashboards, reports, data pipelines, spatial analysis, and mixed-methods projects."
 ---
 
-Selected work will collect examples of analytics systems, reports, research support, and reusable data workflows. Some entries may be public examples, while client work can be summarized without exposing confidential material.
+Selected work includes analytics systems, private report pipelines, research support, and reusable reporting workflows. Client reports and raw datasets stay private; the entries below describe the public-safe shape of the work, the methods used, and the kinds of decisions the systems support.
 
-## Selected Work Areas
+## Portfolio Examples
 
 :::: {.index-list}
 ::: {.index-item}
-### Dashboard and Reporting Systems
+### Creator Performance Reports
 
-Recurring reports, dashboard prototypes, metric definitions, stakeholder summaries, and refresh workflows built for repeated operational use.
-:::
+An example automated report for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure.
 
-::: {.index-item}
-### Reports and Research Briefs
-
-Polished analysis outputs, methods briefs, findings reports, quarterly reviews, and short explanations of assumptions and data quality issues.
-:::
-
-::: {.index-item}
-### Data Pipelines and Reproducible Workflows
-
-Source notes, cleaned tables, validation checks, audit logs, and reproducible scripts that turn raw exports into analysis-ready outputs.
-:::
-
-::: {.index-item}
-### Spatial Analysis
-
-Map-based analysis, geographic comparisons, public-data joins, location summaries, and spatial reporting for practical decision support.
-:::
-
-::: {.index-item}
-### Qualitative and Mixed-Methods Projects
-
-Transcript preparation, coding workflows, codebook development, theme summaries, and combined qualitative and quantitative interpretation.
+[View the creator performance report sample](creator-performance-report-sample.html)
 :::
 ::::
 
-## Current Example Placeholders
+## Selected Projects
+
+:::: {.index-list}
+::: {.index-item}
+### Creator Analytics Report Bundles
+
+Built reusable report bundles for creator performance analysis, including audience composition, content-type comparisons, revenue views, engagement distributions, collaboration effects, topic and tag performance, and publishing schedule analysis. The reports combine R-rendered tables and plots with generated interpretation drafts, editorial review steps, and final HTML delivery.
+:::
+
+::: {.index-item}
+### YouTube Data Collection Pipeline
+
+Developed collection workflows for YouTube analytics, video metadata, subtitles, chat data, demographics, subscriber trends, geography, and monetary data. The system handles authorization, staging, cleaning, and movement into a data lake so analysis can be repeated across multiple talent folders.
+:::
+
+::: {.index-item}
+### Title Classification System
+
+Designed a DuckDB-backed title classification pipeline with modular prompt definitions, talent-specific overlays, schema validation, batch classification, archived exports, and downstream report joins. The workflow turns stream and video titles into structured labels that support content strategy analysis.
+:::
+
+::: {.index-item}
+### Qualitative Transcript Coding Pipeline
+
+Built a qualitative coding workflow for stream transcripts and chat-adjacent text. The pipeline prepares transcript rows, compiles selected codebooks, creates Batch API jobs, exports review files, previews apply steps, and writes reviewed codes back into prepared transcript libraries.
+:::
+
+::: {.index-item}
+### Vtuber and Anime News Scraper Project
+
+Created a side-project scraper and analysis workspace for public media signals, including Anime News Network sources, AniList seasonal and popular content, gacha revenue and trend data, YouTube topic and trending searches, and billboard-style references. The project includes data lake movement, staging refreshes, analysis scripts, and report contexts.
+:::
+::::
+
+## Work Themes
 
 ```{=html}
 <div class="card-grid">
   <article class="content-card">
-    <h3>Audience Metrics Workbook</h3>
-    <p>A reproducible analysis package concept with source notes, cleaned tables, and summary outputs.</p>
+    <h3>Private Reports, Public Methods</h3>
+    <p>Client-facing report contents are kept private, while the website can describe the analysis design, automation patterns, and kinds of questions answered.</p>
   </article>
   <article class="content-card">
-    <h3>Talent Data Research Brief</h3>
-    <p>A report concept connecting data collection, classification, and interpretation.</p>
+    <h3>Reproducible Pipelines</h3>
+    <p>Workflows use documented entry points, repeatable render scripts, source notes, validation checks, and stable output folders.</p>
   </article>
   <article class="content-card">
-    <h3>Qualitative Coding Pipeline</h3>
-    <p>A workflow concept for transforming transcripts and open-ended responses into structured findings.</p>
+    <h3>Mixed-Methods Interpretation</h3>
+    <p>Quantitative performance data is paired with text classification, transcript coding, and plain-language explanation.</p>
   </article>
 </div>
 ```

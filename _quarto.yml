@@ -3,27 +3,46 @@ project:
   render:
     - index.qmd
     - pages/services.qmd
+    - pages/services/data-collection.qmd
+    - pages/services/automated-reporting.qmd
+    - pages/services/mixed-methods-analysis.qmd
+    - pages/services/custom-reports.qmd
+    - pages/creator-performance-report-sample.qmd
     - pages/portfolio.qmd
     - pages/insights.qmd
+    - pages/insights/01_data_driven_analytics.qmd
+    - pages/insights/02_leveraging_LLMs_for_Qual.qmd
     - pages/tools-data.qmd
     - pages/about.qmd
 
 website:
   title: "Sun Data Analytics"
-  favicon: assets/Sun_Data_Analytics_Logo.jpg
+  favicon: assets/logos/sda-mark.svg
   navbar:
     background: white
     pinned: false
     search: false
+    logo: assets/logos/sda-mark.svg
+    logo-alt: "Sun Data Analytics mark"
     title: "Sun Data Analytics"
     left:
       - text: "Services"
-        href: pages/services.qmd
+        menu:
+          - text: "Services Overview"
+            href: pages/services.qmd
+          - text: "Data Collection"
+            href: pages/services/data-collection.qmd
+          - text: "Automated Reporting Systems"
+            href: pages/services/automated-reporting.qmd
+          - text: "Mixed-Methods Analysis"
+            href: pages/services/mixed-methods-analysis.qmd
+          - text: "Custom Reports"
+            href: pages/services/custom-reports.qmd
       - text: "Portfolio"
         href: pages/portfolio.qmd
       - text: "Insights"
         href: pages/insights.qmd
-      - text: "Tools & Data"
+      - text: "Tools & Reports"
         href: pages/tools-data.qmd
       - text: "About"
         href: pages/about.qmd

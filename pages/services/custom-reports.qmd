@@ -1,0 +1,81 @@
+---
+title: "Custom Reports"
+description: "One-off reports, technical notes, executive summaries, and client-facing findings documents from Sun Data Analytics."
+---
+
+Sun Data Analytics produces one-off and tailored reports for specific client questions, research needs, or decision points.
+
+## Overview
+
+Custom reports are useful when you do not need a full recurring reporting system, but you do need a clear answer, a defensible method, or a polished explanation of existing evidence. Reports can be concise or detailed depending on the question and audience.
+
+## Report Formats
+
+:::: {.index-list}
+::: {.index-item}
+### Data Briefs
+
+Short reports with key findings, charts, tables, assumptions, and plain-language interpretation.
+:::
+
+::: {.index-item}
+### Technical Notes
+
+Method-focused documents that explain source data, cleaning choices, calculations, limitations, or validation steps.
+:::
+
+::: {.index-item}
+### Executive Summaries
+
+Decision-oriented summaries that highlight the main findings, implications, and recommended next questions.
+:::
+
+::: {.index-item}
+### Research Memos
+
+Written synthesis for research, evaluation, exploratory analysis, public-safe summaries, or client-facing findings documents.
+:::
+::::
+
+## Typical Deliverables
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Chart and Table Reports</h3>
+    <p>Readable reports that combine visuals, summary tables, notes, and interpretation.</p>
+  </article>
+  <article class="content-card">
+    <h3>Public-Safe Summaries</h3>
+    <p>Summaries that describe methods and findings without publishing private client data or sensitive source material.</p>
+  </article>
+  <article class="content-card">
+    <h3>Findings Documents</h3>
+    <p>Client-facing documents that explain what the evidence says and what decisions it can support.</p>
+  </article>
+</div>
+```
+
+## Good Fit For Clients Who Need
+
+:::: {.index-list}
+::: {.index-item}
+### A Specific Question Answered
+
+You have a defined question and need a clear report rather than an ongoing dashboard.
+:::
+
+::: {.index-item}
+### A Better Explanation Of Existing Data
+
+You already have spreadsheets, exports, survey results, transcripts, or notes, but need help turning them into findings.
+:::
+
+::: {.index-item}
+### A Professional Deliverable
+
+You need a report, memo, brief, or summary that can be shared with collaborators, stakeholders, or clients.
+:::
+::::
+
+[Back to Services Overview](../services.html)

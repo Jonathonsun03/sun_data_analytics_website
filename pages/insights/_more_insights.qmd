@@ -1,0 +1,65 @@
+## Relevant Posts
+
+```{=html}
+<div class="card-grid more-insights" data-more-insights>
+  <article class="content-card">
+    <h3>Browse All Insights</h3>
+    <p>See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.</p>
+    <p><a href="../insights.html">Back to Insights</a></p>
+  </article>
+</div>
+
+<script>
+(() => {
+  const posts = [
+    {
+      title: "Inspiration for Sun Data Analytics",
+      href: "01_data_driven_analytics.html",
+      date: "2026-06-02",
+      categories: ["Content Creation", "Reporting Systems", "Creator Analytics"],
+      summary: "How creator analytics helped turn scattered platform data into calmer, evidence-informed decisions."
+    },
+    {
+      title: "Utilizing LLMs for Qualitative Analysis",
+      href: "02_leveraging_LLMs_for_Qual.html",
+      date: "2026-06-02",
+      categories: ["Method Notes", "Mixed-Methods Analysis", "Data Collection"],
+      summary: "How transcripts, chat logs, and other text-heavy materials can be organized for qualitative analysis at a larger scale."
+    }
+  ];
+
+  const container = document.querySelector("[data-more-insights]");
+  if (!container) return;
+
+  const currentPath = window.location.pathname.split("/").pop();
+  const relevantPosts = posts
+    .filter((post) => post.href !== currentPath)
+    .slice(0, 3);
+
+  const cards = relevantPosts.length
+    ? relevantPosts.map((post) => `
+        <article class="content-card">
+          <h3>${post.title}</h3>
+          <p>${post.summary}</p>
+          <p><a href="${post.href}">Read insight</a></p>
+        </article>
+      `)
+    : [`
+        <article class="content-card">
+          <h3>More Insights Coming Soon</h3>
+          <p>Future insight pages will appear here as they are published.</p>
+        </article>
+      `];
+
+  cards.push(`
+    <article class="content-card">
+      <h3>Browse All Insights</h3>
+      <p>See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.</p>
+      <p><a href="../insights.html">Back to Insights</a></p>
+    </article>
+  `);
+
+  container.innerHTML = cards.join("");
+})();
+</script>
+```

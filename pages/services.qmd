@@ -3,65 +3,63 @@ title: "Services"
 description: "Analytics consulting, reporting systems, research support, automation, and custom reports from Sun Data Analytics."
 ---
 
-Sun Data Analytics helps clients make better use of the data they already have: spreadsheets, exports, surveys, transcripts, dashboards, operational records, and public datasets.
+Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, mixed-methods analysis, and custom reports.
 
-## What Clients Can Hire Me For
+## Service Areas
 
 :::: {.index-list}
 ::: {.index-item}
-### Analytics Consulting
+### Data Collection
 
-Clarify business or research questions, define practical metrics, review current reporting processes, and turn vague data needs into scoped analysis plans.
+Collect, clean, and organize data from APIs, spreadsheets, platform exports, surveys, transcripts, scraped public sources, and other source materials.
+
+[Learn about data collection](services/data-collection.html)
 :::
 
 ::: {.index-item}
-### Dashboard and Reporting Systems
+### Automated Reporting Systems
 
-Design dashboards, recurring reports, metric dictionaries, source notes, and update workflows that are readable, maintainable, and decision-oriented.
+Build recurring report systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.
+
+[Explore automated reporting](services/automated-reporting.html)
 :::
 
 ::: {.index-item}
-### Research and Evaluation Support
+### Mixed-Methods Analysis
 
-Support survey analysis, evaluation reporting, evidence reviews, stakeholder summaries, and research deliverables that need a clear methodological trail.
-:::
+Combine quantitative summaries with qualitative evidence from transcripts, surveys, interviews, open-ended responses, and contextual notes.
 
-::: {.index-item}
-### Qualitative and Mixed-Methods Analysis
-
-Prepare transcripts or open-ended responses, build codebooks, classify themes, compare findings across groups, and connect qualitative evidence with quantitative summaries.
-:::
-
-::: {.index-item}
-### Data Cleaning and Workflow Automation
-
-Clean messy source files, standardize exports, document repeatable steps, and automate recurring pieces of reporting or analysis work.
+[See mixed-methods analysis](services/mixed-methods-analysis.html)
 :::
 
 ::: {.index-item}
 ### Custom Reports
 
-Produce concise reports, technical notes, data briefs, and client-facing summaries with charts, tables, assumptions, and interpretation.
+Produce one-off or tailored reports for specific client questions, including data briefs, technical notes, executive summaries, and findings documents.
+
+[Review custom report options](services/custom-reports.html)
 :::
 ::::
 
-## Typical Deliverables
+## How The Work Usually Fits Together
 
 ```{=html}
 <div class="card-grid">
   <article class="content-card">
-    <h3>Decision Reports</h3>
-    <p>Readable reports with findings, assumptions, tables, charts, and recommendations.</p>
+    <h3>Start With Source Material</h3>
+    <p>Exports, spreadsheets, APIs, surveys, transcripts, platform data, or public sources are organized into a cleaner workflow.</p>
   </article>
   <article class="content-card">
-    <h3>Reusable Workflows</h3>
-    <p>Documented analysis steps, cleaned data outputs, and refresh processes that can be rerun.</p>
+    <h3>Build A Repeatable Method</h3>
+    <p>Analysis steps, classification rules, metric definitions, and reporting logic are documented so outputs can be reviewed or rerun.</p>
   </article>
   <article class="content-card">
-    <h3>Research Outputs</h3>
-    <p>Codebooks, theme summaries, survey summaries, evaluation briefs, and mixed-methods findings.</p>
+    <h3>Deliver Clear Findings</h3>
+    <p>Reports, dashboards, tables, charts, and summaries are written for decisions rather than just data storage.</p>
   </article>
 </div>
 ```
+
+Client data, private reports, and source files stay confidential. Public pages on this site describe the structure of the work and the kinds of questions the systems can answer.
 
 For availability or project fit, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).

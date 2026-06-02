@@ -1,25 +1,26 @@
 ---
 title: "Sun Data Analytics"
-description: "Analytics consulting, reporting systems, research support, and clear data products from Sun Data Analytics."
+description: "Analytics consulting, reporting systems, research support, and clear reports from Sun Data Analytics."
+body-class: home-page
 ---
 
-Sun Data Analytics helps small teams, researchers, creators, and organizations turn messy information into clear reports, dashboards, datasets, and decisions.
+Sun Data Analytics helps small teams, researchers, creators, and organizations turn messy information into clear reports, dashboards, workflows, and decisions. Current work includes creator analytics, audience and revenue reporting, qualitative transcript coding, title classification, automated report delivery, and public-interest media scraping projects.
 
 ```{=html}
 <div class="card-grid">
   <article class="content-card">
     <h3>Analytics Consulting</h3>
-    <p>Get help defining metrics, cleaning source data, building reporting workflows, and explaining results in plain language.</p>
+    <p>Define metrics, clean source data, build reporting workflows, and explain results in plain language.</p>
     <p><a href="pages/services.html">See services</a></p>
   </article>
   <article class="content-card">
-    <h3>Research & Evaluation</h3>
-    <p>Support for surveys, qualitative coding, mixed-methods analysis, technical notes, and evaluation reports.</p>
+    <h3>Creator & Audience Analytics</h3>
+    <p>Analyze video performance, audience patterns, revenue signals, publishing strategy, and content categories without exposing private client reports.</p>
     <p><a href="pages/portfolio.html">View examples</a></p>
   </article>
   <article class="content-card">
-    <h3>Tools & Data Products</h3>
-    <p>Reusable datasets, dashboards, templates, automated reports, and documentation designed for repeated use.</p>
+    <h3>Tools & Reports</h3>
+    <p>Build reusable dashboards, classification systems, scheduled reports, coding pipelines, and data lake workflows designed for repeated use.</p>
     <p><a href="pages/tools-data.html">Browse tools</a></p>
   </article>
 </div>
@@ -35,15 +36,15 @@ Build repeatable dashboards, report templates, metric dictionaries, and refresh 
 :::
 
 ::: {.index-item}
-### Data Cleaning and Workflow Automation
+### Data Collection and Workflow Automation
 
-Turn scattered exports, spreadsheets, and source notes into cleaner tables, documented steps, and repeatable analysis outputs.
+Turn scattered exports, API pulls, spreadsheets, transcript files, and source notes into cleaner tables, documented steps, and repeatable analysis outputs.
 :::
 
 ::: {.index-item}
 ### Research, Evaluation, and Mixed-Methods Analysis
 
-Plan practical analyses, code qualitative data, summarize findings, and produce reports that connect evidence to decisions.
+Plan practical analyses, code qualitative data, classify text, summarize findings, and produce reports that connect evidence to decisions.
 :::
 ::::
 
@@ -52,11 +53,11 @@ Plan practical analyses, code qualitative data, summarize findings, and produce 
 ```{=html}
 <div class="link-list">
   <p><a href="pages/portfolio.html">Selected work across dashboards, reports, data pipelines, and research projects</a></p>
-  <p><a href="pages/insights.html">Short findings, research notes, and methodological explainers</a></p>
-  <p><a href="pages/tools-data.html">Reusable datasets, templates, dashboards, and public data resources</a></p>
+  <p><a href="pages/insights.html">Short notes on creator analytics, qualitative coding, reporting systems, and scraper projects</a></p>
+  <p><a href="pages/tools-data.html">Reusable templates, dashboards, reporting examples, and workflow resources</a></p>
 </div>
 ```
 
 ## Start a Conversation
 
-If you need a cleaner report, a defensible dataset, a dashboard that people can actually use, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
+If you need a cleaner report, a dashboard that people can actually use, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).

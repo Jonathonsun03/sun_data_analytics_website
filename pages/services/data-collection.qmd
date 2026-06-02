@@ -1,0 +1,65 @@
+---
+title: "Data Collection"
+description: "Data collection, cleanup, source organization, and repeatable staging workflows from Sun Data Analytics."
+---
+
+## Overview
+
+Online platforms, spreadsheets, surveys, transcripts, and public sources often contain useful data, but they are rarely organized in a way that makes analysis straightforward. Sun Data Analytics helps clients collect, clean, document, and stage those materials so they can be inspected, refreshed, analyzed, and used in reports.
+
+The goal is not just to gather data, but to create a cleaner starting point with documented assumptions, source limitations, and repeatable steps.
+
+## Data Collection Use Cases
+
+:::: {.index-list}
+::: {.index-item}
+### YouTube Analytics and Platform Exports
+
+For clients who have useful platform data but need help turning exports into cleaner, analysis-ready tables. This can include audience metrics, video performance data, revenue files, geography, subscriber trends, and other recurring exports.
+:::
+
+::: {.index-item}
+### Subtitles, Chat Logs, and Stream Text
+
+For clients who want to analyze what happens inside streams, videos, or other text-heavy media. This can include subtitle files, chat logs, transcript preparation, timestamp cleanup, speaker or source labeling, and organization for later coding or classification.
+:::
+
+::: {.index-item}
+### Surveys, Transcripts, and Open-Ended Responses
+
+For clients who need research material prepared before analysis. This can include survey cleanup, transcript formatting, open-ended response preparation, field definitions, and source notes for qualitative or mixed-methods analysis.
+:::
+
+::: {.index-item}
+### Public Web and Media Sources
+
+For clients who need repeatable collection from public sources where appropriate. This can include source tracking, scrape preparation, refresh workflows, documentation of limitations, and storage structures for later reporting.
+:::
+
+::: {.index-item}
+### Messy Spreadsheets and Internal Files
+
+For clients who already have useful files but need them cleaned, standardized, merged, or reshaped. This can include column cleanup, field definitions, duplicate checks, missing-value review, and conversion into stable source tables.
+:::
+::::
+
+## Typical Deliverables
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Clean Source Tables</h3>
+    <p>Standardized tables with documented fields, source notes, and assumptions.</p>
+  </article>
+  <article class="content-card">
+    <h3>Staging Workflows</h3>
+    <p>Repeatable steps for pulling, cleaning, refreshing, and organizing source data.</p>
+  </article>
+  <article class="content-card">
+    <h3>Preparation Notes</h3>
+    <p>Short documentation that explains what was collected, what changed, and what remains uncertain.</p>
+  </article>
+</div>
+```
+
+[Back to Services Overview](../services.html)

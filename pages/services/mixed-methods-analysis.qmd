@@ -1,0 +1,97 @@
+---
+title: "Mixed-Methods Analysis"
+description: "Qualitative coding, quantitative summaries, and mixed-methods interpretation from Sun Data Analytics."
+---
+
+Sun Data Analytics helps clients combine quantitative summaries with qualitative evidence so findings are easier to inspect, explain, and use.
+
+## Overview
+
+Mixed-methods work is useful when numbers alone do not explain the full story, or when qualitative material needs structure before it can support decisions. The work can include transcript coding, open-ended response analysis, thematic summaries, survey analysis, group comparisons, and plain-language interpretation.
+
+## Qualitative and Text Analysis
+
+:::: {.index-list}
+::: {.index-item}
+### Transcript Coding
+
+Prepare transcripts, build or apply codebooks, review coded excerpts, and summarize patterns across source material.
+:::
+
+::: {.index-item}
+### Open-Ended Response Analysis
+
+Organize survey responses, interview notes, comments, or other text into themes, examples, and evidence tables.
+:::
+
+::: {.index-item}
+### Codebook Development
+
+Create practical coding rules, definitions, examples, and review steps for qualitative or classification workflows.
+:::
+::::
+
+## Quantitative Summaries
+
+:::: {.index-list}
+::: {.index-item}
+### Descriptive Summaries
+
+Summarize counts, shares, trends, distributions, and group-level comparisons.
+:::
+
+::: {.index-item}
+### Survey and Interview Synthesis
+
+Connect structured survey results with interview themes, open-ended responses, or contextual notes.
+:::
+
+::: {.index-item}
+### Group Comparisons
+
+Compare patterns across groups, time windows, source types, content categories, or respondent segments.
+:::
+::::
+
+## Mixed-Methods Interpretation
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Evidence Tables</h3>
+    <p>Organized examples, coded excerpts, summary statistics, and source notes in review-friendly formats.</p>
+  </article>
+  <article class="content-card">
+    <h3>Thematic Summaries</h3>
+    <p>Plain-language summaries that preserve nuance while making patterns easier to discuss.</p>
+  </article>
+  <article class="content-card">
+    <h3>Integrated Findings</h3>
+    <p>Interpretation that connects quantitative patterns with qualitative evidence and practical next steps.</p>
+  </article>
+</div>
+```
+
+## Typical Deliverables
+
+:::: {.index-list}
+::: {.index-item}
+### Research Memos
+
+Concise memos that explain methods, evidence, findings, assumptions, and limitations.
+:::
+
+::: {.index-item}
+### Coding Outputs
+
+Codebooks, coded tables, review files, thematic summaries, and validation notes.
+:::
+
+::: {.index-item}
+### Findings Reports
+
+Reports that combine charts, tables, examples, evidence notes, and plain-language interpretation.
+:::
+::::
+
+[Back to Services Overview](../services.html)

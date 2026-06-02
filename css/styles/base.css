@@ -64,5 +64,5 @@ a {
 }
 
 a:hover {
-  color: #285da8;
+  color: var(--sda-accent-hover);
 }

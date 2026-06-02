@@ -13,12 +13,20 @@
 }
 
 .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   color: var(--sda-ink) !important;
   font-family: var(--sda-sans);
   font-size: 1.02rem;
   font-weight: 900;
   letter-spacing: 0;
   text-transform: uppercase;
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 22px;
 }
 
 .navbar-nav {

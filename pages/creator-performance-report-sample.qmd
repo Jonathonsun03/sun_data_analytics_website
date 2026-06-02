@@ -1,0 +1,24 @@
+---
+title: "Creator Performance Report Sample"
+description: "Embedded sample creator performance report from Sun Data Analytics."
+format:
+  html:
+    body-class: report-sample-page
+---
+
+This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.
+
+[Open the full report in this tab](report_sample/Bundle_A_northstar_story_lab_demo.html)
+
+```{=html}
+<div class="report-frame-wrap">
+  <iframe
+    class="report-frame"
+    src="report_sample/Bundle_A_northstar_story_lab_demo.html"
+    title="Sample creator performance report"
+    loading="lazy">
+  </iframe>
+</div>
+```
+
+[Back to Automated Reporting Systems](services/automated-reporting.html)

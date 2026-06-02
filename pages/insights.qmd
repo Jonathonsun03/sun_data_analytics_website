@@ -3,57 +3,70 @@ title: "Insights"
 description: "Blog-style analysis posts, research notes, short findings, and methodological explainers from Sun Data Analytics."
 ---
 
-Insights will collect written findings, research notes, practical explainers, and short posts about data methods, reporting decisions, and analysis workflows.
+Insights collects written findings, research notes, practical explainers, and short posts about data methods, reporting decisions, creator analytics, qualitative coding, scraper workflows, and analysis automation.
 
-## Analysis and Notes
+## Published Insights
 
 :::: {.index-list}
 ::: {.index-item}
-### How Metric Definitions Keep Reports Readable
+### Utilizing LLMs for Qualitative Analysis
 
-A practical note on defining terms before building dashboards or recurring reports.
+How transcripts, chat logs, and other text-heavy materials can support qualitative analysis when the source material becomes too large to review informally.
+
+[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
 :::
 
 ::: {.index-item}
-### Writing Dataset Release Notes
+### Data Driven Analytics
 
-A checklist for making public data easier to inspect, reuse, and cite.
-:::
+Why a data driven approach to creator analytics can ease decision making and anxiety around content performance.
 
-::: {.index-item}
-### Reviewing Generated Analysis Outputs
-
-Audit steps, validation passes, and review-friendly exports for recurring reporting workflows.
-:::
-
-::: {.index-item}
-### Methods Briefs
-
-Short explanations of assumptions, data preparation choices, coding rules, and reproducibility decisions.
-:::
-
-::: {.index-item}
-### Short Findings
-
-Short explainers about assumptions, limitations, reproducibility, generated analysis review, and privacy-aware public summaries.
+[Read Data Driven Analytics](insights/01_data_driven_analytics.html)
 :::
 ::::
 
-## Planned Formats
+## Browse By Category
 
-```{=html}
-<div class="card-grid">
-  <article class="content-card">
-    <h3>Blog-Style Posts</h3>
-    <p>Readable analysis posts about metrics, dashboards, public data, and research workflows.</p>
-  </article>
-  <article class="content-card">
-    <h3>Research Notes</h3>
-    <p>Short notes that document assumptions, methods, findings, and open questions.</p>
-  </article>
-  <article class="content-card">
-    <h3>Method Explainers</h3>
-    <p>Plain-language explanations of analysis choices, qualitative coding, and reporting design.</p>
-  </article>
-</div>
-```
+:::: {.index-list}
+::: {.index-item}
+### Creator Analytics
+
+Notes about creator performance, audience patterns, content strategy, reporting systems, and how data can support calmer decisions.
+
+[Read Data Driven Analytics](insights/01_data_driven_analytics.html)
+:::
+
+::: {.index-item}
+### Reporting Systems
+
+Posts about recurring reports, metric definitions, dashboards, source notes, validation checks, and review-friendly outputs.
+:::
+
+::: {.index-item}
+### Mixed-Methods Analysis
+
+Notes about combining quantitative summaries with transcript coding, open-ended responses, codebooks, themes, and plain-language interpretation.
+
+[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
+:::
+
+::: {.index-item}
+### Data Collection
+
+Posts about APIs, platform exports, public web sources, transcripts, surveys, messy spreadsheets, staging workflows, and source documentation.
+
+[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
+:::
+
+::: {.index-item}
+### Method Notes
+
+Short explainers about assumptions, limitations, reproducibility, generated analysis review, and privacy-aware public summaries.
+
+[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
+:::
+::::
+
+## Search Plans
+
+For now, category browsing is curated manually so the page stays simple and reliable. A future version could add site search, tag filters, or semantic search over published insights once there are enough posts to make that useful.

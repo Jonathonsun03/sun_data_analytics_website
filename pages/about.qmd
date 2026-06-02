@@ -12,7 +12,9 @@ Sun Data Analytics is an independent analytics practice focused on clear reporti
 
 Sun Data Analytics is led by Jonathon Sun. The work sits at the intersection of analytics consulting, research reporting, data preparation, and mixed-methods interpretation.
 
-The goal is simple: make data easier to inspect, explain, and use. That can mean a dashboard, a report, a cleaned dataset, a qualitative coding workflow, an automated reporting process, or a concise findings brief.
+The goal is simple: make information easier to inspect, explain, and use. That can mean a dashboard, a private report bundle, a qualitative coding workflow, an automated reporting process, a classification system, or a concise findings brief.
+
+Recent work has focused on creator and media analytics: collecting YouTube analytics and text data, preparing private performance reports, classifying stream and video titles, coding transcript material, and building side-project scrapers for public Vtuber, anime, gacha, and media trend signals.
 
 ## Methods
 
@@ -20,7 +22,7 @@ The goal is simple: make data easier to inspect, explain, and use. That can mean
 ::: {.index-item}
 ### Reproducible Data Work
 
-Projects should have visible assumptions, source notes, clean intermediate outputs, and enough documentation for someone else to understand the path from raw material to finding.
+Projects should have visible assumptions, source notes, clean intermediate outputs, stable folders, and enough documentation for someone else to understand the path from raw material to finding.
 :::
 
 ::: {.index-item}
@@ -33,6 +35,12 @@ Reports and dashboards should be readable under real constraints: clear definiti
 ### Qualitative and Mixed-Methods Analysis
 
 Open-ended data, transcripts, survey responses, and context notes can be structured carefully without flattening the nuance that makes them useful.
+:::
+
+::: {.index-item}
+### Privacy-Aware Communication
+
+Private reports, client datasets, and source files do not need to be published for the work to be explained clearly. Public pages can describe methods, deliverable types, and workflow design while keeping sensitive results private.
 :::
 ::::
 
@@ -48,13 +56,19 @@ Data cleaning, metric design, dashboard structure, recurring reports, data brief
 ::: {.index-item}
 ### Research Support
 
-Survey analysis, qualitative coding, mixed-methods summaries, evaluation support, and public-data research.
+Survey analysis, qualitative coding, mixed-methods summaries, evaluation support, and research synthesis.
 :::
 
 ::: {.index-item}
 ### Automation and Documentation
 
 Repeatable workflows, templates, source notes, validation checks, and process documentation.
+:::
+
+::: {.index-item}
+### Creator and Media Data Systems
+
+YouTube analytics collection, subtitles and chat preparation, title classification, report scheduling, public media scraping, and data lake movement.
 :::
 ::::
 

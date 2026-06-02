@@ -22,12 +22,21 @@
 }
 
 .footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   color: var(--sda-ink);
   font-size: 1.25rem;
   font-weight: 900;
   line-height: 1;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.footer-brand img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
 }
 
 .footer-brand-row p {

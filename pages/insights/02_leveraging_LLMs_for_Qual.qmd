@@ -1,0 +1,22 @@
+---
+title: "Utilizing LLMs for Qualitative Analysis"
+description: "Using an LLM to drink from a fire hose"
+date: "2026-06-02"
+categories:
+  - "Method Notes"
+  - "Mixed-Methods Analysis"
+  - "Data Collection"
+format:
+  html:
+    body-class: insight-page
+---
+
+## Introduction to Qualitative Analysis
+
+While a lot of video analytics can be tied to classifying titles by categories and looking at views, watch time, and other metrics, there is also a lot of value in looking at the content of the videos themselves. Transcripts, chat logs, and other text data can provide insights into what is happening in the stream beyond just the numbers. For example, looking at the transcript of a stream can help identify what topics were discussed, what jokes landed, what questions were asked, and what the overall tone of the stream was. This kind of qualitative analysis can be very useful for understanding what is working and what is not working in a stream.
+
+Most people do some form of qualitative analysis as they watch streams. People pick up on short bits and patterns that reoccur across a stream or a set of streams. But that process is often informal, unstructured, and difficult to scale. It can be hard to keep track of all the different things that are happening in a stream, especially if there are multiple streams to analyze.
+
+Furthermore, to be able to process this kind of data, there needs to be some formalized way to organize and work through the data. 
+
+{{< include _more_insights.qmd >}}

@@ -1,35 +1,35 @@
 ---
-title: "Data"
-description: "Datasets, reproducible materials, and analysis outputs from Sun Data Analytics."
+title: "Reports"
+description: "Reproducible materials, reporting templates, and analysis outputs from Sun Data Analytics."
 ---
 
-This page shares datasets, reproducible materials, and analysis outputs. Each entry can later include source notes, licensing, methodology, and links to files or code.
+This page shares public-safe descriptions of reusable reporting materials, data workflows, and analysis systems. Private reports and raw client data stay private; public entries can still document source notes, methodology, and workflow design.
 
 ::: {.index-list}
 ::: {.index-item}
-### Social Media Accounts
+### Creator Analytics Reporting
 
-A placeholder for a cleaned dataset with documentation, field definitions, and reproducible scripts.
+Recurring report bundles for video performance, content strategy, audience composition, revenue views, and publishing schedule analysis.
 
-**Status:** Draft  
-**Materials:** CSV, notes, analysis output
+**Status:** In active use  
+**Materials:** Report templates, metric definitions, render scripts, private outputs
 :::
 
 ::: {.index-item}
-### Media Trends
+### Classification and Qualitative Coding
 
-A placeholder for structured classification outputs and validation summaries.
+Structured title labels, transcript coding workflows, codebooks, review CSVs, and validation summaries used to connect text data with reporting.
 
-**Status:** Planned  
-**Materials:** Export table, codebook, review notes
+**Status:** In active use  
+**Materials:** Export tables, codebooks, prompt definitions, review notes
 :::
 
 ::: {.index-item}
-### Others
+### Public Media Signal Scrapers
 
-A placeholder for a recurring report dataset and rendered outputs.
+Side-project workflows for collecting and analyzing public media signals from anime, Vtuber-adjacent, gacha, YouTube, and trend sources.
 
-**Status:** Planned  
-**Materials:** Source notes, rendered report, audit log
+**Status:** In development  
+**Materials:** Source notes, scraper scripts, staging workflows, report contexts
 :::
 :::

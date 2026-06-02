@@ -1,0 +1,113 @@
+---
+title: "Automated Reporting Systems"
+description: "Recurring report systems, dashboards, charts, tables, and interpretation-ready summaries from Sun Data Analytics."
+---
+
+Sun Data Analytics builds recurring reporting systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.
+
+## Overview
+
+Automated reporting systems are useful when the same kinds of questions come up repeatedly. Instead of rebuilding reports by hand, the workflow can collect source data, refresh cleaned tables, generate charts and tables, and produce a readable report structure that is easier to review.
+
+Client data and private reports remain confidential. Public descriptions can still explain the reporting structure, methods, and kinds of questions answered.
+
+## Available Report Types
+
+:::: {.index-list}
+::: {.index-item}
+### Creator Performance Reports
+
+Summaries of video or stream performance, content type comparisons, engagement patterns, and audience-facing outcomes.
+
+[View a sample creator performance report](../creator-performance-report-sample.html)
+:::
+
+::: {.index-item}
+### Audience and Revenue Reports
+
+Audience demographics reports, revenue and monetization reports, subscriber trends, and performance summaries over time.
+:::
+
+::: {.index-item}
+### Publishing and Content Strategy Reports
+
+Publishing schedule reports, content type comparison reports, topic and tag performance reports, and title classification reports.
+:::
+
+::: {.index-item}
+### Text and Conversation Reports
+
+Transcript or chat analysis reports that connect coded text, summaries, or qualitative signals with broader reporting questions.
+:::
+
+::: {.index-item}
+### Monthly or Recurring Decision Reports
+
+Regular decision reports that gather the same core metrics, charts, tables, and interpretation notes into a consistent format.
+:::
+::::
+
+## What The System Can Include
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Source Refreshes</h3>
+    <p>Data pulls, export cleanup, staging folders, and source checks before reporting begins.</p>
+  </article>
+  <article class="content-card">
+    <h3>Report Logic</h3>
+    <p>Metric definitions, classification joins, chart generation, summary tables, and reusable templates.</p>
+  </article>
+  <article class="content-card">
+    <h3>Review Steps</h3>
+    <p>Validation checks, source notes, audit-friendly outputs, and interpretation drafts ready for human review.</p>
+  </article>
+</div>
+```
+
+## Typical Deliverables
+
+:::: {.index-list}
+::: {.index-item}
+### Rendered Reports
+
+HTML reports, dashboards, chart and table packages, report bundles, and recurring summaries.
+:::
+
+::: {.index-item}
+### Reporting Infrastructure
+
+Render scripts, source notes, metric dictionaries, classification exports, and repeatable workflow documentation.
+:::
+
+::: {.index-item}
+### Decision Summaries
+
+Plain-language summaries that explain what changed, what matters, and what questions remain open.
+:::
+::::
+
+## Good Fit For Clients Who Need
+
+:::: {.index-list}
+::: {.index-item}
+### Less Manual Reporting
+
+You repeatedly assemble similar reports from exports, spreadsheets, dashboards, or source systems.
+:::
+
+::: {.index-item}
+### Clearer Recurring Decisions
+
+You need monthly, quarterly, or project-based reporting that connects metrics to practical choices.
+:::
+
+::: {.index-item}
+### A Confidential Reporting Workflow
+
+You need private reports and client data handled carefully while still documenting the public-safe structure of the work.
+:::
+::::
+
+[Back to Services Overview](../services.html)
