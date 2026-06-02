@@ -8,17 +8,17 @@ format:
 
 This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.
 
-[Open the full report in this tab](report_sample/Bundle_A_northstar_story_lab_demo.html)
+[Open the full report in this tab](../../report_sample/Bundle_A_northstar_story_lab_demo.html)
 
 ```{=html}
 <div class="report-frame-wrap">
   <iframe
     class="report-frame"
-    src="report_sample/Bundle_A_northstar_story_lab_demo.html"
+    src="../../report_sample/Bundle_A_northstar_story_lab_demo.html"
     title="Sample creator performance report"
     loading="lazy">
   </iframe>
 </div>
 ```
 
-[Back to Automated Reporting Systems](services/automated-reporting.html)
+[Back to Automated Reporting Systems](../automated-reporting.html)

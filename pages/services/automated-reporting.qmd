@@ -19,7 +19,7 @@ Client data and private reports remain confidential. Public descriptions can sti
 
 Summaries of video or stream performance, content type comparisons, engagement patterns, and audience-facing outcomes.
 
-[View a sample creator performance report](../creator-performance-report-sample.html)
+[View a sample creator performance report](automated_reporting/creator-performance-report-sample.html)
 :::
 
 ::: {.index-item}

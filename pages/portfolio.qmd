@@ -13,7 +13,7 @@ Selected work includes analytics systems, private report pipelines, research sup
 
 An example automated report for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure.
 
-[View the creator performance report sample](creator-performance-report-sample.html)
+[View the creator performance report sample](services/automated_reporting/creator-performance-report-sample.html)
 :::
 ::::
 

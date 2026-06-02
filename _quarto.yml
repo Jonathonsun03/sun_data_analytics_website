@@ -7,11 +7,13 @@ project:
     - pages/services/automated-reporting.qmd
     - pages/services/mixed-methods-analysis.qmd
     - pages/services/custom-reports.qmd
-    - pages/creator-performance-report-sample.qmd
+    - pages/services/automated_reporting/creator-performance-report-sample.qmd
     - pages/portfolio.qmd
     - pages/insights.qmd
     - pages/insights/01_data_driven_analytics.qmd
     - pages/insights/02_leveraging_LLMs_for_Qual.qmd
+    - pages/insights/03_using_creator_performance_report.qmd
+    - pages/insights/04_Terms_to_Remember.qmd
     - pages/tools-data.qmd
     - pages/about.qmd
 

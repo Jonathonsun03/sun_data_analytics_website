@@ -9,6 +9,22 @@ Insights collects written findings, research notes, practical explainers, and sh
 
 :::: {.index-list}
 ::: {.index-item}
+### Numbers Go Brr: Terms and Definitions
+
+A glossary of common report terms, metrics, and interpretation notes used across creator performance reports.
+
+[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
+:::
+
+::: {.index-item}
+### Using the Creator Performance Report
+
+How to read the creator performance report as a high-level snapshot of performance, descriptive statistics, and content patterns.
+
+[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
+:::
+
+::: {.index-item}
 ### Utilizing LLMs for Qualitative Analysis
 
 How transcripts, chat logs, and other text-heavy materials can support qualitative analysis when the source material becomes too large to review informally.
@@ -33,6 +49,8 @@ Why a data driven approach to creator analytics can ease decision making and anx
 
 Notes about creator performance, audience patterns, content strategy, reporting systems, and how data can support calmer decisions.
 
+[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
+
 [Read Data Driven Analytics](insights/01_data_driven_analytics.html)
 :::
 
@@ -40,6 +58,10 @@ Notes about creator performance, audience patterns, content strategy, reporting 
 ### Reporting Systems
 
 Posts about recurring reports, metric definitions, dashboards, source notes, validation checks, and review-friendly outputs.
+
+[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
+
+[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
 :::
 
 ::: {.index-item}
@@ -62,6 +84,8 @@ Posts about APIs, platform exports, public web sources, transcripts, surveys, me
 ### Method Notes
 
 Short explainers about assumptions, limitations, reproducibility, generated analysis review, and privacy-aware public summaries.
+
+[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
 
 [Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
 :::

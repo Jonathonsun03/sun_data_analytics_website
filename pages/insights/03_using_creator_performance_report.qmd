@@ -1,0 +1,34 @@
+---
+title: "Using the Creator Performance Report"
+description: "How to read and use a creator performance report as a high-level snapshot of content performance, descriptive statistics, and report interpretation."
+date: "2026-06-02"
+categories:
+  - "Creator Analytics"
+  - "Reporting Systems"
+format:
+  html:
+    body-class: insight-page
+---
+
+## Main Point
+
+How to use the [Creator Performance Report](../services/automated_reporting/creator-performance-report-sample.qmd). Also serves as an basic descriptive statistics and reading plots. This serves as a transcript to an accompanying video.
+
+## Creator Performance Report
+
+The purpose of the [Creator Performance Report](../services/automated_reporting/creator-performance-report-sample.qmd) is to provide users a high level snapshot over a set period of time. This window can range from the past day to the full lifetime of available streaming data, but it must be specified before the report is generated so the analysis reflects the intended time period.
+
+Because this report is designed as a high-level overview, it focuses primarily on descriptive statistics. In this context, descriptive statistics refer to summary measures that explain what happened during the selected period, including total views, total revenue, video counts, average views per video, median views per video, average revenue per video, median revenue per video, engagement distributions, audience composition shares, and comparisons across content types, topics, tags, collaborations, and publishing days.
+
+The goal is not to make causal claims or predict future performance. Instead, the report provides a clear baseline for understanding scale, consistency, audience behavior, and content patterns so users can quickly identify what performed well, where performance varied, and which areas may deserve closer analysis.
+
+### Terms and Definitions to remember
+
+
+### Views by Content Type
+
+## What To Do With This
+
+Close with the practical takeaway: what the reader should define, check, build, review, or decide next.
+
+{{< include _more_insights.qmd >}}

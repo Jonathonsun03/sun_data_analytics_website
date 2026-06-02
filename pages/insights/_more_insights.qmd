@@ -25,6 +25,20 @@
       date: "2026-06-02",
       categories: ["Method Notes", "Mixed-Methods Analysis", "Data Collection"],
       summary: "How transcripts, chat logs, and other text-heavy materials can be organized for qualitative analysis at a larger scale."
+    },
+    {
+      title: "Using the Creator Performance Report",
+      href: "03_using_creator_performance_report.html",
+      date: "2026-06-02",
+      categories: ["Creator Analytics", "Reporting Systems"],
+      summary: "How to read the creator performance report as a high-level snapshot of performance, descriptive statistics, and content patterns."
+    },
+    {
+      title: "Numbers Go Brr: Terms and Definitions",
+      href: "04_Terms_to_Remember.html",
+      date: "2026-06-02",
+      categories: ["Method Notes", "Reporting Systems"],
+      summary: "A glossary of common report terms, metrics, and interpretation notes used across creator performance reports."
     }
   ];
 
