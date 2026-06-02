@@ -1,5 +1,6 @@
-.venv/
-node_modules/
-__pycache__/
+.quarto/
+_site/
 .DS_Store
-.env
+Thumbs.db
+
+/.quarto/

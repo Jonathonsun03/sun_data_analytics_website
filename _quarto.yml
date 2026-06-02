@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Sun Data Analytics"
+  favicon: assets/Sun_Data_Analytics_Logo.jpg
+  navbar:
+    background: white
+    pinned: false
+    search: false
+    title: "Sun Data Analytics"
+    left:
+      - text: "Data"
+        href: data.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Reports"
+        href: reports.qmd
+      - text: "Notes"
+        href: notes.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/Jonathonsun03
+        aria-label: "GitHub"
+      - text: "Contact"
+        href: mailto:jonathonsun03@gmail.com
+  page-footer:
+    left: "Copyright 2026 Sun Data Analytics"
+    right:
+      - text: "GitHub"
+        href: https://github.com/Jonathonsun03
+      - text: "Contact"
+        href: mailto:jonathonsun03@gmail.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false

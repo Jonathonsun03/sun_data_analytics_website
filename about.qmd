@@ -1,0 +1,10 @@
+---
+title: "About"
+description: "About Sun Data Analytics."
+---
+
+Sun Data Analytics is a research and analytics site for publishing datasets, reproducible materials, technical notes, and concise reports.
+
+The site is designed to keep the work readable: clear titles, documented data, simple navigation, and enough structure to expand without becoming heavy.
+
+For questions or collaboration, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
