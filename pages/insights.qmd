@@ -35,7 +35,7 @@ Short explanations of assumptions, data preparation choices, coding rules, and r
 ::: {.index-item}
 ### Short Findings
 
-Concise observations from public data, research projects, dashboard builds, and exploratory analysis.
+Short explainers about assumptions, limitations, reproducibility, generated analysis review, and privacy-aware public summaries.
 :::
 ::::
 
