@@ -1,0 +1,72 @@
+/* Cards and index lists */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.content-card,
+.index-item {
+  background: var(--sda-paper);
+  border-top: 2px solid var(--sda-ink);
+  border-bottom: 1px solid var(--sda-line);
+}
+
+.content-card {
+  padding: 1rem 0 1.1rem;
+}
+
+.content-card p,
+.index-item p {
+  color: var(--sda-muted);
+  font-size: 0.98rem;
+}
+
+.content-card a,
+.index-item a {
+  font-weight: 700;
+}
+
+.index-list {
+  margin-top: 1.75rem;
+  border-top: 1px solid var(--sda-line);
+}
+
+.index-item {
+  padding: 1.15rem 0 1.25rem;
+  border-top: 0;
+}
+
+.index-item + .index-item {
+  border-top: 1px solid var(--sda-soft-line);
+}
+
+.index-item h3 {
+  font-family: var(--sda-sans);
+  font-size: 1.35rem;
+  font-weight: 900;
+}
+
+/* Simple link collections */
+.link-list {
+  max-width: 760px;
+  border-top: 1px solid var(--sda-line);
+}
+
+.link-list p {
+  margin: 0;
+}
+
+.link-list a {
+  display: block;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--sda-soft-line);
+  color: var(--sda-ink);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.link-list a:hover {
+  color: var(--sda-accent);
+}

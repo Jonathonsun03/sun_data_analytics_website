@@ -1,0 +1,68 @@
+---
+title: "Tools & Data"
+description: "Reusable datasets, dashboards, templates, automated reports, research tools, and public data resources."
+---
+
+Tools & Data collects reusable materials that make analysis easier to inspect, repeat, or adapt: datasets, dashboards, templates, automated reports, research tools, and public data resources.
+
+## Reusable Resources
+
+:::: {.index-list}
+::: {.index-item}
+### Public Dataset Placeholder
+
+A cleaned dataset concept with documentation, field definitions, licensing notes, and reproducible scripts.
+
+**Status:** Draft  
+**Materials:** CSV, notes, analysis output
+:::
+
+::: {.index-item}
+### Classification Export Placeholder
+
+Structured classification outputs and validation summaries for reviewed research or content datasets.
+
+**Status:** Planned  
+**Materials:** Export table, codebook, review notes
+:::
+
+::: {.index-item}
+### Reporting Bundle Placeholder
+
+A recurring report dataset and rendered output package with source notes and an audit trail.
+
+**Status:** Planned  
+**Materials:** Source notes, rendered report, audit log
+:::
+
+::: {.index-item}
+### Dashboard and Report Templates
+
+Reusable layouts for metric definitions, source notes, recurring reports, and stakeholder summaries.
+:::
+
+::: {.index-item}
+### Research Tools
+
+Codebooks, qualitative coding sheets, public-data reference files, and repeatable scripts for research workflows.
+:::
+::::
+
+## What Belongs Here
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Datasets</h3>
+    <p>Documented tables, source notes, field definitions, and reuse guidance.</p>
+  </article>
+  <article class="content-card">
+    <h3>Dashboards</h3>
+    <p>Published dashboard concepts, reporting examples, and reusable views.</p>
+  </article>
+  <article class="content-card">
+    <h3>Templates</h3>
+    <p>Checklists, reporting structures, data dictionaries, and workflow starting points.</p>
+  </article>
+</div>
+```

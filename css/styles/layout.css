@@ -1,0 +1,11 @@
+/* Quarto page shell */
+.page-layout-article .content,
+.page-layout-full .content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main.content {
+  padding-top: 3.25rem;
+  padding-bottom: 4rem;
+}

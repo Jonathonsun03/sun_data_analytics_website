@@ -1,0 +1,52 @@
+/* Mobile adjustments */
+@media (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  main.content {
+    padding-top: 2.25rem;
+  }
+
+  .navbar > .container-fluid {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.6rem 0 !important;
+  }
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-card {
+    min-height: 260px;
+    padding: 1.5rem 2.75rem 2.8rem;
+  }
+
+  .footer-brand-row,
+  .footer-bottom {
+    display: block;
+  }
+
+  .footer-brand-row p,
+  .footer-bottom p + p {
+    margin-top: 0.6rem;
+  }
+
+  .footer-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.4rem;
+  }
+
+  .footer-contact {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  h1 {
+    font-size: clamp(2.35rem, 14vw, 3.25rem);
+  }
+}

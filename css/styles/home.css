@@ -1,0 +1,56 @@
+/* Homepage feature carousel */
+.featured-carousel {
+  margin-top: 1.25rem;
+  background: var(--sda-paper);
+  border-top: 2px solid var(--sda-ink);
+  border-bottom: 1px solid var(--sda-line);
+}
+
+.featured-carousel .carousel-inner {
+  min-height: 230px;
+}
+
+.carousel-card {
+  min-height: 230px;
+  padding: 2rem 4.5rem 2.6rem;
+}
+
+.carousel-kicker {
+  margin-bottom: 0.35rem;
+  color: var(--sda-accent);
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.carousel-card h3 {
+  max-width: 640px;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+}
+
+.carousel-card p {
+  max-width: 640px;
+}
+
+.featured-carousel .carousel-control-prev,
+.featured-carousel .carousel-control-next {
+  width: 3.25rem;
+}
+
+.featured-carousel .carousel-control-prev-icon,
+.featured-carousel .carousel-control-next-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  filter: invert(1);
+}
+
+.featured-carousel .carousel-indicators {
+  margin-bottom: 0.8rem;
+}
+
+.featured-carousel .carousel-indicators [data-bs-target] {
+  width: 1.75rem;
+  height: 0.18rem;
+  background-color: var(--sda-ink);
+}

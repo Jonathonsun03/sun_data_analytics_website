@@ -2,10 +2,10 @@ project:
   type: website
   render:
     - index.qmd
-    - pages/data.qmd
-    - pages/projects.qmd
-    - pages/reports.qmd
-    - pages/notes.qmd
+    - pages/services.qmd
+    - pages/portfolio.qmd
+    - pages/insights.qmd
+    - pages/tools-data.qmd
     - pages/about.qmd
 
 website:
@@ -17,14 +17,14 @@ website:
     search: false
     title: "Sun Data Analytics"
     left:
-      - text: "Data"
-        href: pages/data.qmd
-      - text: "Projects"
-        href: pages/projects.qmd
-      - text: "Reports"
-        href: pages/reports.qmd
-      - text: "Notes"
-        href: pages/notes.qmd
+      - text: "Services"
+        href: pages/services.qmd
+      - text: "Portfolio"
+        href: pages/portfolio.qmd
+      - text: "Insights"
+        href: pages/insights.qmd
+      - text: "Tools & Data"
+        href: pages/tools-data.qmd
       - text: "About"
         href: pages/about.qmd
     right:

@@ -1,0 +1,59 @@
+---
+title: "Portfolio"
+description: "Selected analytics work, dashboards, reports, data pipelines, spatial analysis, and mixed-methods projects."
+---
+
+Selected work will collect examples of analytics systems, reports, research support, and reusable data workflows. Some entries may be public examples, while client work can be summarized without exposing confidential material.
+
+## Selected Work Areas
+
+:::: {.index-list}
+::: {.index-item}
+### Dashboard and Reporting Systems
+
+Recurring reports, dashboard prototypes, metric definitions, stakeholder summaries, and refresh workflows built for repeated operational use.
+:::
+
+::: {.index-item}
+### Reports and Research Briefs
+
+Polished analysis outputs, methods briefs, findings reports, quarterly reviews, and short explanations of assumptions and data quality issues.
+:::
+
+::: {.index-item}
+### Data Pipelines and Reproducible Workflows
+
+Source notes, cleaned tables, validation checks, audit logs, and reproducible scripts that turn raw exports into analysis-ready outputs.
+:::
+
+::: {.index-item}
+### Spatial Analysis
+
+Map-based analysis, geographic comparisons, public-data joins, location summaries, and spatial reporting for practical decision support.
+:::
+
+::: {.index-item}
+### Qualitative and Mixed-Methods Projects
+
+Transcript preparation, coding workflows, codebook development, theme summaries, and combined qualitative and quantitative interpretation.
+:::
+::::
+
+## Current Example Placeholders
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Audience Metrics Workbook</h3>
+    <p>A reproducible analysis package concept with source notes, cleaned tables, and summary outputs.</p>
+  </article>
+  <article class="content-card">
+    <h3>Talent Data Research Brief</h3>
+    <p>A report concept connecting data collection, classification, and interpretation.</p>
+  </article>
+  <article class="content-card">
+    <h3>Qualitative Coding Pipeline</h3>
+    <p>A workflow concept for transforming transcripts and open-ended responses into structured findings.</p>
+  </article>
+</div>
+```

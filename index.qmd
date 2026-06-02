@@ -1,6 +1,62 @@
 ---
 title: "Sun Data Analytics"
-description: "Research, data, and analysis notes from Sun Data Analytics."
+description: "Analytics consulting, reporting systems, research support, and clear data products from Sun Data Analytics."
 ---
 
-{{< include pages/home.qmd >}}
+Sun Data Analytics helps small teams, researchers, creators, and organizations turn messy information into clear reports, dashboards, datasets, and decisions.
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Analytics Consulting</h3>
+    <p>Get help defining metrics, cleaning source data, building reporting workflows, and explaining results in plain language.</p>
+    <p><a href="pages/services.html">See services</a></p>
+  </article>
+  <article class="content-card">
+    <h3>Research & Evaluation</h3>
+    <p>Support for surveys, qualitative coding, mixed-methods analysis, technical notes, and evaluation reports.</p>
+    <p><a href="pages/portfolio.html">View examples</a></p>
+  </article>
+  <article class="content-card">
+    <h3>Tools & Data Products</h3>
+    <p>Reusable datasets, dashboards, templates, automated reports, and documentation designed for repeated use.</p>
+    <p><a href="pages/tools-data.html">Browse tools</a></p>
+  </article>
+</div>
+```
+
+## What You Can Hire Me For
+
+:::: {.index-list}
+::: {.index-item}
+### Dashboard and Reporting Systems
+
+Build repeatable dashboards, report templates, metric dictionaries, and refresh workflows so routine reporting is easier to trust and maintain.
+:::
+
+::: {.index-item}
+### Data Cleaning and Workflow Automation
+
+Turn scattered exports, spreadsheets, and source notes into cleaner tables, documented steps, and repeatable analysis outputs.
+:::
+
+::: {.index-item}
+### Research, Evaluation, and Mixed-Methods Analysis
+
+Plan practical analyses, code qualitative data, summarize findings, and produce reports that connect evidence to decisions.
+:::
+::::
+
+## Proof and Examples
+
+```{=html}
+<div class="link-list">
+  <p><a href="pages/portfolio.html">Selected work across dashboards, reports, data pipelines, and research projects</a></p>
+  <p><a href="pages/insights.html">Short findings, research notes, and methodological explainers</a></p>
+  <p><a href="pages/tools-data.html">Reusable datasets, templates, dashboards, and public data resources</a></p>
+</div>
+```
+
+## Start a Conversation
+
+If you need a cleaner report, a defensible dataset, a dashboard that people can actually use, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).

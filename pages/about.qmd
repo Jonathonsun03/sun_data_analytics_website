@@ -1,16 +1,65 @@
 ---
 title: "About"
-description: "About Sun Data Analytics."
+description: "Background, methods, tools, and contact context for Sun Data Analytics."
+format:
+  html:
+    body-class: about-page
 ---
 
-Sun Data Analytics is a research and analytics site for publishing datasets, reproducible materials, technical notes, and concise reports.
+Sun Data Analytics is an independent analytics practice focused on clear reporting, reproducible data work, research support, and practical decision systems.
 
-::: {.index-list}
+## Background
+
+Sun Data Analytics is led by Jonathon Sun. The work sits at the intersection of analytics consulting, research reporting, data preparation, and mixed-methods interpretation.
+
+The goal is simple: make data easier to inspect, explain, and use. That can mean a dashboard, a report, a cleaned dataset, a qualitative coding workflow, an automated reporting process, or a concise findings brief.
+
+## Methods
+
+:::: {.index-list}
 ::: {.index-item}
-### Jonathon Sun | Founder & Lead Analyst
+### Reproducible Data Work
 
-::: {.index-list}
+Projects should have visible assumptions, source notes, clean intermediate outputs, and enough documentation for someone else to understand the path from raw material to finding.
+:::
+
 ::: {.index-item}
-### Zhuni Excel | Content Creation Research Support
+### Decision-Oriented Reporting
 
-For questions or collaboration, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
+Reports and dashboards should be readable under real constraints: clear definitions, useful comparisons, plain-language findings, and charts that serve the question.
+:::
+
+::: {.index-item}
+### Qualitative and Mixed-Methods Analysis
+
+Open-ended data, transcripts, survey responses, and context notes can be structured carefully without flattening the nuance that makes them useful.
+:::
+::::
+
+## Tools and Capabilities
+
+:::: {.index-list}
+::: {.index-item}
+### Analysis and Reporting
+
+Data cleaning, metric design, dashboard structure, recurring reports, data briefs, and methodological notes.
+:::
+
+::: {.index-item}
+### Research Support
+
+Survey analysis, qualitative coding, mixed-methods summaries, evaluation support, and public-data research.
+:::
+
+::: {.index-item}
+### Automation and Documentation
+
+Repeatable workflows, templates, source notes, validation checks, and process documentation.
+:::
+::::
+
+## Contact Context
+
+Good-fit projects usually involve messy but valuable source material, unclear reporting processes, recurring manual work, research questions that need structure, or stakeholders who need a clearer explanation of the evidence.
+
+For questions, project fit, or collaboration, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).

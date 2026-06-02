@@ -1,0 +1,59 @@
+---
+title: "Insights"
+description: "Blog-style analysis posts, research notes, short findings, and methodological explainers from Sun Data Analytics."
+---
+
+Insights will collect written findings, research notes, practical explainers, and short posts about data methods, reporting decisions, and analysis workflows.
+
+## Analysis and Notes
+
+:::: {.index-list}
+::: {.index-item}
+### How Metric Definitions Keep Reports Readable
+
+A practical note on defining terms before building dashboards or recurring reports.
+:::
+
+::: {.index-item}
+### Writing Dataset Release Notes
+
+A checklist for making public data easier to inspect, reuse, and cite.
+:::
+
+::: {.index-item}
+### Reviewing Generated Analysis Outputs
+
+Audit steps, validation passes, and review-friendly exports for recurring reporting workflows.
+:::
+
+::: {.index-item}
+### Methods Briefs
+
+Short explanations of assumptions, data preparation choices, coding rules, and reproducibility decisions.
+:::
+
+::: {.index-item}
+### Short Findings
+
+Concise observations from public data, research projects, dashboard builds, and exploratory analysis.
+:::
+::::
+
+## Planned Formats
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Blog-Style Posts</h3>
+    <p>Readable analysis posts about metrics, dashboards, public data, and research workflows.</p>
+  </article>
+  <article class="content-card">
+    <h3>Research Notes</h3>
+    <p>Short notes that document assumptions, methods, findings, and open questions.</p>
+  </article>
+  <article class="content-card">
+    <h3>Method Explainers</h3>
+    <p>Plain-language explanations of analysis choices, qualitative coding, and reporting design.</p>
+  </article>
+</div>
+```
