@@ -1,5 +1,12 @@
 project:
   type: website
+  render:
+    - index.qmd
+    - pages/data.qmd
+    - pages/projects.qmd
+    - pages/reports.qmd
+    - pages/notes.qmd
+    - pages/about.qmd
 
 website:
   title: "Sun Data Analytics"
@@ -11,31 +18,24 @@ website:
     title: "Sun Data Analytics"
     left:
       - text: "Data"
-        href: data.qmd
+        href: pages/data.qmd
       - text: "Projects"
-        href: projects.qmd
+        href: pages/projects.qmd
       - text: "Reports"
-        href: reports.qmd
+        href: pages/reports.qmd
       - text: "Notes"
-        href: notes.qmd
+        href: pages/notes.qmd
       - text: "About"
-        href: about.qmd
+        href: pages/about.qmd
     right:
       - icon: github
         href: https://github.com/Jonathonsun03
         aria-label: "GitHub"
       - text: "Contact"
         href: mailto:jonathonsun03@gmail.com
-  page-footer:
-    left: "Copyright 2026 Sun Data Analytics"
-    right:
-      - text: "GitHub"
-        href: https://github.com/Jonathonsun03
-      - text: "Contact"
-        href: mailto:jonathonsun03@gmail.com
-
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: css/styles.css
+    include-after-body: site-parts/footer.html
     toc: false

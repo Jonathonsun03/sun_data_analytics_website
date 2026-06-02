@@ -5,7 +5,7 @@ description: "Research and analytics projects from Sun Data Analytics."
 
 Selected project placeholders for ongoing research, data workflows, and applied analytics systems.
 
-::: {.index-list}
+:::: {.index-list}
 ::: {.index-item}
 ### Reproducible Reporting System
 
@@ -23,4 +23,4 @@ A placeholder for a project focused on preparing, coding, validating, and summar
 
 A placeholder for a structured research dataset with classification, review, and publication steps.
 :::
-:::
+::::

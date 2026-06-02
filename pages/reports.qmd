@@ -5,7 +5,7 @@ description: "Reports and research briefs from Sun Data Analytics."
 
 Reports will collect polished analysis, research briefs, and recurring publication outputs.
 
-::: {.index-list}
+:::: {.index-list}
 ::: {.index-item}
 ### Quarterly Data Review
 
@@ -23,4 +23,4 @@ A placeholder for a short explanation of methodology, assumptions, and reproduci
 
 A placeholder for a future findings report with charts, tables, and interpretation.
 :::
-:::
+::::

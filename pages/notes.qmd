@@ -5,7 +5,7 @@ description: "Technical notes and field notes from Sun Data Analytics."
 
 Technical notes are shorter posts about methods, data preparation, tooling, and decisions made during research.
 
-::: {.index-list}
+:::: {.index-list}
 ::: {.index-item}
 ### Writing Dataset Release Notes
 
@@ -23,4 +23,4 @@ A placeholder note about keeping analysis consistent across reports and tools.
 
 A placeholder note about audit steps, validation passes, and review-friendly exports.
 :::
-:::
+::::

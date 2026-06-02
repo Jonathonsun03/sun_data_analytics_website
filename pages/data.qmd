@@ -5,9 +5,9 @@ description: "Datasets, reproducible materials, and analysis outputs from Sun Da
 
 This page shares datasets, reproducible materials, and analysis outputs. Each entry can later include source notes, licensing, methodology, and links to files or code.
 
-::: {.index-list}
+:::: {.index-list}
 ::: {.index-item}
-### Social Media Accounts
+### Public Dataset Placeholder
 
 A placeholder for a cleaned dataset with documentation, field definitions, and reproducible scripts.
 
@@ -16,7 +16,7 @@ A placeholder for a cleaned dataset with documentation, field definitions, and r
 :::
 
 ::: {.index-item}
-### Media Trends
+### Classification Export Placeholder
 
 A placeholder for structured classification outputs and validation summaries.
 
@@ -25,11 +25,11 @@ A placeholder for structured classification outputs and validation summaries.
 :::
 
 ::: {.index-item}
-### Others
+### Reporting Bundle Placeholder
 
 A placeholder for a recurring report dataset and rendered outputs.
 
 **Status:** Planned  
 **Materials:** Source notes, rendered report, audit log
 :::
-:::
+::::

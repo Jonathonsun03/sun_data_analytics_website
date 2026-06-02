@@ -31,12 +31,13 @@ By default, Quarto writes the rendered site to `_site/`.
 ## Project structure
 
 - `_quarto.yml` controls site-wide settings, navigation, footer, theme, and shared CSS.
-- `index.qmd` is the homepage.
-- `data.qmd`, `projects.qmd`, `reports.qmd`, `notes.qmd`, and `about.qmd` are top-level site pages.
-- `styles.css` contains the shared visual design.
+- `index.qmd` is the small Quarto homepage shell required for the root homepage URL.
+- `pages/` contains the Quarto content for each page.
+- `css/styles.css` contains the shared visual design.
+- `site-parts/footer.html` contains the site-wide footer that is injected into every page.
 - `assets/` stores images and other static assets.
 - `legacy-static/` stores the older hand-written HTML pages for reference.
 
 ## Adding pages
 
-Create a new `.qmd` file in the root, then add a link to `_quarto.yml` under `website.navbar.left` or `website.navbar.right`.
+Create a new `.qmd` file in `pages/`, then add it to the `project.render` list and the navbar in `_quarto.yml`.
