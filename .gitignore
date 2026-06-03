@@ -15,3 +15,5 @@ renv/library/
 # System files
 .DS_Store
 Thumbs.db
+
+/.quarto/
