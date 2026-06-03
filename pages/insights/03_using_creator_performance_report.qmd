@@ -12,23 +12,139 @@ format:
 
 ## Main Point
 
-How to use the [Creator Performance Report](../services/automated_reporting/creator-performance-report-sample.qmd). Also serves as an basic descriptive statistics and reading plots. This serves as a transcript to an accompanying video.
+How to use the [Creator Performance Report](../portfolio/automated_reporting/00_creator-performance-report-sample.qmd). Also serves as an basic descriptive statistics and reading plots. This serves as a transcript to an accompanying video.
 
 ## Creator Performance Report
 
-The purpose of the [Creator Performance Report](../services/automated_reporting/creator-performance-report-sample.qmd) is to provide users a high level snapshot over a set period of time. This window can range from the past day to the full lifetime of available streaming data, but it must be specified before the report is generated so the analysis reflects the intended time period.
+The purpose of the [Creator Performance Report](../portfolio/automated_reporting/00_creator-performance-report-sample.qmd) is to provide users a high level snapshot over a set period of time. This window can range from the past day to the full lifetime of available streaming data, but it must be specified before the report is generated so the analysis reflects the intended time period.
 
 Because this report is designed as a high-level overview, it focuses primarily on descriptive statistics. In this context, descriptive statistics refer to summary measures that explain what happened during the selected period, including total views, total revenue, video counts, average views per video, median views per video, average revenue per video, median revenue per video, engagement distributions, audience composition shares, and comparisons across content types, topics, tags, collaborations, and publishing days.
 
 The goal is not to make causal claims or predict future performance. Instead, the report provides a clear baseline for understanding scale, consistency, audience behavior, and content patterns so users can quickly identify what performed well, where performance varied, and which areas may deserve closer analysis.
 
-### Terms and Definitions to remember
+If there are terms or concepts that need clarifying please refer to [Terms to remember](04_Terms_to_Remember.qmd)
 
+### Overall Performance Snapshot
 
-### Views by Content Type
+This section includes [SOMETHING]
 
-## What To Do With This
+#### Views by Content Type
 
-Close with the practical takeaway: what the reader should define, check, build, review, or decide next.
+This chart compares creator performance by format using two related but distinct measures: total views and average views per video.
+
+The Total Views panel shows overall audience volume, while the Average Views per Video panel shows per-upload efficiency. Reading both panels together helps separate formats that generate views through overall scale from formats that perform especially well each time they are posted. This matters because a format may lead in total views because it has strong individual performance, a high number of uploads, or both.
+
+A format that ranks highly in both panels is both a major source of audience traffic and strong on a per-video basis. A format with high total views but a lower average may be benefiting from posting volume. A format with lower total views but a strong average may be a smaller but efficient option worth testing more often.
+
+This chart should also be interpreted in relation to the creator’s goals. Views do not measure view duration or depth of engagement. Shorts may bring in more traffic and visibility, but standard videos and live streams may provide more space for sustained engagement, community building, brand recognition, and monetization. In other words, the “best” format depends on whether the priority is reach, retention, community, revenue, or some combination of these goals.
+
+### Combined Performance Trends (Views + Revenue)
+
+This chart compares two performance signals over time: **views** and **on-stream donation revenue**. The views panel shows how audience traffic changed across the reporting period, while the revenue panel shows how much money was generated through donations made during streams.
+
+It is important to note that the revenue shown here is **not total creator revenue**. This figure only includes on-stream donations captured in the available data. It does not include other monetization sources, such as Streamlabs donations, YouTube memberships, ad revenue, sponsorships, merchandise, or other off-platform income. As a result, this chart should be read as a focused view of donation activity, not a complete financial summary.
+
+The value of this chart is that it allows readers to compare audience movement and donation movement side by side. When views and donation revenue rise together, it may suggest that higher audience traffic is also translating into stronger direct support. When views rise but donation revenue does not, the creator may be reaching more people without necessarily increasing financial engagement. When donation revenue rises without a similar increase in views, it may indicate stronger support from a smaller or more committed audience.
+
+This distinction matters because views and donations measure different kinds of performance. Views show reach and visibility, while on-stream donations reflect direct financial support from viewers. A strong month is not always the month with the most views; depending on the creator’s goals, a month with fewer views but stronger donation activity may be just as important, or even more meaningful, for understanding audience loyalty and monetization potential.
+
+### Total Revenue by Content Type
+This chart shows **total on-stream donation revenue by content type and publish month**. The x-axis shows the month and year when videos were published, while the bars show how much donation revenue was associated with each content type in that period.
+
+This is important to read as a **publish-month cohort view**, not a cash-flow chart. In other words, the chart groups videos by when they were published and summarizes the revenue associated with those videos. It should not be interpreted as revenue earned only during that specific calendar month.
+
+The colors and legend on the right allow readers to isolate specific month-and-content-type combinations. Because the legend can include many entries, users may need to scroll through it to find the period or format they want to focus on. This makes the chart interactive: readers can compare all content types at once or narrow the view to specific months and formats.
+
+The labels on the bars provide the total revenue value, and the `n=` label shows how many videos are included in that group. This is important because a high revenue total may reflect one strong upload, several smaller uploads, or a combination of both. Groups with very small video counts should be interpreted carefully because one unusually strong or weak video can have a large effect on the total.
+
+As with the previous revenue chart, this figure only reflects **on-stream donation revenue** captured in the available data. It does not include Streamlabs donations, YouTube memberships, subscriber revenue, ad revenue, sponsorships, merchandise, or other off-platform income. For that reason, this chart is best understood as a focused view of donation performance by content format, rather than a complete summary of creator income.
+
+A sortable table is included below the chart for readers who want to inspect the aggregated data directly. The table can be used to sort by month, content type, total revenue, video count, or average revenue per video, and it can also be downloaded for further review.
+
+### Engagement Distribution and Successful Videos by Content Type
+
+This chart shows the distribution of **Average View Percentage** by content type. Average View Percentage measures how much of a video viewers watched on average, making this chart useful for understanding retention rather than raw audience size.
+
+:::{.callout-tip title="How to read a boxplot"}
+How to read the boxplot: Each box summarizes the range of Average View Percentage values for videos in that content type. The line in the middle of the box is the median, or the typical middle value. The bottom and top of the box show the middle range of videos, from the 25th percentile to the 75th percentile. In other words, about half of the videos fall inside the box. The lines extending above and below the box, often called whiskers, show the lower and higher ends of the typical range. A taller box or longer whiskers mean that performance varies more across videos, while a shorter box means that retention is more consistent.
+
+```{r boxplot-guide-function, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(grid)
+
+boxplot_guide_plot <- function() {
+  guide_df <- tibble::tibble(
+    group = "Example content type",
+    value = c(12, 15, 18, 22, 25, 28, 30, 35, 40, 45, 48, 52, 60, 68, 75)
+  )
+
+  stats <- boxplot.stats(guide_df$value)$stats
+  lower_whisker <- stats[1]
+  q1 <- stats[2]
+  median <- stats[3]
+  q3 <- stats[4]
+  upper_whisker <- stats[5]
+
+  ggplot(guide_df, aes(x = group, y = value)) +
+    geom_boxplot(width = 0.25, fill = "grey85", color = "black") +
+
+    annotate("text", x = 1.35, y = median, label = "Median\nmiddle value", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = median, yend = median,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = q3, label = "75th percentile\nupper edge of box", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = q3, yend = q3,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = q1, label = "25th percentile\nlower edge of box", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = q1, yend = q1,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = upper_whisker, label = "Upper whisker\nhigher typical values", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = upper_whisker, yend = upper_whisker,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = lower_whisker, label = "Lower whisker\nlower typical values", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = lower_whisker, yend = lower_whisker,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 0.55, y = (q1 + q3) / 2,
+             label = "Box = middle 50%\nof videos", hjust = 1, size = 3.5) +
+    annotate("segment", x = 0.75, xend = 0.88, y = (q1 + q3) / 2, yend = (q1 + q3) / 2,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    coord_cartesian(xlim = c(0.4, 2.2)) +
+    labs(
+      title = "How to Read a Boxplot",
+      subtitle = "A boxplot summarizes the typical range and spread of values.",
+      x = NULL,
+      y = "Example percentage"
+    ) +
+    theme_minimal(base_size = 12) +
+    theme(
+      axis.text.x = element_blank(),
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor = element_blank()
+    )
+}
+```
+
+```{r boxplot-guide-plot, echo=FALSE, fig.width=9, fig.height=5}
+boxplot_guide_plot()
+```
+
+:::
+
+The boxplots show the typical range of retention for each format. Highlighted points represent videos in the top quartile for their content type, meaning they are among the stronger performers within that format. Readers can hover over these highlighted points to identify the specific videos or streams behind those standout results.
+
+This chart should be interpreted with format differences in mind. Shorts are expected to have higher average view percentages because they are short by design. A viewer can complete a Short much more easily than a standard video or live stream. Live streams, by contrast, often have much lower average view percentages because they are longer and viewers may join for only part of the broadcast. This does not automatically mean that live streams are performing poorly; it means they serve a different purpose.
+
+The main value of this chart is understanding how each format supports the creator’s broader goals. If the goal is retention, quick discovery, and repeatable short-form content, Shorts may be the strongest format. If the goal is community building, deeper viewer connection, longer watch sessions, or stronger audience loyalty, videos and live streams may still be valuable even with lower average view percentages.
+
+The table below the chart provides video-level detail for readers who want to inspect the individual uploads behind the distribution. The table can be searched, sorted, copied, or downloaded as a CSV, making it possible to identify which specific videos had stronger retention, higher estimated minutes watched, longer average view duration, or stronger estimated revenue. Used together, the chart and table help move from a high-level pattern to specific videos worth reviewing more closely.
+
+### Trends Over Time
+With a broad snapshot of the data, we can now focus on the channel across time. The following diagrams will plot trends over time.
 
 {{< include _more_insights.qmd >}}

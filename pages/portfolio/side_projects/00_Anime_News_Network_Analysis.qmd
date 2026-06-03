@@ -1,0 +1,26 @@
+---
+title: "Anime News Network Analysis"
+description: "A side project to find trends in Anime News Networks reporting"
+categories:
+  - "Side Projects"
+format:
+  html:
+    body-class: report-sample-page
+---
+
+This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.
+
+[Open the full report in this tab](../../report_sample/latest_ANN_report.html)
+
+```{=html}
+<div class="report-frame-wrap">
+  <iframe
+    class="report-frame"
+    src="../../report_sample/latest_ANN_report.html"
+    title="Anime News Network analysis report"
+    loading="lazy">
+  </iframe>
+</div>
+```
+
+[Back to Portfolio](../../portfolio.qmd)

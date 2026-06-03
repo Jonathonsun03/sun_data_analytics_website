@@ -1,6 +1,17 @@
-.quarto/
+# Quarto render output and local caches
 _site/
+.quarto/
+.quarto-cache*/
+*_cache/
+*_files/
+*.knit.md
+
+# R / R Markdown local state
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+
+# System files
 .DS_Store
 Thumbs.db
-
-/.quarto/

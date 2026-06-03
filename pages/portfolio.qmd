@@ -1,55 +1,35 @@
 ---
 title: "Portfolio"
 description: "Selected analytics work, dashboards, reports, data pipelines, spatial analysis, and mixed-methods projects."
+listing:
+  id: portfolio-samples
+  contents:
+    - portfolio/automated_reporting/[0-9][0-9]_*.qmd
+    - portfolio/automated_reporting/[0-9][0-9][0-9]_*.qmd
+    - portfolio/side_projects/[0-9][0-9]_*.qmd
+    - portfolio/side_projects/[0-9][0-9][0-9]_*.qmd
+    
+  type: table
+  page-size: 10
+  fields:
+    - title
+    - description
+  filter-ui:
+    - title
+    - description
+  field-display-names:
+    title: "Title"
+    description: "Description"
+
 ---
 
 Selected work includes analytics systems, private report pipelines, research support, and reusable reporting workflows. Client reports and raw datasets stay private; the entries below describe the public-safe shape of the work, the methods used, and the kinds of decisions the systems support.
 
-## Portfolio Examples
+## Projects
 
-:::: {.index-list}
-::: {.index-item}
-### Creator Performance Reports
-
-An example automated report for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure.
-
-[View the creator performance report sample](services/automated_reporting/creator-performance-report-sample.html)
-:::
-::::
-
-## Selected Projects
-
-:::: {.index-list}
-::: {.index-item}
-### Creator Analytics Report Bundles
-
-Built reusable report bundles for creator performance analysis, including audience composition, content-type comparisons, revenue views, engagement distributions, collaboration effects, topic and tag performance, and publishing schedule analysis. The reports combine R-rendered tables and plots with generated interpretation drafts, editorial review steps, and final HTML delivery.
+:::{#portfolio-samples}
 :::
 
-::: {.index-item}
-### YouTube Data Collection Pipeline
-
-Developed collection workflows for YouTube analytics, video metadata, subtitles, chat data, demographics, subscriber trends, geography, and monetary data. The system handles authorization, staging, cleaning, and movement into a data lake so analysis can be repeated across multiple talent folders.
-:::
-
-::: {.index-item}
-### Title Classification System
-
-Designed a DuckDB-backed title classification pipeline with modular prompt definitions, talent-specific overlays, schema validation, batch classification, archived exports, and downstream report joins. The workflow turns stream and video titles into structured labels that support content strategy analysis.
-:::
-
-::: {.index-item}
-### Qualitative Transcript Coding Pipeline
-
-Built a qualitative coding workflow for stream transcripts and chat-adjacent text. The pipeline prepares transcript rows, compiles selected codebooks, creates Batch API jobs, exports review files, previews apply steps, and writes reviewed codes back into prepared transcript libraries.
-:::
-
-::: {.index-item}
-### Vtuber and Anime News Scraper Project
-
-Created a side-project scraper and analysis workspace for public media signals, including Anime News Network sources, AniList seasonal and popular content, gacha revenue and trend data, YouTube topic and trending searches, and billboard-style references. The project includes data lake movement, staging refreshes, analysis scripts, and report contexts.
-:::
-::::
 
 ## Work Themes
 

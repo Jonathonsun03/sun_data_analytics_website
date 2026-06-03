@@ -3,17 +3,17 @@ project:
   render:
     - index.qmd
     - pages/services.qmd
-    - pages/services/data-collection.qmd
-    - pages/services/automated-reporting.qmd
-    - pages/services/mixed-methods-analysis.qmd
-    - pages/services/custom-reports.qmd
-    - pages/services/automated_reporting/creator-performance-report-sample.qmd
+    - pages/portfolio/data-collection.qmd
+    - pages/portfolio/automated-reporting.qmd
+    - pages/portfolio/mixed-methods-analysis.qmd
+    - pages/portfolio/custom-reports.qmd
+    - pages/portfolio/automated_reporting/[0-9][0-9]_*.qmd
+    - pages/portfolio/side_projects/[0-9][0-9]_*.qmd
     - pages/portfolio.qmd
     - pages/insights.qmd
-    - pages/insights/01_data_driven_analytics.qmd
-    - pages/insights/02_leveraging_LLMs_for_Qual.qmd
-    - pages/insights/03_using_creator_performance_report.qmd
-    - pages/insights/04_Terms_to_Remember.qmd
+    - pages/insights/0[1-9]_*.qmd
+    - pages/insights/[1-9][0-9]_*.qmd
+    - pages/insights/[1-9][0-9][0-9]_*.qmd
     - pages/tools-data.qmd
     - pages/about.qmd
 
@@ -33,13 +33,13 @@ website:
           - text: "Services Overview"
             href: pages/services.qmd
           - text: "Data Collection"
-            href: pages/services/data-collection.qmd
+            href: pages/portfolio/data-collection.qmd
           - text: "Automated Reporting Systems"
-            href: pages/services/automated-reporting.qmd
+            href: pages/portfolio/automated-reporting.qmd
           - text: "Mixed-Methods Analysis"
-            href: pages/services/mixed-methods-analysis.qmd
+            href: pages/portfolio/mixed-methods-analysis.qmd
           - text: "Custom Reports"
-            href: pages/services/custom-reports.qmd
+            href: pages/portfolio/custom-reports.qmd
       - text: "Portfolio"
         href: pages/portfolio.qmd
       - text: "Insights"

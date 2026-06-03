@@ -5,60 +5,39 @@ description: "Analytics consulting, reporting systems, research support, automat
 
 Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, mixed-methods analysis, and custom reports.
 
+## Interested In Working Together?
+
+If you are interested in data collection, automated reporting, mixed-methods analysis, or a custom report, you can contact me at jonathonsun03@gmail.com.
+
+In your message, feel free to briefly describe the kind of data you have, the question you are trying to answer, or the report or workflow you are hoping to build. I can help determine whether Sun Data Analytics is a good fit for your project.
+
+
 ## Service Areas
-
-:::: {.index-list}
-::: {.index-item}
-### Data Collection
-
-Collect, clean, and organize data from APIs, spreadsheets, platform exports, surveys, transcripts, scraped public sources, and other source materials.
-
-[Learn about data collection](services/data-collection.html)
-:::
-
-::: {.index-item}
-### Automated Reporting Systems
-
-Build recurring report systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.
-
-[Explore automated reporting](services/automated-reporting.html)
-:::
-
-::: {.index-item}
-### Mixed-Methods Analysis
-
-Combine quantitative summaries with qualitative evidence from transcripts, surveys, interviews, open-ended responses, and contextual notes.
-
-[See mixed-methods analysis](services/mixed-methods-analysis.html)
-:::
-
-::: {.index-item}
-### Custom Reports
-
-Produce one-off or tailored reports for specific client questions, including data briefs, technical notes, executive summaries, and findings documents.
-
-[Review custom report options](services/custom-reports.html)
-:::
-::::
-
-## How The Work Usually Fits Together
-
-```{=html}
-<div class="card-grid">
-  <article class="content-card">
-    <h3>Start With Source Material</h3>
-    <p>Exports, spreadsheets, APIs, surveys, transcripts, platform data, or public sources are organized into a cleaner workflow.</p>
+<div class="card-grid service-grid">
+  <article class="content-card service-card">
+    <h3>Data Collection</h3>
+    <p>Collect, clean, and organize data from APIs, spreadsheets, platform exports, surveys, transcripts, scraped public sources, and other source materials.</p>
+    <p><a href="portfolio/data-collection.html">Learn about data collection</a></p>
   </article>
-  <article class="content-card">
-    <h3>Build A Repeatable Method</h3>
-    <p>Analysis steps, classification rules, metric definitions, and reporting logic are documented so outputs can be reviewed or rerun.</p>
+
+  <article class="content-card service-card">
+    <h3>Automated Reporting Systems</h3>
+    <p>Build recurring report systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.</p>
+    <p><a href="portfolio/automated-reporting.html">Explore automated reporting</a></p>
   </article>
-  <article class="content-card">
-    <h3>Deliver Clear Findings</h3>
-    <p>Reports, dashboards, tables, charts, and summaries are written for decisions rather than just data storage.</p>
+
+  <article class="content-card service-card">
+    <h3>Mixed-Methods Analysis</h3>
+    <p>Combine quantitative summaries with qualitative evidence from transcripts, surveys, interviews, open-ended responses, and contextual notes.</p>
+    <p><a href="portfolio/mixed-methods-analysis.html">See mixed-methods analysis</a></p>
+  </article>
+
+  <article class="content-card service-card">
+    <h3>Custom Reports</h3>
+    <p>Produce one-off or tailored reports for specific client questions, including data briefs, technical notes, executive summaries, and findings documents.</p>
+    <p><a href="portfolio/custom-reports.html">Review custom report options</a></p>
   </article>
 </div>
-```
 
 Client data, private reports, and source files stay confidential. Public pages on this site describe the structure of the work and the kinds of questions the systems can answer.
 

@@ -1,96 +1,34 @@
 ---
 title: "Insights"
 description: "Blog-style analysis posts, research notes, short findings, and methodological explainers from Sun Data Analytics."
+listing:
+  id: published-insights
+  contents:
+    - insights/0[1-9]_*.qmd
+    - insights/[1-9][0-9]_*.qmd
+    - insights/[1-9][0-9][0-9]_*.qmd
+  type: table
+  sort: "date desc"
+  page-size: 5
+  fields:
+    - date
+    - title
+    - description
+  sort-ui:
+    - date
+    - title
+  filter-ui:
+    - title
+    - description
+  field-display-names:
+    date: "Date"
+    title: "Title"
+    description: "Description"
 ---
 
 Insights collects written findings, research notes, practical explainers, and short posts about data methods, reporting decisions, creator analytics, qualitative coding, scraper workflows, and analysis automation.
 
 ## Published Insights
 
-:::: {.index-list}
-::: {.index-item}
-### Numbers Go Brr: Terms and Definitions
-
-A glossary of common report terms, metrics, and interpretation notes used across creator performance reports.
-
-[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
+:::{#published-insights}
 :::
-
-::: {.index-item}
-### Using the Creator Performance Report
-
-How to read the creator performance report as a high-level snapshot of performance, descriptive statistics, and content patterns.
-
-[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
-:::
-
-::: {.index-item}
-### Utilizing LLMs for Qualitative Analysis
-
-How transcripts, chat logs, and other text-heavy materials can support qualitative analysis when the source material becomes too large to review informally.
-
-[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
-:::
-
-::: {.index-item}
-### Data Driven Analytics
-
-Why a data driven approach to creator analytics can ease decision making and anxiety around content performance.
-
-[Read Data Driven Analytics](insights/01_data_driven_analytics.html)
-:::
-::::
-
-## Browse By Category
-
-:::: {.index-list}
-::: {.index-item}
-### Creator Analytics
-
-Notes about creator performance, audience patterns, content strategy, reporting systems, and how data can support calmer decisions.
-
-[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
-
-[Read Data Driven Analytics](insights/01_data_driven_analytics.html)
-:::
-
-::: {.index-item}
-### Reporting Systems
-
-Posts about recurring reports, metric definitions, dashboards, source notes, validation checks, and review-friendly outputs.
-
-[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
-
-[Read Using the Creator Performance Report](insights/03_using_creator_performance_report.html)
-:::
-
-::: {.index-item}
-### Mixed-Methods Analysis
-
-Notes about combining quantitative summaries with transcript coding, open-ended responses, codebooks, themes, and plain-language interpretation.
-
-[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
-:::
-
-::: {.index-item}
-### Data Collection
-
-Posts about APIs, platform exports, public web sources, transcripts, surveys, messy spreadsheets, staging workflows, and source documentation.
-
-[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
-:::
-
-::: {.index-item}
-### Method Notes
-
-Short explainers about assumptions, limitations, reproducibility, generated analysis review, and privacy-aware public summaries.
-
-[Read Numbers Go Brr: Terms and Definitions](insights/04_Terms_to_Remember.html)
-
-[Read Utilizing LLMs for Qualitative Analysis](insights/02_leveraging_LLMs_for_Qual.html)
-:::
-::::
-
-## Search Plans
-
-For now, category browsing is curated manually so the page stays simple and reliable. A future version could add site search, tag filters, or semantic search over published insights once there are enough posts to make that useful.

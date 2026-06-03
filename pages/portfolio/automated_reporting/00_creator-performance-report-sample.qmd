@@ -1,6 +1,8 @@
 ---
 title: "Creator Performance Report Sample"
-description: "Embedded sample creator performance report from Sun Data Analytics."
+description: "An example automated report for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure."
+categories:
+  - "Creator Performance Report"
 format:
   html:
     body-class: report-sample-page

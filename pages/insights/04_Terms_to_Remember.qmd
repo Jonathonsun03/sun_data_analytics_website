@@ -1,7 +1,7 @@
 ---
 title: "Numbers Go Brr: Terms and Definitions"
 description: "A list of terms and definitions that are regularly used throughout each report"
-date: "YYYY-MM-DD"
+date: "2026-06-02"
 categories:
   - "Reporting Systems"
   - "Creator Analytics"
