@@ -1,0 +1,100 @@
+---
+title: "Discord and Youtube Lawsuits"
+description: "What should content creators know about the recent coordianted lawsuits against Discord and Youtube"
+date: "2026-06-03"
+categories:
+  - "Lawsuits"
+  - "Social Media"
+format:
+  html:
+    body-class: insight-page
+---
+
+<!--
+Copy this template for new insight pages.
+
+Suggested filename pattern:
+pages/insights/02_short-descriptive-slug.qmd
+
+Keep client data, private reports, raw source files, and identifying details out
+of public posts unless they are explicitly intended for publication.
+-->
+
+Recently, media coverage has pointed to a number of lawsuits against social media companies. these lawsuits have included platforms such as meta and have included other companies such as Discord and Roblox. This insight will provide overall details on what these cases are about any as content creators what you should know about them.
+
+## Main Point
+
+
+
+1. MDL-3047: In Re: Social Media Adolescent Addiction/Personal Injury Products Liability Litigation
+1. MDL-3166L In Re: Roblox Corporation Child Sexual Exploitation and Assualt Litigation
+
+### What is an MDL?
+
+
+:::: {.index-list}
+::: {.index-item}
+### Key Takeaway
+
+Summarize the most important observation, method choice, or recommendation.
+:::
+
+::: {.index-item}
+### Why It Matters
+
+Explain the practical consequence for reporting, analysis, data collection, or decision-making.
+:::
+::::
+
+## Context
+
+Describe the source material, workflow, or reporting situation at a high level. Avoid publishing private report contents or raw client data. Good public-safe context includes the type of source, the kind of workflow, the question being asked, and the limitations that affect interpretation.
+
+## Method Notes
+
+Use this section to document how the analysis or workflow was handled.
+
+:::: {.index-list}
+::: {.index-item}
+### Inputs
+
+List the kinds of inputs involved, such as platform exports, spreadsheets, transcripts, surveys, scraped public sources, or report artifacts.
+:::
+
+::: {.index-item}
+### Processing Steps
+
+Describe the cleaning, classification, coding, validation, or reporting steps at a level that helps readers trust the process.
+:::
+
+::: {.index-item}
+### Limitations
+
+Name what the data or method cannot answer, any assumptions made, and what should be reviewed before using the findings.
+:::
+::::
+
+## Example Structure
+
+```{=html}
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Finding</h3>
+    <p>Use this card for a concise finding, pattern, or comparison.</p>
+  </article>
+  <article class="content-card">
+    <h3>Evidence</h3>
+    <p>Use this card to describe the source of evidence without exposing private details.</p>
+  </article>
+  <article class="content-card">
+    <h3>Decision Use</h3>
+    <p>Use this card to explain how the insight could support a practical next step.</p>
+  </article>
+</div>
+```
+
+## What To Do With This
+
+Close with the practical takeaway: what the reader should define, check, build, review, or decide next.
+
+{{< include _more_insights.qmd >}}

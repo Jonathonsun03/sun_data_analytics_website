@@ -239,3 +239,98 @@
   background: var(--sda-accent-soft);
   color: var(--sda-ink);
 }
+
+/* Staff Pages */
+
+.staff-bio {
+  display: flow-root;
+  max-width: 900px;
+}
+
+.staff-photo {
+  float: left;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  margin: 0 1.5rem 0.25rem 0;
+  border-radius: 50%;
+}
+
+.index-list .staff-bio {
+  padding: 1.25rem 0 0;
+}
+
+/* Reader note system */
+.reader-note-swatch {
+  display: inline-block;
+  width: 1.2rem;
+  height: 0.72rem;
+  border-radius: 2px;
+  vertical-align: middle;
+}
+
+.note-swatch-context {
+  background: #eaf3ff;
+  border-left: 4px solid #2f6fbd;
+}
+
+.note-swatch-howto {
+  background: #eef8f4;
+  border-left: 4px solid #2f8f6f;
+}
+
+.note-swatch-scope {
+  background: #f5f1ff;
+  border-left: 4px solid #7357c8;
+}
+
+.note-swatch-guardrail {
+  background: #fff8e6;
+  border-left: 4px solid #b7791f;
+}
+
+.callout.callout-note {
+  border-left-color: #2f6fbd;
+  background-color: #eaf3ff;
+}
+
+.callout.callout-note .callout-title {
+  color: #123a63;
+  font-weight: 700;
+}
+
+.callout.callout-note.note-context {
+  border-left-color: #2f6fbd;
+  background-color: #eaf3ff;
+}
+
+.callout.callout-note.note-context .callout-title {
+  color: #123a63;
+}
+
+.callout.callout-note.note-howto {
+  border-left-color: #2f8f6f;
+  background-color: #eef8f4;
+}
+
+.callout.callout-note.note-howto .callout-title {
+  color: #1f5f4c;
+}
+
+.callout.callout-note.note-scope {
+  border-left-color: #7357c8;
+  background-color: #f5f1ff;
+}
+
+.callout.callout-note.note-scope .callout-title {
+  color: #46318a;
+}
+
+.callout.callout-note.note-guardrail {
+  border-left-color: #b7791f;
+  background-color: #fff8e6;
+}
+
+.callout.callout-note.note-guardrail .callout-title {
+  color: #744a12;
+}

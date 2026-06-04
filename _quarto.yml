@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - assets/data/creator_report_terms_definitions.json
   render:
     - index.qmd
     - pages/services.qmd

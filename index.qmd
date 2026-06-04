@@ -1,63 +1,114 @@
 ---
 title: "Sun Data Analytics"
-description: "Analytics consulting, reporting systems, research support, and clear reports from Sun Data Analytics."
-body-class: home-page
 ---
 
-Sun Data Analytics helps small teams, researchers, creators, and organizations turn messy information into clear reports, dashboards, workflows, and decisions. Current work includes creator analytics, audience and revenue reporting, qualitative transcript coding, title classification, automated report delivery, and public-interest media scraping projects.
-
 ```{=html}
-<div class="card-grid">
-  <article class="content-card">
-    <h3>Analytics Consulting</h3>
-    <p>Define metrics, clean source data, build reporting workflows, and explain results in plain language.</p>
-    <p><a href="pages/services.html">See services</a></p>
-  </article>
-  <article class="content-card">
-    <h3>Creator & Audience Analytics</h3>
-    <p>Analyze video performance, audience patterns, revenue signals, publishing strategy, and content categories without exposing private client reports.</p>
-    <p><a href="pages/portfolio.html">View examples</a></p>
-  </article>
-  <article class="content-card">
-    <h3>Tools & Reports</h3>
-    <p>Build reusable dashboards, classification systems, scheduled reports, coding pipelines, and data lake workflows designed for repeated use.</p>
-    <p><a href="pages/tools-data.html">Browse tools</a></p>
-  </article>
+<style>
+#title-block-header {
+  display: none;
+}
+</style>
+
+<div class="home-title-lockup">
+  <img src="assets/logos/sda-logo-full.svg" alt="Sun Data Analytics mark">
+  <h1>Sun Data Analytics</h1>
 </div>
 ```
 
-## What You Can Hire Me For
+Sun Data Analytics is an independent analytics studio and public portfolio for practical data projects. I build reports, dashboards, tools, and workflows that make messy information easier to understand and use.
 
-:::: {.index-list}
-::: {.index-item}
-### Dashboard and Reporting Systems
-
-Build repeatable dashboards, report templates, metric dictionaries, and refresh workflows so routine reporting is easier to trust and maintain.
-:::
-
-::: {.index-item}
-### Data Collection and Workflow Automation
-
-Turn scattered exports, API pulls, spreadsheets, transcript files, and source notes into cleaner tables, documented steps, and repeatable analysis outputs.
-:::
-
-::: {.index-item}
-### Research, Evaluation, and Mixed-Methods Analysis
-
-Plan practical analyses, code qualitative data, classify text, summarize findings, and produce reports that connect evidence to decisions.
-:::
-::::
-
-## Proof and Examples
+## Featured Work
 
 ```{=html}
-<div class="link-list">
-  <p><a href="pages/portfolio.html">Selected work across dashboards, reports, data pipelines, and research projects</a></p>
-  <p><a href="pages/insights.html">Short notes on creator analytics, qualitative coding, reporting systems, and scraper projects</a></p>
-  <p><a href="pages/tools-data.html">Reusable templates, dashboards, reporting examples, and workflow resources</a></p>
-</div>
+<section class="front-page-work" aria-label="Featured work">
+  <a class="lead-work-card content-card" href="pages/portfolio.html">
+    <div class="lead-work-visual" aria-hidden="true">
+      <!-- Replace this branded placeholder with a report/dashboard image when one is available. -->
+      <img src="assets/logos/sda-mark.svg" alt="">
+    </div>
+    <div class="lead-work-copy">
+      <p class="content-eyebrow"><span class="content-type">Featured Report</span></p>
+      <h3>Creator Performance Report</h3>
+      <p class="content-summary">A recurring analytics report that turns platform data into a clearer picture of audience behavior, content performance, revenue patterns, and publishing strategy.</p>
+    </div>
+  </a>
+
+  <div class="side-work-list">
+    <a class="content-card compact-work-card" href="pages/tools-data.html">
+      <p class="content-eyebrow"><span class="content-type">Data Workflow</span></p>
+      <h3>Automated Data Collection</h3>
+      <p class="content-summary">Repeatable workflows for collecting, cleaning, and organizing exports, APIs, transcripts, and public data.</p>
+    </a>
+
+    <a class="content-card compact-work-card" href="pages/portfolio.html">
+      <p class="content-eyebrow"><span class="content-type">Research System</span></p>
+      <h3>Qualitative Coding Pipeline</h3>
+      <p class="content-summary">Tools for turning transcripts, open-ended responses, and messy text into structured findings.</p>
+    </a>
+
+    <a class="content-card compact-work-card" href="pages/insights.html">
+      <p class="content-eyebrow"><span class="content-type">Methods Note</span></p>
+      <h3>How to Read Creator Analytics</h3>
+      <p class="content-summary">Plain-language notes on metrics, charts, assumptions, and interpretation.</p>
+    </a>
+  </div>
+</section>
 ```
 
-## Start a Conversation
+## Latest From the Studio
 
-If you need a cleaner report, a dashboard that people can actually use, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
+```{=html}
+<section class="latest-strip" aria-label="Latest from the studio">
+  <a class="content-card latest-card" href="pages/insights.html">
+    <p class="content-eyebrow"><span class="content-type">Insight</span></p>
+    <h3>What descriptive statistics can and cannot tell you</h3>
+  </a>
+
+  <a class="content-card latest-card" href="pages/insights.html">
+    <p class="content-eyebrow"><span class="content-type">Report Design</span></p>
+    <h3>Making creator reports easier to interpret</h3>
+  </a>
+
+  <a class="content-card latest-card" href="pages/insights.html">
+    <p class="content-eyebrow"><span class="content-type">Data Collection</span></p>
+    <h3>Why repeatable workflows matter more than one-off dashboards</h3>
+  </a>
+
+  <a class="content-card latest-card" href="pages/portfolio.html">
+    <p class="content-eyebrow"><span class="content-type">Portfolio</span></p>
+    <h3>Selected projects across dashboards, reports, and research systems</h3>
+  </a>
+</section>
+```
+
+## About the Work
+
+Sun Data Analytics sits between consulting, research, and public data work. Some projects are built for clients. Others are portfolio pieces, experiments, or notes that document how the analysis was made.
+
+The common thread is practical interpretation: collecting the right data, cleaning it carefully, building useful outputs, and explaining what the results mean.
+
+## Hire Me
+
+```{=html}
+<section class="hire-card-grid" aria-label="Services">
+  <article class="content-card hire-card">
+    <p class="content-eyebrow"><span class="content-type">Service</span></p>
+    <h3>Reporting Systems</h3>
+    <p class="content-summary">Build dashboards, recurring reports, metric definitions, and refresh workflows that make routine reporting easier to trust.</p>
+  </article>
+
+  <article class="content-card hire-card">
+    <p class="content-eyebrow"><span class="content-type">Service</span></p>
+    <h3>Data Collection and Workflow Automation</h3>
+    <p class="content-summary">Turn scattered exports, API pulls, transcripts, and spreadsheets into cleaner, repeatable analysis materials.</p>
+  </article>
+
+  <article class="content-card hire-card">
+    <p class="content-eyebrow"><span class="content-type">Service</span></p>
+    <h3>Research, Evaluation, and Mixed-Methods Analysis</h3>
+    <p class="content-summary">Design practical analyses, code qualitative data, classify text, and connect findings to decisions.</p>
+  </article>
+</section>
+```
+
+If you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).

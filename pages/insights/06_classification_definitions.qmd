@@ -1,0 +1,281 @@
+---
+title: "How Stream Title Classification Works"
+description: "A plain-language guide to how stream titles are grouped into interpretive categories for creator analytics."
+date: "2026-06-03"
+categories:
+  - "Creator Analytics"
+  - "Classification"
+  - "Methods"
+format:
+  html:
+    body-class: insight-page
+---
+
+Stream titles often contain useful signals about what a creator is doing, how the content is framed, and what kind of audience response the stream is trying to invite. For this project, titles are classified into broad interpretive categories that help organize streams across larger reporting periods.
+
+These classifications are not meant to replace human interpretation. They provide a structured way to summarize patterns across many titles, especially when comparing content types, formats, topics, and audience-facing strategies.
+
+::: {.callout-note}
+This guide describes the public-facing interpretation of the classification system. It does not include the full matching rules, priority logic, or internal weighting used in the classification workflow.
+:::
+
+## How to Read the Classification Categories
+
+A single stream title can contain more than one signal. For example, a stream may be both a collaboration and a gaming stream, or both a milestone event and a music performance. In these cases, the classification system tries to preserve the main activity while also marking important secondary signals.
+
+The goal is not to reduce every title to one label. Instead, the classifications help describe the different ways creators frame their content.
+
+```{=html}
+<div class="classification-table-tool" data-classification-table>
+  <label class="classification-table-search-label" for="classification-category-search">Search categories</label>
+  <input id="classification-category-search" class="classification-table-search" type="search" placeholder="Search classifications, signals, or interpretation..." autocomplete="off">
+  <div class="classification-table-wrap">
+    <table class="classification-table">
+      <thead>
+        <tr>
+          <th scope="col" aria-sort="none"><button type="button" data-sort-column="0">Classification <span class="classification-sort-state">Sort</span></button></th>
+          <th scope="col" aria-sort="none"><button type="button" data-sort-column="1">What It Captures <span class="classification-sort-state">Sort</span></button></th>
+          <th scope="col" aria-sort="none"><button type="button" data-sort-column="2">Common Title Signals <span class="classification-sort-state">Sort</span></button></th>
+          <th scope="col" aria-sort="none"><button type="button" data-sort-column="3">How to Interpret It <span class="classification-sort-state">Sort</span></button></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>COLLABORATIVE_ENERGY</code></td>
+          <td>Content framed around multiple creators, guests, group appearances, or shared activity.</td>
+          <td>Titles that emphasize playing, appearing, or performing with others. This may include guest framing, group events, duo formats, or team-based activity.</td>
+          <td>This category helps identify when a stream's appeal is partly based on creator-to-creator interaction. The underlying topic should still be interpreted through the main activity, such as gaming, music, discussion, or a special event.</td>
+        </tr>
+        <tr>
+          <td><code>COMMUNITY_MILESTONES</code></td>
+          <td>Content tied to audience growth, creator milestones, anniversaries, debuts, celebrations, or other community-facing moments.</td>
+          <td>Titles that frame the stream as a special occasion, major update, thank-you event, launch, celebration, or milestone.</td>
+          <td>This category is useful for identifying streams that are not routine uploads but are instead organized around community attention, creator identity, or audience recognition. These streams may overlap with music, chatting, gaming, or other formats.</td>
+        </tr>
+        <tr>
+          <td><code>INTERACTIVE_ENTERTAINMENT</code></td>
+          <td>Content centered on active play, challenges, competition, progression, or audience-facing entertainment.</td>
+          <td>Titles that clearly indicate gameplay, game-specific activity, ranked play, challenges, tournaments, co-op formats, progression, or similar interactive framing.</td>
+          <td>This category usually points to gaming or play-centered content. It should be read as evidence that the stream is anchored by an active entertainment format rather than only discussion or commentary.</td>
+        </tr>
+        <tr>
+          <td><code>MEME_VIRAL</code></td>
+          <td>Content framed through internet humor, trend participation, parody, absurdity, or intentionally viral phrasing.</td>
+          <td>Titles that rely on meme logic, trend references, ironic framing, exaggerated hooks, or short-form viral language.</td>
+          <td>This category is more interpretive than some of the others. It is best understood as a signal of title style or audience hook rather than a topic by itself. Confidence may vary when the title depends on niche references or ambiguous humor.</td>
+        </tr>
+        <tr>
+          <td><code>MONETIZATION</code></td>
+          <td>Content explicitly connected to commercial activity, paid support, sponsorship, merchandise, membership, ticketed events, or similar calls to action.</td>
+          <td>Titles that foreground sponsored content, paid offerings, merch, membership, promotions, or revenue-linked events.</td>
+          <td>This category does not necessarily mean the whole stream is "about" monetization. It marks when commercial framing is visible in the title and may be relevant to interpreting the creator's broader content strategy.</td>
+        </tr>
+        <tr>
+          <td><code>NARRATIVE_SERIALIZATION</code></td>
+          <td>Content positioned as part of a sequence, arc, episode structure, season, chapter, or ongoing series.</td>
+          <td>Titles that suggest continuation, numbered parts, finales, arcs, episodes, seasons, or serialized progression.</td>
+          <td>This category helps identify when creators are organizing content as part of a longer narrative or recurring structure. The main topic should still come from the core activity, such as gaming, storytelling, or a recurring show format.</td>
+        </tr>
+        <tr>
+          <td><code>PERFORMANCE_ARTISTRY</code></td>
+          <td>Content centered on music, singing, performance, covers, concerts, music videos, or other artistic presentation.</td>
+          <td>Titles that clearly frame the content as a performance, musical work, vocal stream, cover, concert, or standalone song-style presentation.</td>
+          <td>This category helps distinguish performance-centered content from casual background music or unrelated streams. In some cases, a title may use recognizable song-and-artist formatting even without explicitly saying that it is a cover or karaoke stream.</td>
+        </tr>
+        <tr>
+          <td><code>PERSONALITY_CONVERSATION</code></td>
+          <td>Content centered on direct conversation, reactions, updates, questions, commentary, or personality-driven interaction.</td>
+          <td>Titles that suggest chatting, Q&amp;A, reactions, personal updates, storytime, open discussion, or audience-submitted prompts.</td>
+          <td>This category is useful for identifying streams where the creator's voice, personality, or relationship with the audience is the main draw. More specific categories may take priority when the title clearly indicates a debut, ASMR stream, art stream, work-along, or other specialized format.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="classification-table-status" aria-live="polite">Showing 8 categories.</p>
+</div>
+
+<style>
+  .classification-table-tool {
+    margin: 1.5rem 0 2rem;
+  }
+
+  .classification-table-search-label {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: var(--sda-ink);
+    font-family: var(--sda-sans);
+    font-size: 0.82rem;
+    font-weight: 900;
+  }
+
+  .classification-table-search {
+    width: min(100%, 34rem);
+    padding: 0.5rem 0.65rem;
+    border: 1px solid var(--sda-line);
+    background: var(--sda-paper);
+    color: var(--sda-ink);
+    font-family: var(--sda-sans);
+  }
+
+  .classification-table-wrap {
+    margin-top: 0.9rem;
+    overflow-x: auto;
+    border-top: 1px solid var(--sda-line);
+    border-bottom: 1px solid var(--sda-line);
+  }
+
+  .classification-table {
+    width: 100%;
+    min-width: 960px;
+    border-collapse: collapse;
+  }
+
+  .classification-table th,
+  .classification-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid var(--sda-soft-line);
+    vertical-align: top;
+  }
+
+  .classification-table th {
+    background: var(--sda-paper);
+  }
+
+  .classification-table th:first-child,
+  .classification-table td:first-child {
+    width: 12rem;
+  }
+
+  .classification-table th button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--sda-ink);
+    font-family: var(--sda-sans);
+    font-weight: 900;
+    text-align: left;
+  }
+
+  .classification-sort-state {
+    color: var(--sda-muted);
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+
+  .classification-table tbody tr:hover {
+    background: var(--sda-accent-soft);
+  }
+
+  .classification-table-status {
+    margin-top: 0.6rem;
+    color: var(--sda-muted);
+    font-family: var(--sda-sans);
+    font-size: 0.88rem;
+  }
+</style>
+
+<script>
+  (() => {
+    const tableTool = document.querySelector("[data-classification-table]");
+    if (!tableTool) return;
+
+    const search = tableTool.querySelector(".classification-table-search");
+    const table = tableTool.querySelector(".classification-table");
+    const tbody = table.querySelector("tbody");
+    const headers = Array.from(table.querySelectorAll("th"));
+    const rows = Array.from(tbody.querySelectorAll("tr"));
+    const status = tableTool.querySelector(".classification-table-status");
+    let sortColumn = null;
+    let sortDirection = "asc";
+
+    const getCellText = (row, columnIndex) => {
+      return row.children[columnIndex].textContent.trim().toLowerCase();
+    };
+
+    const updateStatus = () => {
+      const visibleCount = rows.filter((row) => !row.hidden).length;
+      status.textContent = `Showing ${visibleCount} ${visibleCount === 1 ? "category" : "categories"}.`;
+    };
+
+    const applySearch = () => {
+      const query = search.value.trim().toLowerCase();
+      rows.forEach((row) => {
+        row.hidden = query.length > 0 && !row.textContent.toLowerCase().includes(query);
+      });
+      updateStatus();
+    };
+
+    const updateSortLabels = () => {
+      headers.forEach((header, index) => {
+        const state = header.querySelector(".classification-sort-state");
+        if (index !== sortColumn) {
+          header.setAttribute("aria-sort", "none");
+          state.textContent = "Sort";
+          return;
+        }
+
+        header.setAttribute("aria-sort", sortDirection === "asc" ? "ascending" : "descending");
+        state.textContent = sortDirection === "asc" ? "Asc" : "Desc";
+      });
+    };
+
+    const sortRows = (columnIndex) => {
+      if (sortColumn === columnIndex) {
+        sortDirection = sortDirection === "asc" ? "desc" : "asc";
+      } else {
+        sortColumn = columnIndex;
+        sortDirection = "asc";
+      }
+
+      rows
+        .slice()
+        .sort((a, b) => {
+          const left = getCellText(a, columnIndex);
+          const right = getCellText(b, columnIndex);
+          const result = left.localeCompare(right, undefined, { sensitivity: "base" });
+          return sortDirection === "asc" ? result : -result;
+        })
+        .forEach((row) => tbody.appendChild(row));
+
+      updateSortLabels();
+      applySearch();
+    };
+
+    table.querySelectorAll("[data-sort-column]").forEach((button) => {
+      button.addEventListener("click", () => sortRows(Number(button.dataset.sortColumn)));
+    });
+
+    search.addEventListener("input", applySearch);
+    updateStatus();
+  })();
+</script>
+```
+
+## Classification Principles
+
+The classification system follows several general principles:
+
+1. **The main activity matters most.** When a title includes multiple signals, the system tries to keep the topic aligned with the core activity rather than only the most attention-grabbing phrase.
+2. **Titles can carry multiple meanings.** A collaboration can also be a gaming stream. A milestone can also be a music performance. A viral short can still be based on gameplay or personality content.
+3. **Some signals describe topic, while others describe framing.** For example, gaming and music often describe what the content is about, while milestone, collaboration, and meme/viral framing often describe how the content is being presented.
+4. **Classification is interpretive, not purely mechanical.** The system uses recurring title patterns, visible framing, and contextual clues, but ambiguous titles may still require cautious interpretation.
+5. **The public categories are simplified.** The internal workflow uses more detailed rules to improve consistency, but the categories shown here are intended to help readers understand the reports rather than reproduce the classification process.
+
+## Why This Matters
+
+These classifications make it easier to summarize large amounts of creator content without reading every title one by one. They help answer questions such as:
+
+- How often does a creator rely on collaborations?
+- Which streams are framed as special events or milestones?
+- How much content is centered on gaming, music, conversation, or short-form viral appeal?
+- Are certain title strategies associated with higher reach, engagement, or audience response?
+- Does a creator's content mix change over time?
+
+The classifications should be read as structured interpretation, not as final judgments about the quality, intent, or value of a stream.
+
+{{< include _more_insights.qmd >}}

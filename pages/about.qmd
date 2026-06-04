@@ -8,69 +8,32 @@ format:
 
 Sun Data Analytics is an independent analytics practice focused on clear reporting, reproducible data work, research support, and practical decision systems.
 
-## Background
+## Staff
 
-Sun Data Analytics is led by Jonathon Sun. The work sits at the intersection of analytics consulting, research reporting, data preparation, and mixed-methods interpretation.
+::: {.staff-bio}
 
-The goal is simple: make information easier to inspect, explain, and use. That can mean a dashboard, a private report bundle, a qualitative coding workflow, an automated reporting process, a classification system, or a concise findings brief.
+![Jonathon Sun](../assets/staff/JS_profile_crop.jpg){.staff-photo}
 
-Recent work has focused on creator and media analytics: collecting YouTube analytics and text data, preparing private performance reports, classifying stream and video titles, coding transcript material, and building side-project scrapers for public Vtuber, anime, gacha, and media trend signals.
+Sun Data Analytics is led by Jonathon Sun, whose work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems.
 
-## Methods
+He works across qualitative, quantitative, and visual data projects, helping turn messy source materials into clearer reports, dashboards, and analysis-ready outputs.
+
+:::
 
 :::: {.index-list}
-::: {.index-item}
-### Reproducible Data Work
 
-Projects should have visible assumptions, source notes, clean intermediate outputs, stable folders, and enough documentation for someone else to understand the path from raw material to finding.
+::: {.staff-bio}
+
+![Zhuni Excel](../assets/staff/Zhuni_Profile.jpg){.staff-photo}
+
+Sun Data Analytics is led by Jonathon Sun, whose work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems.
+
+He works across qualitative, quantitative, and visual data projects, helping turn messy source materials into clearer reports, dashboards, and analysis-ready outputs.
+
 :::
 
-::: {.index-item}
-### Decision-Oriented Reporting
-
-Reports and dashboards should be readable under real constraints: clear definitions, useful comparisons, plain-language findings, and charts that serve the question.
-:::
-
-::: {.index-item}
-### Qualitative and Mixed-Methods Analysis
-
-Open-ended data, transcripts, survey responses, and context notes can be structured carefully without flattening the nuance that makes them useful.
-:::
-
-::: {.index-item}
-### Privacy-Aware Communication
-
-Private reports, client datasets, and source files do not need to be published for the work to be explained clearly. Public pages can describe methods, deliverable types, and workflow design while keeping sensitive results private.
-:::
 ::::
 
-## Tools and Capabilities
-
-:::: {.index-list}
-::: {.index-item}
-### Analysis and Reporting
-
-Data cleaning, metric design, dashboard structure, recurring reports, data briefs, and methodological notes.
-:::
-
-::: {.index-item}
-### Research Support
-
-Survey analysis, qualitative coding, mixed-methods summaries, evaluation support, and research synthesis.
-:::
-
-::: {.index-item}
-### Automation and Documentation
-
-Repeatable workflows, templates, source notes, validation checks, and process documentation.
-:::
-
-::: {.index-item}
-### Creator and Media Data Systems
-
-YouTube analytics collection, subtitles and chat preparation, title classification, report scheduling, public media scraping, and data lake movement.
-:::
-::::
 
 ## Contact Context
 
