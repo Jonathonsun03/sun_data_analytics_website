@@ -240,6 +240,17 @@
   color: var(--sda-ink);
 }
 
+/* Published insights listing */
+#listing-published-insights th:first-child,
+#listing-published-insights td:first-child {
+  width: 7.5rem;
+  min-width: 7.5rem;
+}
+
+#listing-published-insights .listing-date {
+  white-space: nowrap;
+}
+
 /* Staff Pages */
 
 .staff-bio {

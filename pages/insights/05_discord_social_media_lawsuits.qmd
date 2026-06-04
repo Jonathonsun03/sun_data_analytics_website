@@ -1,6 +1,6 @@
 ---
-title: "Discord and Youtube Lawsuits"
-description: "What should content creators know about the recent coordianted lawsuits against Discord and Youtube"
+title: "Discord and YouTube Lawsuits"
+description: "What should content creators know about the recent coordinated lawsuits against Discord and YouTube"
 date: "2026-06-03"
 categories:
   - "Lawsuits"

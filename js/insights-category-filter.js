@@ -59,23 +59,51 @@
 
     const selectId = `${config.controlKey}-category-select`;
 
-    controls.innerHTML = `
-      <label class="listing-category-select-label" for="${selectId}">${config.label}</label>
-      <select id="${selectId}" class="listing-category-select">
-        <option value="">${config.allLabel}</option>
-        ${categories.map((category) => `<option value="${category}">${category}</option>`).join("")}
-      </select>
-      <div class="listing-category-chips" aria-label="${config.chipLabel}">
-        <button type="button" class="listing-category-chip is-active" data-category="">All</button>
-        ${categories.map((category) => `
-          <button type="button" class="listing-category-chip" data-category="${category}">${category}</button>
-        `).join("")}
-      </div>
-    `;
+    const label = document.createElement("label");
+    label.className = "listing-category-select-label";
+    label.setAttribute("for", selectId);
+    label.textContent = config.label;
+
+    const select = document.createElement("select");
+    select.id = selectId;
+    select.className = "listing-category-select";
+
+    const allOption = document.createElement("option");
+    allOption.value = "";
+    allOption.textContent = config.allLabel;
+    select.appendChild(allOption);
+
+    categories.forEach((category) => {
+      const option = document.createElement("option");
+      option.value = category;
+      option.textContent = category;
+      select.appendChild(option);
+    });
+
+    const chipList = document.createElement("div");
+    chipList.className = "listing-category-chips";
+    chipList.setAttribute("aria-label", config.chipLabel);
+
+    const allChip = document.createElement("button");
+    allChip.type = "button";
+    allChip.className = "listing-category-chip is-active";
+    allChip.dataset.category = "";
+    allChip.textContent = "All";
+    chipList.appendChild(allChip);
+
+    categories.forEach((category) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "listing-category-chip";
+      chip.dataset.category = category;
+      chip.textContent = category;
+      chipList.appendChild(chip);
+    });
+
+    controls.append(label, select, chipList);
 
     listingEl.insertAdjacentElement("beforebegin", controls);
 
-    const select = controls.querySelector(`#${selectId}`);
     const chips = Array.from(controls.querySelectorAll(".listing-category-chip"));
 
     const applyCategory = (selectedCategory) => {

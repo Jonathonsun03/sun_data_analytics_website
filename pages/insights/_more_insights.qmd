@@ -30,15 +30,29 @@
       title: "Using the Creator Performance Report",
       href: "03_using_creator_performance_report.html",
       date: "2026-06-02",
-      categories: ["Creator Analytics", "Reporting Systems"],
-      summary: "How to read the creator performance report as a high-level snapshot of performance, descriptive statistics, and content patterns."
+      categories: ["Creator Performance Report", "Creator Analytics", "Reporting Systems"],
+      summary: "A short companion guide for understanding what the Creator Performance Report is for and how to use it."
     },
     {
       title: "Numbers Go Brr: Terms and Definitions",
       href: "04_Terms_to_Remember.html",
       date: "2026-06-02",
-      categories: ["Method Notes", "Reporting Systems"],
+      categories: ["Creator Performance Report", "Method Notes", "Reporting Systems"],
       summary: "A glossary of common report terms, metrics, and interpretation notes used across creator performance reports."
+    },
+    {
+      title: "How Stream Title Classification Works",
+      href: "06_classification_definitions.html",
+      date: "2026-06-03",
+      categories: ["Creator Performance Report", "Creator Analytics", "Classification", "Methods"],
+      summary: "A public-facing guide to how stream titles are grouped into broad interpretive categories for reporting."
+    },
+    {
+      title: "How to Read Creator Report Charts",
+      href: "07_reading_creator_report_charts.html",
+      date: "2026-06-02",
+      categories: ["Creator Performance Report", "Creator Analytics", "Reporting Systems", "Methods"],
+      summary: "A chart-by-chart guide for interpreting content type comparisons, revenue trends, boxplots, audience composition, timing, topics, and tags."
     }
   ];
 
@@ -46,7 +60,22 @@
   if (!container) return;
 
   const currentPath = window.location.pathname.split("/").pop();
-  const relevantPosts = posts
+  const currentPost = posts.find((post) => post.href === currentPath);
+  const reportGuideOrder = [
+    "03_using_creator_performance_report.html",
+    "07_reading_creator_report_charts.html",
+    "04_Terms_to_Remember.html",
+    "06_classification_definitions.html"
+  ];
+
+  const isCreatorPerformanceReport = currentPost?.categories.includes("Creator Performance Report");
+  const candidatePosts = isCreatorPerformanceReport
+    ? posts
+        .filter((post) => post.categories.includes("Creator Performance Report"))
+        .sort((a, b) => reportGuideOrder.indexOf(a.href) - reportGuideOrder.indexOf(b.href))
+    : posts;
+
+  const relevantPosts = candidatePosts
     .filter((post) => post.href !== currentPath)
     .slice(0, 3);
 

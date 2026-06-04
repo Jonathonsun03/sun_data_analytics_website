@@ -3,8 +3,8 @@ title: "How Stream Title Classification Works"
 description: "A plain-language guide to how stream titles are grouped into interpretive categories for creator analytics."
 date: "2026-06-03"
 categories:
+  - "Creator Performance Report"
   - "Creator Analytics"
-  - "Classification"
   - "Methods"
 format:
   html:

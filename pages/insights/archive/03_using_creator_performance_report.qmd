@@ -1,0 +1,311 @@
+---
+title: "Using the Creator Performance Report"
+description: "How to read and use a creator performance report as a high-level snapshot of content performance, descriptive statistics, and report interpretation."
+date: "2026-06-02"
+categories:
+  - "Creator Analytics"
+  - "Reporting Systems"
+format:
+  html:
+    body-class: insight-page
+---
+
+## Main Point
+
+How to use the [Creator Performance Report](../portfolio/automated_reporting/00_creator-performance-report-sample.qmd). Also serves as an basic descriptive statistics and reading plots. This serves as a transcript to an accompanying video.
+
+### Reader Note Guide
+
+This guide uses color-coded notes to separate background context, practical reading instructions, scope limits, and interpretation cautions.
+
+| Color | Note type | What it means |
+|---|---|---|
+| <span class="reader-note-swatch note-swatch-context"></span> | Extra context | Background that explains where a metric, category, or report convention comes from. |
+| <span class="reader-note-swatch note-swatch-howto"></span> | How to read | Practical guidance for interpreting a chart, table, or visual element. |
+| <span class="reader-note-swatch note-swatch-scope"></span> | Scope / limits | Reminders about what the data includes, excludes, or depends on. |
+| <span class="reader-note-swatch note-swatch-guardrail"></span> | Interpretation guardrail | Cautions against over-reading small samples, shares, correlations, or descriptive comparisons. |
+
+## Creator Performance Report
+
+The purpose of the [Creator Performance Report](../portfolio/automated_reporting/00_creator-performance-report-sample.qmd) is to provide users a high level snapshot over a set period of time. This window can range from the past day to the full lifetime of available streaming data, but it must be specified before the report is generated so the analysis reflects the intended time period.
+
+:::{.callout-note .note-scope title="The reporting window matters"}
+All charts and tables should be interpreted in relation to the selected reporting window. A report based on the last 30 days may tell a different story than a lifetime report because recent strategy, audience behavior, and posting frequency may differ from older content.
+:::
+
+Because this report is designed as a high-level overview, it focuses primarily on descriptive statistics. In this context, descriptive statistics refer to summary measures that explain what happened during the selected period, including total views, total revenue, video counts, average views per video, median views per video, average revenue per video, median revenue per video, engagement distributions, audience composition shares, and comparisons across content types, topics, tags, collaborations, and publishing days.
+
+The goal is not to make causal claims or predict future performance. Instead, the report provides a clear baseline for understanding scale, consistency, audience behavior, and content patterns so users can quickly identify what performed well, where performance varied, and which areas may deserve closer analysis.
+
+If there are terms or concepts that need clarifying please refer to [Terms to remember](04_Terms_to_Remember.qmd)
+
+:::{.callout-note .note-howto title="How to read this report"}
+This report is designed as a descriptive overview. It summarizes what happened during the selected reporting window, but it does not prove why something happened or predict what will happen next. Use the charts to identify patterns, questions, and areas worth reviewing more closely.
+:::
+
+### Overall Performance Snapshot
+
+This section establishes the baseline for the report. It summarizes overall scale, per-video efficiency, monetization, retention, and content format patterns before moving into more detailed trend, audience, timing, topic, and tag analyses.
+
+#### Views by Content Type
+
+This chart compares creator performance by format using two related but distinct measures: total views and average views per video.
+
+:::{.callout-note .note-howto title="Totals vs. averages"}
+Totals show overall contribution. Averages show per-video efficiency. A format, topic, or tag may have a high total because it appears often, because it performs well each time, or both. Read totals and averages together before deciding whether something is truly strong or simply frequent.
+:::
+
+The Total Views panel shows overall audience volume, while the Average Views per Video panel shows per-upload efficiency. Reading both panels together helps separate formats that generate views through overall scale from formats that perform especially well each time they are posted. This matters because a format may lead in total views because it has strong individual performance, a high number of uploads, or both.
+
+A format that ranks highly in both panels is both a major source of audience traffic and strong on a per-video basis. A format with high total views but a lower average may be benefiting from posting volume. A format with lower total views but a strong average may be a smaller but efficient option worth testing more often.
+
+This chart should also be interpreted in relation to the creator’s goals. Views do not measure view duration or depth of engagement. Shorts may bring in more traffic and visibility, but standard videos and live streams may provide more space for sustained engagement, community building, brand recognition, and monetization. In other words, the “best” format depends on whether the priority is reach, retention, community, revenue, or some combination of these goals.
+
+### Combined Performance Trends (Views + Revenue)
+
+This chart compares two performance signals over time: **views** and **on-stream donation revenue**. The views panel shows how audience traffic changed across the reporting period, while the revenue panel shows how much money was generated through donations made during streams.
+
+:::{.callout-note .note-scope title="Revenue scope"}
+Unless stated otherwise, revenue in this report refers to available **on-stream donation revenue** captured in the dataset. It does not represent total creator income and does not include Streamlabs donations, YouTube memberships, ad revenue, sponsorships, merchandise, subscriptions, or other off-platform income.
+:::
+
+It is important to note that the revenue shown here is **not total creator revenue**. This figure only includes on-stream donations captured in the available data. It does not include other monetization sources, such as Streamlabs donations, YouTube memberships, ad revenue, sponsorships, merchandise, or other off-platform income. As a result, this chart should be read as a focused view of donation activity, not a complete financial summary.
+
+The value of this chart is that it allows readers to compare audience movement and donation movement side by side. When views and donation revenue rise together, it may suggest that higher audience traffic is also translating into stronger direct support. When views rise but donation revenue does not, the creator may be reaching more people without necessarily increasing financial engagement. When donation revenue rises without a similar increase in views, it may indicate stronger support from a smaller or more committed audience.
+
+This distinction matters because views and donations measure different kinds of performance. Views show reach and visibility, while on-stream donations reflect direct financial support from viewers. A strong month is not always the month with the most views; depending on the creator’s goals, a month with fewer views but stronger donation activity may be just as important, or even more meaningful, for understanding audience loyalty and monetization potential.
+
+### Total Revenue by Content Type
+
+This chart shows **total on-stream donation revenue by content type and publish month**. The x-axis shows the month and year when videos were published, while the bars show how much donation revenue was associated with each content type in that period.
+
+This is important to read as a **publish-month cohort view**, not a cash-flow chart. In other words, the chart groups videos by when they were published and summarizes the revenue associated with those videos. It should not be interpreted as revenue earned only during that specific calendar month.
+
+The colors and legend on the right allow readers to isolate specific month-and-content-type combinations. Because the legend can include many entries, users may need to scroll through it to find the period or format they want to focus on. This makes the chart interactive: readers can compare all content types at once or narrow the view to specific months and formats.
+
+The labels on the bars provide the total revenue value, and the `n=` label shows how many videos are included in that group. This is important because a high revenue total may reflect one strong upload, several smaller uploads, or a combination of both. Groups with very small video counts should be interpreted carefully because one unusually strong or weak video can have a large effect on the total.
+
+:::{.callout-note .note-guardrail title="Watch the video count"}
+Always check the number of videos behind a metric. A category with only a few videos can look unusually strong or weak because one outlier has a large effect. Patterns based on more videos are usually more reliable than patterns based on only one or two uploads.
+:::
+
+As with the previous revenue chart, this figure only reflects **on-stream donation revenue** captured in the available data. It does not include Streamlabs donations, YouTube memberships, subscriber revenue, ad revenue, sponsorships, merchandise, or other off-platform income. For that reason, this chart is best understood as a focused view of donation performance by content format, rather than a complete summary of creator income.
+
+A sortable table is included below the chart for readers who want to inspect the aggregated data directly. The table can be used to sort by month, content type, total revenue, video count, or average revenue per video, and it can also be downloaded for further review.
+
+:::{.callout-note .note-howto title="How to use the tables"}
+The tables provide the exact values behind the charts. Use the search box to find a specific topic, tag, content type, or video. Use the sorting controls to compare metrics such as total views, average views per video, median views, total revenue, and video count. Use the CSV button to download the aggregated data for additional review.
+:::
+
+### Engagement Distribution and Successful Videos by Content Type
+
+This chart shows the distribution of **Average View Percentage** by content type. Average View Percentage measures how much of a video viewers watched on average, making this chart useful for understanding retention rather than raw audience size.
+
+:::{.callout-note .note-howto title="How to read a boxplot"}
+How to read the boxplot: Each box summarizes the range of Average View Percentage values for videos in that content type. The line in the middle of the box is the median, or the typical middle value. The bottom and top of the box show the middle range of videos, from the 25th percentile to the 75th percentile. In other words, about half of the videos fall inside the box. The lines extending above and below the box, often called whiskers, show the lower and higher ends of the typical range. A taller box or longer whiskers mean that performance varies more across videos, while a shorter box means that retention is more consistent.
+
+```{r boxplot-guide-function, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(grid)
+
+boxplot_guide_plot <- function() {
+  guide_df <- tibble::tibble(
+    group = "Example content type",
+    value = c(12, 15, 18, 22, 25, 28, 30, 35, 40, 45, 48, 52, 60, 68, 75)
+  )
+
+  stats <- boxplot.stats(guide_df$value)$stats
+  lower_whisker <- stats[1]
+  q1 <- stats[2]
+  median <- stats[3]
+  q3 <- stats[4]
+  upper_whisker <- stats[5]
+
+  ggplot(guide_df, aes(x = group, y = value)) +
+    geom_boxplot(width = 0.25, fill = "grey85", color = "black") +
+
+    annotate("text", x = 1.35, y = median, label = "Median\nmiddle value", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = median, yend = median,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = q3, label = "75th percentile\nupper edge of box", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = q3, yend = q3,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = q1, label = "25th percentile\nlower edge of box", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = q1, yend = q1,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = upper_whisker, label = "Upper whisker\nhigher typical values", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = upper_whisker, yend = upper_whisker,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 1.35, y = lower_whisker, label = "Lower whisker\nlower typical values", hjust = 0, size = 3.5) +
+    annotate("segment", x = 1.08, xend = 1.32, y = lower_whisker, yend = lower_whisker,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    annotate("text", x = 0.55, y = (q1 + q3) / 2,
+             label = "Box = middle 50%\nof videos", hjust = 1, size = 3.5) +
+    annotate("segment", x = 0.75, xend = 0.88, y = (q1 + q3) / 2, yend = (q1 + q3) / 2,
+             arrow = arrow(length = unit(0.12, "inches"))) +
+
+    coord_cartesian(xlim = c(0.4, 2.2)) +
+    labs(
+      title = "How to Read a Boxplot",
+      subtitle = "A boxplot summarizes the typical range and spread of values.",
+      x = NULL,
+      y = "Example percentage"
+    ) +
+    theme_minimal(base_size = 12) +
+    theme(
+      axis.text.x = element_blank(),
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor = element_blank()
+    )
+}
+```
+
+```{r boxplot-guide-plot, echo=FALSE, fig.width=9, fig.height=5}
+boxplot_guide_plot()
+```
+
+:::
+
+The boxplots show the typical range of retention for each format. Highlighted points represent videos in the top quartile for their content type, meaning they are among the stronger performers within that format. Readers can hover over these highlighted points to identify the specific videos or streams behind those standout results.
+
+This chart should be interpreted with format differences in mind. Shorts are expected to have higher average view percentages because they are short by design. A viewer can complete a Short much more easily than a standard video or live stream. Live streams, by contrast, often have much lower average view percentages because they are longer and viewers may join for only part of the broadcast. This does not automatically mean that live streams are performing poorly; it means they serve a different purpose.
+
+The main value of this chart is understanding how each format supports the creator’s broader goals. If the goal is retention, quick discovery, and repeatable short-form content, Shorts may be the strongest format. If the goal is community building, deeper viewer connection, longer watch sessions, or stronger audience loyalty, videos and live streams may still be valuable even with lower average view percentages.
+
+The table below the chart provides video-level detail for readers who want to inspect the individual uploads behind the distribution. The table can be searched, sorted, copied, or downloaded as a CSV, making it possible to identify which specific videos had stronger retention, higher estimated minutes watched, longer average view duration, or stronger estimated revenue. Used together, the chart and table help move from a high-level pattern to specific videos worth reviewing more closely.
+
+### Trends Over Time
+
+With a broad snapshot of the data, we can now focus on the channel across time. The following diagrams will plot trends over time.
+
+#### Revenue over time by content type
+This chart shows how **on-stream donation revenue** changes over time by content type. Each panel separates a different format, such as live streams, Shorts, and standard videos, so readers can compare whether revenue patterns are stable, rising, declining, or highly variable across formats.
+
+The x-axis shows the publish date, while the y-axis shows total estimated revenue associated with the content in that panel. The individual points show observed revenue values over time, and the darker trend line helps summarize the broader direction of the data. This makes it easier to see whether a format is generally gaining monetization momentum, flattening, or moving inconsistently from one upload period to another.
+
+:::{.callout-note .note-howto title="Points, lines, and trends"}
+In trend charts, individual points show observed performance values, while the darker line summarizes the broader direction over time. A single spike may represent a standout upload or event, but the trend line helps show whether performance is generally rising, falling, flattening, or changing inconsistently.
+:::
+
+The main purpose of this chart is to compare monetization patterns across formats. A format with frequent spikes may depend on specific standout uploads, events, or audience moments. A format with a steadier trend may provide more consistent donation activity over time. For creators, this distinction matters because the best format depends on the goal: maximizing occasional high-revenue moments, building consistent direct support, or balancing revenue with reach, retention, and community growth.
+
+#### Views over time by content type 
+This chart shows how **total views** change over time by content type. Each panel separates a different format, such as live streams, Shorts, and standard videos, so readers can compare audience demand across formats without combining very different kinds of content into one trend.
+
+The x-axis shows the publish date, while the y-axis shows total views. The individual points show observed view totals for specific uploads or upload periods, and the darker trend line summarizes the broader direction of performance over time. This helps readers see whether a format is gaining audience momentum, staying relatively stable, declining, or depending on occasional spikes.
+
+This chart should be read alongside the revenue trend chart. Views and revenue do not always move together. A format may bring in more audience traffic without generating much direct donation revenue, while another format may have fewer views but stronger monetization or deeper viewer support. Comparing the two charts helps separate **audience reach** from **financial engagement**.
+
+Different formats often serve different strategic purposes. Short-form content may be especially useful for discovery, reach, and bringing new viewers into the audience funnel. Standard videos and live streams may generate fewer total views in some cases, but they can provide more space for watch time, community development, viewer loyalty, and monetization. For that reason, view trends should not be interpreted as a simple ranking of which format is “best.” The stronger interpretation depends on the creator’s goals: growing reach, building a stronger community, increasing revenue, deepening engagement, or balancing several of these priorities at once.
+
+
+### Audience Composition
+#### Audience Age and Gender Trends
+
+One limitation of standard YouTube analytics exports is that they do not always make it easy to view **age and gender together as a combined audience segment over time**.
+
+This chart shows how the audience mix changes over time by **age group** and **gender**. Each panel separates viewers by gender, while the colored lines show the share of the audience represented by each age group.
+
+:::{.callout-note .note-guardrail title="Shares are not raw counts"}
+Charts that show audience share or share of total performance are percentage-based. If a group's share increases, that means it became a larger portion of the measured total. It does not always mean the raw number of viewers or revenue dollars increased.
+:::
+
+This is useful because audience composition is not only about how many people watched, but also about **who the content is reaching**. A creator may have stable total views while their audience mix changes underneath the surface. For example, one age group may become a larger share of the audience over time while another becomes smaller.
+
+This chart should be read as a **share-based trend**, not a raw viewer count. If a segment increases from one month to the next, that means the segment represents a larger percentage of the measured audience. It does not necessarily mean the absolute number of viewers in that segment increased. For that reason, this chart is best used alongside views, revenue, and engagement measures.
+
+The main purpose of this chart is to help creators understand whether their content is reaching the audience they expect, whether their audience is broadening, and whether certain demographic groups are becoming more or less central over time. This can inform content strategy, brand positioning, sponsorship fit, and community development.
+
+### Content Strategy Deep Dive
+
+#### Timing Effects: Weekend vs Weekday
+This chart compares per-video performance for uploads published on **weekdays** versus **weekends**. It uses two related measures: **views per video** and **on-stream donation revenue per video**.
+
+Each point represents an individual video. The boxes summarize the typical range of performance for weekday and weekend uploads, while the middle line in each box shows the median. The white point represents the mean, or average. Reading these together helps show not only which timing category performs better on average, but also how consistent or variable that performance is.
+
+This distinction is important because a category can look strong for different reasons. A higher median suggests that the typical video performs better. A higher mean may indicate stronger overall performance, but it can also be pulled upward by a few unusually successful videos. A wider box or longer whiskers suggest more variation, meaning that performance is less predictable.
+
+This chart should be interpreted as a descriptive timing comparison, not proof that publishing on a weekday or weekend directly causes higher views or revenue. Other factors, such as content type, topic, collaboration, stream length, audience availability, and promotion, may also shape performance.
+
+:::{.callout-note .note-guardrail title="Descriptive comparison, not causation"}
+Timing, topic, collaboration, and tag charts describe historical patterns. They should not be read as proof that a specific day, topic, tag, or collaboration caused higher performance. Other factors such as format, promotion, stream length, audience availability, and special events may also shape the result.
+:::
+
+The table below the chart provides the aggregated comparison in a more direct format. Readers can use it to compare total views, average views per video, median views per video, total revenue, average revenue per video, and median revenue per video across weekday and weekend uploads. Together, the chart and table help identify whether one publishing window appears stronger, more consistent, or more dependent on outlier videos.
+
+#### Timing Effects: Day-of-week distribution
+
+This chart shows the share of total performance attributed to each day of the week. The top panel shows each weekday’s share of **on-stream donation revenue**, while the bottom panel shows each weekday’s share of **total views**.
+
+The x-axis lists the publish day, and the y-axis shows that day’s percentage share of the overall total. Larger bars mean that videos published on that day contributed a larger portion of total views or total donation revenue during the selected reporting window.
+
+This chart is useful for identifying possible timing patterns. For example, if one weekday accounts for a larger share of views, that may suggest that uploads on that day have historically contributed more audience traffic. If a different weekday accounts for a larger share of revenue, that may suggest that direct financial support does not always follow the same pattern as view volume.
+
+However, this chart should be interpreted carefully. A larger share does not necessarily mean that a weekday is automatically “better.” Some days may have more videos published, stronger topics, more collaborations, special events, or other factors that affect performance. For that reason, this chart should be read as a descriptive summary of historical performance, not proof that publishing on a specific day causes higher views or revenue.
+
+The table below the chart provides the detailed weekday comparison. It includes total views, average views per video, median views per video, total revenue, average revenue per video, median revenue per video, video counts, and each day’s share of total views and revenue. This allows readers to compare both overall contribution and per-video performance. The table can also be searched, sorted, copied, or downloaded as a CSV for closer review.
+
+#### Collaboration Effectiveness
+This chart compares average per-video performance for **collaborative** and **non-collaborative** uploads. The top panel shows average on-stream donation revenue per video, while the bottom panel shows average views per video.
+
+This is different from comparing total views or total revenue. A creator may have more total views from one category simply because they published more videos in that category. By using averages per video, this chart asks a more direct question: *when this creator posts a collaborative or non-collaborative upload, which type tends to perform better per upload?*
+
+The chart should be interpreted as a descriptive comparison, not proof that collaborations automatically cause higher performance. Collaborations can introduce a creator to new audiences, increase viewer excitement, or create stronger event-like moments. However, performance may also depend on the specific collaborator, topic, timing, format, promotion, and audience overlap.
+
+The table below the chart provides the detailed comparison. It includes video counts, total views, total revenue, average views per video, average revenue per video, and lift compared with non-collaborative uploads. This helps readers see both the high-level pattern and the underlying values behind the chart.
+
+As with the other revenue sections, revenue here refers to the available on-stream donation revenue data, not total creator income from all sources.
+
+#### Topic Performance
+This chart compares performance across classified content topics using two measures: **total views** and **on-stream donation revenue**. Each bar represents a topic category, making it easier to see which types of content contributed the most audience traffic and direct donation activity during the selected reporting window.
+
+:::{.callout-note .note-context title="How are Topics defined"}
+Topics are created as broad interpretive groups from title signals, not as exact one-to-one labels. A single title can contain more than one signal, so the classification process tries to preserve the main activity while also marking important framing cues such as collaborations, milestones, monetization, serialization, performance, conversation, or meme/viral hooks. Some categories describe what the stream is mainly about, while others describe how the content is being presented to the audience. For more detail, see [How Stream Title Classification Works](06_classification_definitions.qmd).
+:::
+
+The views panel shows which topics generated the largest share of audience reach. The revenue panel shows which topics generated the most on-stream donation revenue. Reading the two panels together helps identify whether the same topics are driving both visibility and financial support, or whether some topics perform better for reach while others perform better for monetization.
+
+This chart should be interpreted as a descriptive summary of historical performance, not as proof that one topic automatically causes higher views or revenue. Topic performance can be shaped by many factors, including upload frequency, stream length, title framing, timing, collaborations, special events, and audience interest. A topic with high total views may be strong because it is especially popular, because it appears more often, or both.
+
+The table below the chart provides more detail behind the topic comparison. It includes total views, average views per video, median views per video, total revenue, average revenue per video, median revenue per video, video counts, share of total views, share of total revenue, and rank. This is important because the chart shows overall contribution, while the table helps readers compare both total performance and per-video efficiency.
+
+As with the other revenue sections, revenue here refers only to the available **on-stream donation revenue** data. It does not represent total creator income from all possible monetization sources.
+
+#### Tag Performance
+
+This chart compares performance across the most common **classified title tags** in the report. These tags are created during the title-classification process, where each YouTube title is analyzed and assigned structured labels based on the wording of the title.
+
+These tags should be understood as **analytic tags**, not necessarily the original tags entered into YouTube Studio. They are generated from the report’s classification schema to help summarize patterns across titles. For example, a title may be tagged as `collab`, `guest`, `short_form`, `rpg`, `karaoke`, `boss_fight`, or `community_pick` when the title contains evidence that the video belongs to that type of content, format, or framing.
+
+:::{.callout-note .note-context title="Tags are analytic labels"}
+The tags in this report are generated through the title-classification process. They are not necessarily the same as the original tags entered into YouTube Studio. Because one video can receive multiple analytic tags, tag categories can overlap and should be interpreted as directional signals rather than mutually exclusive groups.
+:::
+
+The classification process reads each title and assigns topic labels, tags, references, and a confidence score. Tags are kept concise and specific. A title can receive more than one tag when multiple signals are present. For example, a stream title could be both a collaboration and a gaming stream, or both a karaoke stream and a community event. When a game, song, or other major reference is identifiable, the classifier also stores that reference separately so the report can distinguish between broad tags and specific named content.
+
+Because tags can overlap, this chart should not be read as a set of mutually exclusive categories. The same video may contribute to several tag totals. For that reason, tag performance is best interpreted as a directional signal: it shows which recurring title features, formats, or content framings are associated with stronger views and on-stream donation revenue.
+
+The views panel shows which tags are associated with the most audience reach. The revenue panel shows which tags are associated with the most on-stream donation revenue. Reading both panels together helps identify whether certain title patterns are connected to visibility, monetization, or both.
+
+This chart should be interpreted carefully because tags are based on title evidence. If a title is vague, ironic, meme-like, or missing important context, the classification may be less certain. The report uses conservative confidence scores for ambiguous titles, but the results should still be treated as a structured summary of title patterns rather than a perfect measure of content meaning.
+
+The purpose of this section is to help creators identify repeatable signals in their titles and content strategy. Strong-performing tags may point to formats, topics, collaborations, or audience hooks worth reviewing more closely. However, tags should be interpreted alongside the video-level table, topic analysis, revenue trends, and engagement measures before making major strategy decisions.
+
+#### Average Views per Tag
+This chart shows the **average views per tagged video** for each classified title tag. Unlike the previous tag performance chart, which focuses on total views and total revenue, this chart focuses on per-video efficiency: when a video has a given tag, how many views does it receive on average?
+
+This distinction matters because a tag can appear strong for different reasons. A tag may have high total views because it appears on many videos, but that does not necessarily mean each tagged video performs especially well. Average views per tagged video helps control for posting volume by showing which tags tend to perform better each time they appear.
+
+The tags shown here are generated through the title-classification process. They are analytic tags based on title evidence, not necessarily the original tags entered into YouTube Studio. A video can have more than one tag, so the categories are not mutually exclusive. For example, the same video might be tagged as `collab`, `guest`, and `rpg` if the title provides evidence for each.
+
+Because tags can overlap, this chart should be read as a directional signal rather than a strict ranking of isolated content categories. A high average may suggest that a tag is associated with strong audience interest, but it may also reflect the influence of related tags, specific topics, special events, or a small number of high-performing videos.
+
+The table below provides the detailed tag-level data, including video count, total views, average views per video, total revenue, average revenue per video, share of views, and share of revenue. This table is important because averages should always be interpreted alongside video count. A tag with a high average but only a few videos may be promising, but it needs more testing before being treated as a reliable pattern.
+
+{{< include _more_insights.qmd >}}
