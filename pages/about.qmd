@@ -14,9 +14,9 @@ Sun Data Analytics is an independent analytics practice focused on clear reporti
 
 ![Jonathon Sun](../assets/staff/JS_profile_crop.jpg){.staff-photo}
 
-Sun Data Analytics is led by Jonathon Sun, whose work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems.
-
-He works across qualitative, quantitative, and visual data projects, helping turn messy source materials into clearer reports, dashboards, and analysis-ready outputs.
+Sun Data Analytics is led by Dr. Jonathon Sun, who earned his Ph.D. in Higher Education from the University of Pennsylvania. His work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems.
+Jonathon specializes in Quantitative Ethnography and qualitative analytics: turning interviews, transcripts, open-ended responses, documents, chat logs, and other text-heavy source materials into structured evidence. His work combines qualitative coding, quantitative analysis, visual reporting, and reproducible workflows to help make complex information easier to interpret and act on.
+Across qualitative, quantitative, and visual data projects, he helps transform messy source materials into clearer reports, dashboards, coding systems, and analysis-ready outputs.
 
 :::
 
@@ -26,14 +26,16 @@ He works across qualitative, quantitative, and visual data projects, helping tur
 
 ![Zhuni Excel](../assets/staff/Zhuni_Profile.jpg){.staff-photo}
 
-Sun Data Analytics is led by Jonathon Sun, whose work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems.
+Zhuni Excel brings firsthand experience from the content creator side of digital media. As a VTuber, musician, livestreamer, and community-focused creator, he has produced content across music, gaming, collaboration streams, short-form videos, and live audience engagement.
 
-He works across qualitative, quantitative, and visual data projects, helping turn messy source materials into clearer reports, dashboards, and analysis-ready outputs.
+His work gives Sun Data Analytics practical insight into the everyday realities of creator life: building a recognizable identity, maintaining a content schedule, collaborating with other creators, engaging a community, and translating creative work into formats that audiences can discover, share, and return to.
 
+Zhuni also brings experience with convention organizing and live creator events, adding a grounded understanding of how online communities extend into in-person spaces. His perspective helps connect analytics to the actual pressures, rhythms, and decisions creators face.
+
+[{{< fa brands youtube >}} YouTube](https://www.youtube.com/@DrZhuniExcel){.staff-social-link target="_blank" rel="noopener"}
 :::
 
 ::::
-
 
 ## Contact Context
 
