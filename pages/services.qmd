@@ -7,7 +7,7 @@ Sun Data Analytics helps clients collect, organize, analyze, and explain complex
 
 ## Interested In Working Together?
 
-If you are interested in data collection, automated reporting, mixed-methods analysis, or a custom report, you can contact me at jonathonsun03@gmail.com.
+If you are interested in data collection, automated reporting, mixed-methods analysis, or a custom report, you can contact me at jonathon@sun-dataanalytics.com.
 
 In your message, feel free to briefly describe the kind of data you have, the question you are trying to answer, or the report or workflow you are hoping to build. I can help determine whether Sun Data Analytics is a good fit for your project.
 
@@ -41,4 +41,4 @@ In your message, feel free to briefly describe the kind of data you have, the qu
 
 Client data, private reports, and source files stay confidential. Public pages on this site describe the structure of the work and the kinds of questions the systems can answer.
 
-For availability or project fit, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
+For availability or project fit, contact [jonathon@sun-dataanalytics.com](mailto:jonathon@sun-dataanalytics.com).
