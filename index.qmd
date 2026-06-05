@@ -111,4 +111,4 @@ The common thread is practical interpretation: collecting the right data, cleani
 </section>
 ```
 
-If you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact [jonathonsun03@gmail.com](mailto:jonathonsun03@gmail.com).
+If you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact [jonathon@sun-dataanalytics.com](mailto:jonathon@sun-dataanalytics.com).
