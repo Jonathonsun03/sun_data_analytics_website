@@ -32,7 +32,7 @@ His work gives Sun Data Analytics practical insight into the everyday realities 
 
 Zhuni also brings experience with convention organizing and live creator events, adding a grounded understanding of how online communities extend into in-person spaces. His perspective helps connect analytics to the actual pressures, rhythms, and decisions creators face.
 
-[{{< fa brands youtube >}} YouTube](https://www.youtube.com/@DrZhuniExcel){.staff-social-link target="_blank" rel="noopener"}
+<a class="staff-social-link" href="https://www.youtube.com/@DrZhuniExcel" target="_blank" rel="noopener" aria-label="Zhuni Excel YouTube channel"><i class="bi bi-youtube" aria-hidden="true"></i><span>YouTube</span></a>
 :::
 
 ::::

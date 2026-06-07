@@ -10,6 +10,11 @@
   text-decoration: none;
 }
 
+.staff-social-link .bi {
+  font-size: 1.1em;
+  line-height: 1;
+}
+
 .staff-social-link:hover,
 .staff-social-link:focus {
   color: var(--sda-accent);
