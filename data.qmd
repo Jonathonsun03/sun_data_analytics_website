@@ -27,7 +27,7 @@ Structured title labels, transcript coding workflows, codebooks, review CSVs, an
 ::: {.index-item}
 ### Public Media Signal Scrapers
 
-Side-project workflows for collecting and analyzing public media signals from anime, Vtuber-adjacent, gacha, YouTube, and trend sources.
+Side-project workflows for collecting and analyzing public media signals from anime, VTubers, gaming, creator culture, YouTube, and trend sources.
 
 **Status:** In development  
 **Materials:** Source notes, scraper scripts, staging workflows, report contexts

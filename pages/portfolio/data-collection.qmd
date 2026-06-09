@@ -1,65 +1,237 @@
 ---
 title: "Data Collection"
-description: "Data collection, cleanup, source organization, and repeatable staging workflows from Sun Data Analytics."
+description: "Repeatable workflows for importing YouTube analytics, subtitles, chat logs, public media, and other source data."
 ---
 
-## Overview
+## Build a Reliable Starting Point
 
-Online platforms, spreadsheets, surveys, transcripts, and public sources often contain useful data, but they are rarely organized in a way that makes analysis straightforward. Sun Data Analytics helps clients collect, clean, document, and stage those materials so they can be inspected, refreshed, analyzed, and used in reports.
+Useful data is often spread across platform exports, APIs, subtitle files, chat logs, spreadsheets, and public websites. Before that information can support a report or analysis, it needs to be collected, standardized, checked, and organized.
 
-The goal is not just to gather data, but to create a cleaner starting point with documented assumptions, source limitations, and repeatable steps.
+Sun Data Analytics builds repeatable workflows that move information from its original source into cleaner, analysis-ready tables.
 
-## Data Collection Use Cases
+These workflows can support a one-time project or become part of a reporting system that is refreshed on a recurring schedule.
 
-:::: {.index-list}
-::: {.index-item}
-### YouTube Analytics and Platform Exports
-
-For clients who have useful platform data but need help turning exports into cleaner, analysis-ready tables. This can include audience metrics, video performance data, revenue files, geography, subscriber trends, and other recurring exports.
+::: {.callout-note}
+A collection workflow can stand on its own or connect directly to an automated report, dashboard, classification system, or mixed-methods analysis.
 :::
 
-::: {.index-item}
-### Subtitles, Chat Logs, and Stream Text
+## Primary Data Workflows
 
-For clients who want to analyze what happens inside streams, videos, or other text-heavy media. This can include subtitle files, chat logs, transcript preparation, timestamp cleanup, speaker or source labeling, and organization for later coding or classification.
-:::
-
-::: {.index-item}
-### Surveys, Transcripts, and Open-Ended Responses
-
-For clients who need research material prepared before analysis. This can include survey cleanup, transcript formatting, open-ended response preparation, field definitions, and source notes for qualitative or mixed-methods analysis.
-:::
-
-::: {.index-item}
-### Public Web and Media Sources
-
-For clients who need repeatable collection from public sources where appropriate. This can include source tracking, scrape preparation, refresh workflows, documentation of limitations, and storage structures for later reporting.
-:::
-
-::: {.index-item}
-### Messy Spreadsheets and Internal Files
-
-For clients who already have useful files but need them cleaned, standardized, merged, or reshaped. This can include column cleanup, field definitions, duplicate checks, missing-value review, and conversion into stable source tables.
-:::
-::::
-
-## Typical Deliverables
+Different sources require different collection methods, but the goal is consistent: create dependable data that can be refreshed, inspected, and connected to later analysis. These are examples of repeatable import and preparation workflows, not separate one-off services.
 
 ```{=html}
-<div class="card-grid">
-  <article class="content-card">
-    <h3>Clean Source Tables</h3>
-    <p>Standardized tables with documented fields, source notes, and assumptions.</p>
+<div class="workflow-stack">
+  <section class="workflow-section workflow-section--visual-right">
+    <div class="workflow-copy">
+      <p class="workflow-kicker">Creator analytics</p>
+      <h3>YouTube and Creator Platform Data</h3>
+      <p>YouTube data can describe both the content a creator publishes and how that content performs over time. Sun Data Analytics can organize data from platform exports, authenticated analytics sources, public APIs, and existing creator records.</p>
+
+      <div class="workflow-field-groups" aria-label="Supported YouTube and creator platform fields">
+        <span>Metadata</span>
+        <span>Performance</span>
+        <span>Audience</span>
+        <span>Revenue</span>
+        <span>Growth</span>
+        <span>Custom labels</span>
+      </div>
+
+      <p>These sources can be combined into stable video-level, channel-level, or time-based tables for reporting and comparison.</p>
+    </div>
+
+    <figure class="workflow-visual creator-structure-visual">
+      <figcaption>Example Creator Data Structure</figcaption>
+      <div class="data-structure-groups">
+        <div class="data-field-group">
+          <h4>Content</h4>
+          <p>Titles, dates, tags, categories, durations.</p>
+        </div>
+        <div class="data-field-group">
+          <h4>Performance</h4>
+          <p>Views, watch time, impressions, click-through rate.</p>
+        </div>
+        <div class="data-field-group">
+          <h4>Audience</h4>
+          <p>Age, geography, devices, subscriber status.</p>
+        </div>
+        <div class="data-field-group">
+          <h4>Revenue and Growth</h4>
+          <p>Estimated revenue, revenue sources, subscriber changes.</p>
+        </div>
+      </div>
+      <p class="visual-footer">Combined by video, channel, and reporting period.</p>
+    </figure>
+  </section>
+
+  <section class="workflow-section workflow-section--visual-left">
+    <div class="workflow-copy">
+      <p class="workflow-kicker">Stream text</p>
+      <h3>Subtitles, Transcripts, and Chat Logs</h3>
+      <p>Performance metrics can show how a video or stream performed, but they do not describe everything that happened inside the content.</p>
+
+      <div class="workflow-field-groups" aria-label="Supported text collection fields">
+        <span>Subtitles</span>
+        <span>Transcripts</span>
+        <span>Chat logs</span>
+        <span>Speaker labels</span>
+        <span>Timestamps</span>
+        <span>Coding fields</span>
+      </div>
+
+      <p>This makes it possible to connect platform performance with the subjects, interactions, and audience responses found inside the content itself.</p>
+    </div>
+
+    <figure class="workflow-visual timeline-visual">
+      <figcaption>Stream Text Timeline</figcaption>
+      <div class="timeline-track" aria-hidden="true"></div>
+      <div class="timeline-events">
+        <div class="timeline-event">
+          <span class="timestamp">00:00</span>
+          <strong>Introduction</strong>
+        </div>
+        <div class="timeline-event timeline-event--highlight">
+          <span class="timestamp">03:18</span>
+          <strong>Topic discussion</strong>
+          <p><span>Host</span> Main segment</p>
+          <em>Analysis segment</em>
+        </div>
+        <div class="timeline-event">
+          <span class="timestamp">11:05</span>
+          <strong>Audience question</strong>
+        </div>
+      </div>
+      <div class="chat-markers">
+        <p><span>Chat marker</span> Audience question aligned to transcript time.</p>
+      </div>
+      <div class="workflow-tags" aria-label="Text workflow outputs">
+        <span>timestamp aligned</span>
+        <span>source labeled</span>
+        <span>coding ready</span>
+      </div>
+    </figure>
+  </section>
+</div>
+
+<div class="workflow-additional-grid" aria-label="Additional data workflows">
+  <article class="compact-workflow-card">
+    <div>
+      <p class="workflow-kicker">Media monitoring</p>
+      <h3>Public Web and Media Monitoring</h3>
+      <p>Source-specific public collection can support research, trend monitoring, and media analysis where collection is technically and ethically appropriate.</p>
+      <p class="examples-line"><strong>Examples include:</strong> articles, publication dates, authors, publishers, topics, named entities.</p>
+    </div>
+    <div class="mini-flow" aria-label="Public web monitoring flow">
+      <span>Public sources</span>
+      <span>Standardized records</span>
+      <span>Monitoring dataset</span>
+    </div>
   </article>
-  <article class="content-card">
-    <h3>Staging Workflows</h3>
-    <p>Repeatable steps for pulling, cleaning, refreshing, and organizing source data.</p>
-  </article>
-  <article class="content-card">
-    <h3>Preparation Notes</h3>
-    <p>Short documentation that explains what was collected, what changed, and what remains uncertain.</p>
+
+  <article class="compact-workflow-card">
+    <div>
+      <p class="workflow-kicker">Research files</p>
+      <h3>Surveys, Research Text, and Internal Files</h3>
+      <p>Not every project begins with an API. Many begin with spreadsheets, survey exports, transcripts, manually maintained records, or files created by several different people.</p>
+      <p class="examples-line"><strong>Examples include:</strong> survey cleanup, transcripts, field definitions, duplicate checks, date cleanup, reshaping.</p>
+    </div>
+    <div class="mini-flow mini-flow--two" aria-label="Internal file preparation flow">
+      <span>Inconsistent files</span>
+      <span>Clean source table</span>
+    </div>
   </article>
 </div>
 ```
 
-[Back to Services Overview](../services.html)
+## What Happens During Collection
+
+```{=html}
+<ol class="collection-flow" aria-label="Collection workflow">
+  <li>
+    <span class="flow-step">01</span>
+    <h3>Import</h3>
+    <p>Bring source materials together.</p>
+  </li>
+  <li>
+    <span class="flow-step">02</span>
+    <h3>Standardize</h3>
+    <p>Align fields, dates, and identifiers.</p>
+  </li>
+  <li>
+    <span class="flow-step">03</span>
+    <h3>Validate</h3>
+    <p>Check duplicates and gaps.</p>
+  </li>
+  <li>
+    <span class="flow-step">04</span>
+    <h3>Document</h3>
+    <p>Record sources and assumptions.</p>
+  </li>
+  <li>
+    <span class="flow-step">05</span>
+    <h3>Refresh</h3>
+    <p>Prepare for future updates.</p>
+  </li>
+</ol>
+```
+
+## Typical Outputs
+
+```{=html}
+<div class="output-handoff" aria-label="Typical data collection outputs">
+  <section>
+    <span class="output-marker">Prepared Data</span>
+    <div class="output-content">
+      <h3>Analysis-Ready Tables</h3>
+      <p>Clean tables organized around the useful unit of analysis.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="output-marker">Reusable Logic</span>
+    <div class="output-content">
+      <h3>Import Scripts</h3>
+      <p>Documented R, Python, API, or file-processing workflows.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="output-marker">Shared Context</span>
+    <div class="output-content">
+      <h3>Source and Field Documentation</h3>
+      <p>Definitions, source notes, transformation rules, and limitations.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="output-marker">Next Update</span>
+    <div class="output-content">
+      <h3>Refreshable Data Stores</h3>
+      <p>Stable structures and update processes for recurring work.</p>
+    </div>
+  </section>
+</div>
+```
+
+
+```{=html}
+<p class="related-content-label">Related content</p>
+<div class="card-grid">
+  <article class="content-card">
+    <h3>Explore Automated Reporting</h3>
+    <p>See how recurring reports can turn refreshed source data into repeatable analysis outputs.</p>
+    <p><a href="automated-reporting.html">View automated reporting</a></p>
+  </article>
+
+  <article class="content-card">
+    <h3>Explore Unified Methods</h3>
+    <p>See how performance data, text classification, and qualitative interpretation can work together.</p>
+    <p><a href="mixed-methods-analysis.html">View unified methods</a></p>
+  </article>
+
+  <article class="content-card">
+    <h3>Back to Services Overview</h3>
+    <p>Return to the main services page to compare reporting, data collection, and analysis support.</p>
+    <p><a href="../services.html">View services</a></p>
+  </article>
+</div>
+```
