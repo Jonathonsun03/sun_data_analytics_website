@@ -32,6 +32,29 @@
     grid-template-columns: 1fr;
   }
 
+  .finding-pipeline {
+    grid-template-columns: 1fr;
+  }
+
+  .finding-pipeline li {
+    min-height: auto;
+    padding: 1.15rem 0;
+  }
+
+  .finding-pipeline li + li {
+    padding-left: 0;
+    border-top: 1px solid var(--sda-soft-line);
+    border-left: 0;
+  }
+
+  .finding-pipeline li + li::before {
+    display: none;
+  }
+
+  .method-steps li {
+    grid-template-columns: 3.25rem minmax(0, 1fr);
+  }
+
   .carousel-card {
     min-height: 260px;
     padding: 1.5rem 2.75rem 2.8rem;

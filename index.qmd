@@ -87,7 +87,7 @@ Sun Data Analytics sits between consulting, research, and public data work. Some
 
 The common thread is practical interpretation: collecting the right data, cleaning it carefully, building useful outputs, and explaining what the results mean.
 
-## Hire Me
+## Working with me
 
 ```{=html}
 <section class="hire-card-grid" aria-label="Services">

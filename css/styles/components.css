@@ -63,6 +63,110 @@
   font-weight: 900;
 }
 
+/* Finding pipeline */
+.finding-pipeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  border-top: 1px solid var(--sda-line);
+  border-bottom: 1px solid var(--sda-line);
+  list-style: none;
+}
+
+.finding-pipeline li {
+  position: relative;
+  min-height: 10.5rem;
+  padding: 1.15rem 1.25rem 1.25rem 0;
+}
+
+.finding-pipeline li + li {
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--sda-soft-line);
+}
+
+.finding-pipeline li + li::before {
+  position: absolute;
+  top: 1.5rem;
+  left: -0.45rem;
+  width: 0.85rem;
+  height: 0.85rem;
+  border-top: 1px solid var(--sda-accent);
+  border-right: 1px solid var(--sda-accent);
+  background: var(--sda-paper);
+  content: "";
+  transform: rotate(45deg);
+}
+
+.pipeline-kicker {
+  display: block;
+  margin-bottom: 0.65rem;
+  color: var(--sda-accent);
+  font-family: var(--sda-sans);
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.finding-pipeline h3 {
+  margin: 0;
+  font-family: var(--sda-sans);
+  font-size: 1.22rem;
+  font-weight: 900;
+}
+
+.finding-pipeline p {
+  margin: 0.55rem 0 0;
+  color: var(--sda-muted);
+  font-size: 0.98rem;
+}
+
+/* Method progression */
+.method-steps {
+  display: grid;
+  gap: 0;
+  margin: 1.5rem 0;
+  padding: 0;
+  border-top: 1px solid var(--sda-line);
+  border-bottom: 1px solid var(--sda-line);
+  list-style: none;
+}
+
+.method-steps li {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  padding: 1.15rem 0;
+}
+
+.method-steps li + li {
+  border-top: 1px solid var(--sda-soft-line);
+}
+
+.method-step-number {
+  color: var(--sda-accent);
+  font-family: var(--sda-sans);
+  font-size: 0.88rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.method-steps h3 {
+  margin: 0;
+  font-family: var(--sda-sans);
+  font-size: 1.18rem;
+  font-weight: 900;
+}
+
+.method-steps p {
+  max-width: 54rem;
+  margin: 0.35rem 0 0;
+  color: var(--sda-muted);
+  font-size: 0.98rem;
+}
+
 /* Simple link collections */
 .link-list {
   max-width: 760px;
@@ -105,6 +209,21 @@
   min-width: 1120px;
   min-height: 78vh;
   border: 0;
+}
+
+/* Interactive ENA example */
+.ena-plot-container {
+  width: 100%;
+  min-height: 725px;
+  overflow: visible;
+}
+
+.ena-plot-container .html-widget,
+.ena-plot-container .plotly,
+.ena-plot-container .plot-container,
+.ena-plot-container .svg-container {
+  max-height: none;
+  overflow: visible;
 }
 
 /* Insight reading aids */

@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - assets/data/creator_report_terms_definitions.json
+    - assets/data/ENA_sample/*
   render:
     - index.qmd
     - pages/services.qmd

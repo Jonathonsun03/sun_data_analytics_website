@@ -1,97 +1,127 @@
 ---
-title: "Mixed-Methods Analysis"
-description: "Qualitative coding, quantitative summaries, and mixed-methods interpretation from Sun Data Analytics."
+title: "Unified Methods"
+description: "Qualitative insight, quantitative evidence, and network analysis brought together in one analytical workflow."
 ---
 
-Sun Data Analytics helps clients combine quantitative summaries with qualitative evidence so findings are easier to inspect, explain, and use.
+## See More Than Counts Alone
 
-## Overview
+Data can tell you **what happened**. Qualitative evidence can help explain **why**. Sun Data Analytics brings both together to uncover patterns that would be difficult to see through either approach alone.
 
-Mixed-methods work is useful when numbers alone do not explain the full story, or when qualitative material needs structure before it can support decisions. The work can include transcript coding, open-ended response analysis, thematic summaries, survey analysis, group comparisons, and plain-language interpretation.
+This work combines:
+
+* descriptive statistics;
+* qualitative and text analysis;
+* group and trend comparisons;
+* and advanced network modeling through Quantitative Ethnography and Epistemic Network Analysis.
+
+The result is a clearer picture of not only which ideas, behaviors, or concerns appear in the data, but how they connect.
+
+## From Raw Data to Clear Findings
+
+```{=html}
+<ol class="finding-pipeline" aria-label="From raw data to clear findings">
+  <li>
+    <span class="pipeline-kicker">Step 1</span>
+    <h3>Describe the Pattern</h3>
+    <p>Use counts, percentages, averages, medians, distributions, and trends to show what is happening.</p>
+  </li>
+
+  <li>
+    <span class="pipeline-kicker">Step 2</span>
+    <h3>Explain the Meaning</h3>
+    <p>Use transcripts, responses, documents, and coded evidence to understand the context behind the numbers.</p>
+  </li>
+
+  <li>
+    <span class="pipeline-kicker">Step 3</span>
+    <h3>Reveal the Connections</h3>
+    <p>Model how ideas and behaviors occur together, differ across groups, or change over time.</p>
+  </li>
+</ol>
+```
+
+## Quantitative Modeling for Better Decisions
+
+Descriptive statistics show what happened. Quantitative modeling helps determine which patterns are meaningful enough to guide action.
+
+```{=html}
+<ol class="method-steps" aria-label="Quantitative modeling workflow">
+  <li>
+    <span class="method-step-number">01</span>
+    <div>
+      <h3>Benchmark Performance</h3>
+      <p>Compare results across topics, formats, time periods, or groups using consistent performance standards.</p>
+    </div>
+  </li>
+
+  <li>
+    <span class="method-step-number">02</span>
+    <div>
+      <h3>Identify Opportunities</h3>
+      <p>Combine multiple measures to highlight strengths, weaknesses, and areas where additional effort may have the greatest value.</p>
+    </div>
+  </li>
+
+  <li>
+    <span class="method-step-number">03</span>
+    <div>
+      <h3>Test Recommendations</h3>
+      <p>Use statistical models and validation checks to determine whether a pattern is reliable enough to support planning.</p>
+    </div>
+  </li>
+</ol>
+```
+
+These methods do not replace judgment. They make comparisons more consistent, assumptions more visible, and recommendations easier to explain.
 
 ## Qualitative and Text Analysis
 
-:::: {.index-list}
-::: {.index-item}
-### Transcript Coding
+Text contains meaning that cannot always be reduced to a single metric.
 
-Prepare transcripts, build or apply codebooks, review coded excerpts, and summarize patterns across source material.
-:::
+Qualitative analysis helps examine how people describe an issue, explain their decisions, connect ideas, and interpret their experiences. Depending on the project, this can include coding interviews, transcripts, open-ended survey responses, documents, headlines, or other written materials.
 
-::: {.index-item}
-### Open-Ended Response Analysis
+Traditional text analysis can show how often a topic appears. That is useful, but frequency does not always explain how ideas are being used or understood.
 
-Organize survey responses, interview notes, comments, or other text into themes, examples, and evidence tables.
-:::
+[Epistemic Network Analysis](https://www.qesoc.org/epistemic-network-analysis/) goes further by showing **how coded ideas and behaviors are connected**.
 
-::: {.index-item}
-### Codebook Development
+For example, two groups may discuss the same topics at similar rates while connecting those topics in very different ways. One group may associate risk with uncertainty and delay, while another associates risk with planning and adaptation.
 
-Create practical coding rules, definitions, examples, and review steps for qualitative or classification workflows.
-:::
-::::
+ENA makes these differences visible through interpretable network models.
 
-## Quantitative Summaries
+## Example ENA Network
 
-:::: {.index-list}
-::: {.index-item}
-### Descriptive Summaries
+The example below uses a small prepared dataset of anime news headlines coded by topic and event type.
 
-Summarize counts, shares, trends, distributions, and group-level comparisons.
-:::
+The red network summarizes the overall pattern of connections between codes. Individual date-level points are hidden by default, but visitors can turn them on through the legend to examine how the pattern varies over time.
 
-::: {.index-item}
-### Survey and Interview Synthesis
+::: {.ena-plot-container}
 
-Connect structured survey results with interview themes, open-ended responses, or contextual notes.
-:::
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.width: 11
+#| fig.height: 12
+#| dpi: 100
 
-::: {.index-item}
-### Group Comparisons
+sample_script <- "assets/data/ENA_sample/build_ann_ena_sample.R"
+sample_data <- "assets/data/ENA_sample/ann_ena_sample.csv"
 
-Compare patterns across groups, time windows, source types, content categories, or respondent segments.
-:::
-::::
+if (!file.exists(sample_script)) {
+  sample_script <- "../../assets/data/ENA_sample/build_ann_ena_sample.R"
+  sample_data <- "../../assets/data/ENA_sample/ann_ena_sample.csv"
+}
 
-## Mixed-Methods Interpretation
-
-```{=html}
-<div class="card-grid">
-  <article class="content-card">
-    <h3>Evidence Tables</h3>
-    <p>Organized examples, coded excerpts, summary statistics, and source notes in review-friendly formats.</p>
-  </article>
-  <article class="content-card">
-    <h3>Thematic Summaries</h3>
-    <p>Plain-language summaries that preserve nuance while making patterns easier to discuss.</p>
-  </article>
-  <article class="content-card">
-    <h3>Integrated Findings</h3>
-    <p>Interpretation that connects quantitative patterns with qualitative evidence and practical next steps.</p>
-  </article>
-</div>
+source(sample_script)
+plot_ann_ena_sample(sample_data, show_date_points = FALSE)
 ```
 
-## Typical Deliverables
-
-:::: {.index-list}
-::: {.index-item}
-### Research Memos
-
-Concise memos that explain methods, evidence, findings, assumptions, and limitations.
 :::
 
-::: {.index-item}
-### Coding Outputs
+## Turn Complex Data Into Connected Evidence
 
-Codebooks, coded tables, review files, thematic summaries, and validation notes.
-:::
+Sun Data Analytics helps organizations move beyond isolated statistics or disconnected themes.
 
-::: {.index-item}
-### Findings Reports
-
-Reports that combine charts, tables, examples, evidence notes, and plain-language interpretation.
-:::
-::::
+The goal is to produce findings that are measurable, interpretable, and grounded in the original evidence.
 
 [Back to Services Overview](../services.html)
