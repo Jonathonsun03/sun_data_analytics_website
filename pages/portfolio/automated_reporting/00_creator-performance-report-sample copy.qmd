@@ -23,4 +23,4 @@ This sample shows the structure of a creator performance report while keeping th
 </div>
 ```
 
-[Back to Automated Reporting Systems](../automated-reporting.html)
+[Back to Automated Reporting Systems](../../services/automated-reporting.html)

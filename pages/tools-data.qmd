@@ -1,68 +1,184 @@
 ---
 title: "Tools & Reports"
-description: "Reusable dashboards, templates, automated reports, research tools, and workflow resources."
+description: "Dashboards, report samples, reading guides, classification references, and reusable analytics tools from Sun Data Analytics."
 ---
 
-Tools & Reports collects reusable materials that make analysis easier to inspect, repeat, or adapt: dashboards, templates, automated reports, classification systems, scraper workflows, research tools, and documentation patterns.
-
-## Reusable Resources
-
-:::: {.index-list}
-::: {.index-item}
-### Report Bundle Runners
-
-Linux and R wrappers for rendering recurring report bundles, routing outputs to a data lake, refreshing artifacts, and scheduling supported report types.
-
-**Status:** In active use  
-**Materials:** Render scripts, report templates, artifact folders, schedule notes
-:::
-
-::: {.index-item}
-### Title Classification Exports
-
-Structured classification outputs for stream and video titles, with modular definitions, talent overlays, validation checks, archived runs, and current exports for report joins.
-
-**Status:** In active use  
-**Materials:** DuckDB tables, prompt definitions, batch runs, CSV exports
-:::
-
-::: {.index-item}
-### Qualitative Coding Review Files
-
-Batch-built transcript coding runs with candidate rows, compiled codebooks, review CSVs, QA summaries, apply previews, and logs.
-
-**Status:** In active use  
-**Materials:** Codebooks, transcript prep files, review exports, QA summaries
-:::
-
-::: {.index-item}
-### Data Lake Movement Scripts
-
-Push, pull, clean staging, and refresh workflows that keep scraped data, creator analytics, and report contexts organized across local workspaces and a data lake.
-:::
-
-::: {.index-item}
-### Scraper and Public Signal Workflows
-
-Reusable import and analysis scripts for public media sources such as Anime News Network, AniList, gacha trend sources, YouTube topic searches, and billboard references.
-:::
-::::
-
-## What Belongs Here
+Tools & Reports is a public shelf of dashboards, report examples, reference guides, and reusable analysis resources. These are visible artifacts, not service descriptions: examples of how Sun Data Analytics organizes performance data, creator content, text evidence, and reporting logic into things people can inspect.
 
 ```{=html}
+<section class="tools-hero">
+  <p class="service-kicker">Tools and reports</p>
+  <h2>Examples you can open, scan, and use as references.</h2>
+  <p>
+    The materials here show the shape of the work: dashboards for browsing results, reports for explaining patterns, guides for reading charts, and references for understanding classification logic.
+  </p>
+</section>
+
+<section class="tool-showcase" aria-label="Featured tools and reports">
+  <article class="tool-showcase-item tool-showcase-item--dashboard">
+    <div class="tool-showcase-copy">
+      <p class="tool-type">Dashboard</p>
+      <h3>Creator Analytics Dashboard</h3>
+      <p>A browser-based dashboard sample for moving between creator performance, video-level details, content formats, charts, and tables.</p>
+      <p><a href="portfolio/automated_reporting/01_creator-dashboard.html">Open dashboard sample</a></p>
+    </div>
+    <div class="tool-preview tool-preview-dashboard" aria-hidden="true">
+      <div class="preview-window-bar"><span></span><span></span><span></span></div>
+      <div class="preview-metrics">
+        <span>Views</span>
+        <span>Revenue</span>
+        <span>Retention</span>
+      </div>
+      <div class="preview-chart">
+        <i style="height: 42%"></i>
+        <i style="height: 76%"></i>
+        <i style="height: 58%"></i>
+        <i style="height: 88%"></i>
+        <i style="height: 64%"></i>
+      </div>
+      <div class="preview-table">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </article>
+
+  <article class="tool-showcase-item">
+    <div class="tool-showcase-copy">
+      <p class="tool-type">Report sample</p>
+      <h3>Creator Performance Report</h3>
+      <p>A sample report showing performance readouts, classification-backed comparisons, charts, tables, and interpretation notes.</p>
+      <p><a href="report_sample/Bundle_A_northstar_story_lab_demo.html">Open report sample</a></p>
+    </div>
+    <div class="tool-preview tool-preview-report" aria-hidden="true">
+      <div class="preview-window-bar"><span></span><span></span><span></span></div>
+      <h4>Performance Snapshot</h4>
+      <p></p>
+      <p></p>
+      <div class="preview-note"></div>
+      <div class="preview-report-grid"><span></span><span></span></div>
+    </div>
+  </article>
+</section>
+```
+
+## Report Companions
+
+The reports are meant to be read, not just displayed. These companion pieces explain the charts, categories, and source limits behind the public examples.
+
+```{=html}
+<section class="companion-shelf" aria-label="Report companion resources">
+  <a class="companion-tile" href="insights/07_reading_creator_report_charts.html">
+    <span class="tool-index">Chart guide</span>
+    <strong>How to Read Creator Report Charts</strong>
+    <p>Explains boxplots, trends, content type comparisons, audience composition, timing, topics, and tags.</p>
+  </a>
+
+  <a class="companion-tile" href="insights/06_classification_definitions.html">
+    <span class="tool-index">Classification reference</span>
+    <strong>Stream Title Classification Guide</strong>
+    <p>Shows how titles are grouped into categories that support creator analytics and content comparison.</p>
+  </a>
+
+  <a class="companion-tile" href="report_sample/latest_ANN_report.html">
+    <span class="tool-index">Media report</span>
+    <strong>Anime News Network Report</strong>
+    <p>Shows how public media source material can be collected, structured, and turned into a readable report.</p>
+  </a>
+</section>
+```
+
+## What The Tools Show
+
+```{=html}
+<section class="artifact-walkthrough" aria-label="What the tools show">
+  <article>
+    <div class="artifact-visual artifact-visual-dashboard" aria-hidden="true">
+      <span class="artifact-label">Dashboard view</span>
+      <div class="artifact-row"><b></b><i style="width: 76%"></i></div>
+      <div class="artifact-row"><b></b><i style="width: 54%"></i></div>
+      <div class="artifact-row"><b></b><i style="width: 88%"></i></div>
+    </div>
+    <div>
+      <p class="service-kicker">Browse the result</p>
+      <h3>Dashboards make the current state easier to inspect.</h3>
+      <p>They are useful when the reader needs to move between summary metrics, charts, tables, and video-level details without reading a full written report from top to bottom.</p>
+    </div>
+  </article>
+
+  <article>
+    <div class="artifact-visual artifact-visual-classification" aria-hidden="true">
+      <span class="artifact-label">Classification view</span>
+      <div class="classification-chip-row">
+        <span>COMMUNITY_MILESTONES</span>
+        <span>INTERACTIVE_ENTERTAINMENT</span>
+        <span>PERSONALITY_CONVERSATION</span>
+      </div>
+    </div>
+    <div>
+      <p class="service-kicker">Compare consistently</p>
+      <h3>Classification references make patterns easier to interpret.</h3>
+      <p>Shared definitions help organize titles, topics, formats, interaction patterns, and audience-facing signals across larger sets of creator content.</p>
+    </div>
+  </article>
+
+  <article>
+    <div class="artifact-visual artifact-visual-handoff" aria-hidden="true">
+      <span class="artifact-label">Data handoff</span>
+      <div class="handoff-flow">
+        <span>exports</span>
+        <span>clean tables</span>
+        <span>report</span>
+      </div>
+    </div>
+    <div>
+      <p class="service-kicker">Reuse the source work</p>
+      <h3>Data tools keep reports connected to source material.</h3>
+      <p>Prepared outputs, source notes, field definitions, and validation checks make it easier to understand where the analysis came from and how it can be updated.</p>
+    </div>
+  </article>
+</section>
+```
+
+## Trend And Research Utilities
+
+Some tools are built for monitoring a changing context rather than producing a single report. They can support creator strategy, media tracking, topic monitoring, or research work where the important question is what is changing around the client, audience, or industry.
+
+```{=html}
+<section class="research-utility-panel">
+  <div>
+    <p class="service-kicker">Monitoring patterns</p>
+    <h3>Public signals become structured records.</h3>
+    <p>Reusable collection and review patterns can track public sources, media coverage, topics, publication dates, and other context that helps explain what is happening around the work.</p>
+  </div>
+  <div class="research-signal-strip" aria-hidden="true">
+    <span>source</span>
+    <span>topic</span>
+    <span>date</span>
+    <span>category</span>
+    <span>note</span>
+  </div>
+</section>
+```
+
+```{=html}
+<p class="related-content-label">Related pages</p>
 <div class="card-grid">
   <article class="content-card">
-    <h3>Reporting Tools</h3>
-    <p>Documented report structures, source notes, metric definitions, render wrappers, and reuse guidance.</p>
+    <h3>Automated Reporting Systems</h3>
+    <p>See how dashboards and reports can become part of a repeatable reporting system.</p>
+    <p><a href="services/automated-reporting.html">View automated reporting</a></p>
   </article>
+
   <article class="content-card">
-    <h3>Classification Systems</h3>
-    <p>Prompt bundles, codebooks, schema checks, batch outputs, and review-friendly exports.</p>
+    <h3>Data Collection</h3>
+    <p>See how source files, platform exports, transcripts, and public data become analysis-ready tables.</p>
+    <p><a href="portfolio/data-collection.html">View data collection</a></p>
   </article>
+
   <article class="content-card">
-    <h3>Automation Templates</h3>
-    <p>Checklists, reporting structures, metric dictionaries, staging workflows, and repeatable script entry points.</p>
+    <h3>Portfolio</h3>
+    <p>Browse selected public examples and project descriptions from Sun Data Analytics.</p>
+    <p><a href="portfolio.html">View portfolio</a></p>
   </article>
 </div>
 ```

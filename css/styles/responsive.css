@@ -22,6 +22,28 @@
   .workflow-additional-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .analysis-pipeline {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tool-showcase,
+  .research-utility-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-showcase-item,
+  .artifact-walkthrough article {
+    grid-template-columns: 1fr;
+  }
+
+  .analysis-pipeline li:nth-child(3) {
+    border-left: 0;
+  }
+
+  .analysis-pipeline li:nth-child(n + 3) {
+    border-top: 1px solid var(--sda-soft-line);
+  }
 }
 
 /* Mobile adjustments */
@@ -56,6 +78,64 @@
 
   .card-grid {
     grid-template-columns: 1fr;
+  }
+
+  .insight-strip,
+  .analysis-pipeline,
+  .analysis-feature-grid,
+  .tool-showcase,
+  .companion-shelf,
+  .research-utility-panel,
+  .fit-checklist,
+  .deliverable-band,
+  .sample-report-callout {
+    grid-template-columns: 1fr;
+  }
+
+  .insight-strip article,
+  .insight-strip article + article,
+  .analysis-pipeline li,
+  .analysis-pipeline li + li,
+  .fit-checklist section,
+  .fit-checklist section:nth-child(even) {
+    min-height: 0;
+    padding-right: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  .insight-strip article + article,
+  .analysis-pipeline li + li,
+  .analysis-pipeline li:nth-child(n + 3),
+  .fit-checklist section,
+  .fit-checklist section:nth-child(2) {
+    border-top: 1px solid var(--sda-soft-line);
+  }
+
+  .fit-checklist section::before {
+    display: none;
+  }
+
+  .sample-report-callout {
+    align-items: start;
+  }
+
+  .tool-showcase-item,
+  .tool-showcase-item--dashboard,
+  .artifact-walkthrough article {
+    grid-template-columns: 1fr;
+  }
+
+  .tool-preview {
+    min-height: 220px;
+  }
+
+  .handoff-flow {
+    grid-template-columns: 1fr;
+  }
+
+  .handoff-flow span + span::before {
+    display: none;
   }
 
   .finding-pipeline {

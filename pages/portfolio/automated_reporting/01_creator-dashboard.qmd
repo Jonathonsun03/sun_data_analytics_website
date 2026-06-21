@@ -1,0 +1,26 @@
+---
+title: "Creator Performance Dashboard Sample"
+description: "An example automated dashboard for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure."
+categories:
+  - "Creator Dashboard"
+format:
+  html:
+    body-class: report-sample-page
+---
+
+This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.
+
+[Open the full report in this tab](../../report_sample/creator_analytics_dashboard_northstar_story_lab_demo.html)
+
+```{=html}
+<div class="report-frame-wrap creator-dashboard-frame">
+  <iframe
+    class="report-frame"
+    src="../../report_sample/creator_analytics_dashboard_northstar_story_lab_demo.html"
+    title="Sample creator performance report"
+    loading="lazy">
+  </iframe>
+</div>
+```
+
+[Back to Automated Reporting Systems](../../services/automated-reporting.html)

@@ -1,13 +1,13 @@
 ---
 title: "Services"
-description: "Analytics consulting, reporting systems, research support, automation, and custom reports from Sun Data Analytics."
+description: "Analytics consulting, reporting systems, research support, automation, and unified methods from Sun Data Analytics."
 ---
 
-Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, mixed-methods analysis, and custom reports.
+Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, and unified methods.
 
 ## Interested In Working Together?
 
-If you are interested in data collection, automated reporting, mixed-methods analysis, or a custom report, you can contact me at jonathon@sun-dataanalytics.com.
+If you are interested in data collection, automated reporting, or unified methods, you can contact me at jonathon@sun-dataanalytics.com.
 
 In your message, feel free to briefly describe the kind of data you have, the question you are trying to answer, or the report or workflow you are hoping to build. I can help determine whether Sun Data Analytics is a good fit for your project.
 
@@ -23,19 +23,13 @@ In your message, feel free to briefly describe the kind of data you have, the qu
   <article class="content-card service-card">
     <h3>Automated Reporting Systems</h3>
     <p>Build recurring report systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.</p>
-    <p><a href="portfolio/automated-reporting.html">Explore automated reporting</a></p>
+    <p><a href="services/automated-reporting.html">Explore automated reporting</a></p>
   </article>
 
   <article class="content-card service-card">
-    <h3>Mixed-Methods Analysis</h3>
+    <h3>Unified Methods</h3>
     <p>Combine quantitative summaries with qualitative evidence from transcripts, surveys, interviews, open-ended responses, and contextual notes.</p>
-    <p><a href="portfolio/mixed-methods-analysis.html">See mixed-methods analysis</a></p>
-  </article>
-
-  <article class="content-card service-card">
-    <h3>Custom Reports</h3>
-    <p>Produce one-off or tailored reports for specific client questions, including data briefs, technical notes, executive summaries, and findings documents.</p>
-    <p><a href="portfolio/custom-reports.html">Review custom report options</a></p>
+    <p><a href="services/unified-methods.html">See unified methods</a></p>
   </article>
 </div>
 

@@ -7,9 +7,9 @@ project:
     - index.qmd
     - pages/services.qmd
     - pages/portfolio/data-collection.qmd
-    - pages/portfolio/automated-reporting.qmd
-    - pages/portfolio/mixed-methods-analysis.qmd
-    - pages/portfolio/custom-reports.qmd
+    - pages/services/automated-reporting.qmd
+    - pages/services/unified-methods.qmd
+    - pages/services/archive/custom-reports.qmd
     - pages/portfolio/automated_reporting/[0-9][0-9]_*.qmd
     - pages/portfolio/side_projects/[0-9][0-9]_*.qmd
     - pages/portfolio.qmd
@@ -38,11 +38,9 @@ website:
           - text: "Data Collection"
             href: pages/portfolio/data-collection.qmd
           - text: "Automated Reporting Systems"
-            href: pages/portfolio/automated-reporting.qmd
-          - text: "Mixed-Methods Analysis"
-            href: pages/portfolio/mixed-methods-analysis.qmd
-          - text: "Custom Reports"
-            href: pages/portfolio/custom-reports.qmd
+            href: pages/services/automated-reporting.qmd
+          - text: "Unified Methods"
+            href: pages/services/unified-methods.qmd
       - text: "Portfolio"
         href: pages/portfolio.qmd
       - text: "Insights"

@@ -219,13 +219,13 @@ Different sources require different collection methods, but the goal is consiste
   <article class="content-card">
     <h3>Explore Automated Reporting</h3>
     <p>See how recurring reports can turn refreshed source data into repeatable analysis outputs.</p>
-    <p><a href="automated-reporting.html">View automated reporting</a></p>
+    <p><a href="../services/automated-reporting.html">View automated reporting</a></p>
   </article>
 
   <article class="content-card">
     <h3>Explore Unified Methods</h3>
     <p>See how performance data, text classification, and qualitative interpretation can work together.</p>
-    <p><a href="mixed-methods-analysis.html">View unified methods</a></p>
+    <p><a href="../services/unified-methods.html">View unified methods</a></p>
   </article>
 
   <article class="content-card">
