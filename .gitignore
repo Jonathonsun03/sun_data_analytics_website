@@ -17,3 +17,5 @@ renv/library/
 Thumbs.db
 
 /.quarto/
+
+**/*.quarto_ipynb
