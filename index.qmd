@@ -34,7 +34,7 @@ Sun Data Analytics is an independent analytics studio and public portfolio for p
   </a>
 
   <div class="side-work-list">
-    <a class="content-card compact-work-card" href="pages/tools-data.html">
+    <a class="content-card compact-work-card" href="pages/portfolio/data-collection.html">
       <p class="content-eyebrow"><span class="content-type">Data Workflow</span></p>
       <h3>Automated Data Collection</h3>
       <p class="content-summary">Repeatable workflows for collecting, cleaning, and organizing exports, APIs, transcripts, and public data.</p>

@@ -272,3 +272,23 @@
     display: none;
   }
 }
+
+@media (max-width: 760px) {
+  .not-found-shell {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding-top: 0;
+  }
+
+  .not-found-visual {
+    grid-row: 1;
+  }
+
+  .not-found-visual img {
+    width: min(78vw, 330px);
+  }
+
+  .not-found-copy {
+    grid-row: 2;
+  }
+}

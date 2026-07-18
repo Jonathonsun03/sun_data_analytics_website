@@ -4,6 +4,7 @@ project:
     - assets/data/creator_report_terms_definitions.json
     - assets/data/ENA_sample/*
   render:
+    - 404.qmd
     - index.qmd
     - pages/services.qmd
     - pages/portfolio/data-collection.qmd
@@ -17,7 +18,8 @@ project:
     - pages/insights/0[1-9]_*.qmd
     - pages/insights/[1-9][0-9]_*.qmd
     - pages/insights/[1-9][0-9][0-9]_*.qmd
-    - pages/tools-data.qmd
+    - pages/archive/tools-data.qmd
+    - pages/client-login.qmd
     - pages/about.qmd
 
 website:
@@ -45,8 +47,8 @@ website:
         href: pages/portfolio.qmd
       - text: "Insights"
         href: pages/insights.qmd
-      - text: "Tools & Reports"
-        href: pages/tools-data.qmd
+      - text: "Client Login"
+        href: pages/client-login.qmd
       - text: "About"
         href: pages/about.qmd
     right:

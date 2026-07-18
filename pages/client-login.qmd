@@ -1,0 +1,26 @@
+---
+title: "Client Login"
+description: "Access information for private Sun Data Analytics client workspaces and reports."
+---
+
+```{=html}
+<section class="client-login-panel">
+  <p class="service-kicker">Client access</p>
+  <h2>Already have access?</h2>
+  <p class="client-login-intro">
+    Open the Sun Data Analytics client portal to access your private workspace, reports, and available analytics tools.
+  </p>
+  <div class="hero-actions">
+    <a class="button-link" href="https://client.sun-dataanalytics.com">Open Client Portal</a>
+  </div>
+
+  <p class="client-login-support">
+    <strong>Having trouble signing in?</strong><br>
+    Access expired or invitation missing? <a href="mailto:jonathon@sun-dataanalytics.com?subject=Client%20workspace%20access">Request access help</a>.
+  </p>
+
+  <p class="client-login-privacy">
+    Client reports and credentials are never exposed through the public website.
+  </p>
+</section>
+```

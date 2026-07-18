@@ -20,7 +20,7 @@ Tools & Reports is a public shelf of dashboards, report examples, reference guid
       <p class="tool-type">Dashboard</p>
       <h3>Creator Analytics Dashboard</h3>
       <p>A browser-based dashboard sample for moving between creator performance, video-level details, content formats, charts, and tables.</p>
-      <p><a href="portfolio/automated_reporting/01_creator-dashboard.html">Open dashboard sample</a></p>
+      <p><a href="../portfolio/automated_reporting/01_creator-dashboard.html">Open dashboard sample</a></p>
     </div>
     <div class="tool-preview tool-preview-dashboard" aria-hidden="true">
       <div class="preview-window-bar"><span></span><span></span><span></span></div>
@@ -47,7 +47,7 @@ Tools & Reports is a public shelf of dashboards, report examples, reference guid
       <p class="tool-type">Report sample</p>
       <h3>Creator Performance Report</h3>
       <p>A sample report showing performance readouts, classification-backed comparisons, charts, tables, and interpretation notes.</p>
-      <p><a href="report_sample/Bundle_A_northstar_story_lab_demo.html">Open report sample</a></p>
+      <p><a href="../report_sample/Bundle_A_northstar_story_lab_demo.html">Open report sample</a></p>
     </div>
     <div class="tool-preview tool-preview-report" aria-hidden="true">
       <div class="preview-window-bar"><span></span><span></span><span></span></div>
@@ -67,19 +67,19 @@ The reports are meant to be read, not just displayed. These companion pieces exp
 
 ```{=html}
 <section class="companion-shelf" aria-label="Report companion resources">
-  <a class="companion-tile" href="insights/07_reading_creator_report_charts.html">
+  <a class="companion-tile" href="../insights/07_reading_creator_report_charts.html">
     <span class="tool-index">Chart guide</span>
     <strong>How to Read Creator Report Charts</strong>
     <p>Explains boxplots, trends, content type comparisons, audience composition, timing, topics, and tags.</p>
   </a>
 
-  <a class="companion-tile" href="insights/06_classification_definitions.html">
+  <a class="companion-tile" href="../insights/06_classification_definitions.html">
     <span class="tool-index">Classification reference</span>
     <strong>Stream Title Classification Guide</strong>
     <p>Shows how titles are grouped into categories that support creator analytics and content comparison.</p>
   </a>
 
-  <a class="companion-tile" href="report_sample/latest_ANN_report.html">
+  <a class="companion-tile" href="../report_sample/latest_ANN_report.html">
     <span class="tool-index">Media report</span>
     <strong>Anime News Network Report</strong>
     <p>Shows how public media source material can be collected, structured, and turned into a readable report.</p>
@@ -166,19 +166,19 @@ Some tools are built for monitoring a changing context rather than producing a s
   <article class="content-card">
     <h3>Automated Reporting Systems</h3>
     <p>See how dashboards and reports can become part of a repeatable reporting system.</p>
-    <p><a href="services/automated-reporting.html">View automated reporting</a></p>
+    <p><a href="../services/automated-reporting.html">View automated reporting</a></p>
   </article>
 
   <article class="content-card">
     <h3>Data Collection</h3>
     <p>See how source files, platform exports, transcripts, and public data become analysis-ready tables.</p>
-    <p><a href="portfolio/data-collection.html">View data collection</a></p>
+    <p><a href="../portfolio/data-collection.html">View data collection</a></p>
   </article>
 
   <article class="content-card">
     <h3>Portfolio</h3>
     <p>Browse selected public examples and project descriptions from Sun Data Analytics.</p>
-    <p><a href="portfolio.html">View portfolio</a></p>
+    <p><a href="../portfolio.html">View portfolio</a></p>
   </article>
 </div>
 ```
