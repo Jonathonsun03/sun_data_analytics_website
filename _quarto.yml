@@ -19,7 +19,7 @@ project:
     - pages/insights/[1-9][0-9]_*.qmd
     - pages/insights/[1-9][0-9][0-9]_*.qmd
     - pages/archive/tools-data.qmd
-    - pages/client-login.qmd
+    - pages/user-login.qmd
     - pages/about.qmd
 
 website:
@@ -47,8 +47,8 @@ website:
         href: pages/portfolio.qmd
       - text: "Insights"
         href: pages/insights.qmd
-      - text: "Client Login"
-        href: pages/client-login.qmd
+      - text: "User Login"
+        href: pages/user-login.qmd
       - text: "About"
         href: pages/about.qmd
     right:

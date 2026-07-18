@@ -1023,14 +1023,18 @@
   color: var(--sda-accent-hover);
 }
 
-/* Client login page */
-.client-login-panel {
+/* User login page */
+#quarto-content:has(.user-login-panel) {
+  min-height: auto;
+}
+
+.user-login-panel {
   max-width: 720px;
   margin: 0 auto 2rem;
   padding: 1.25rem 0 1.75rem;
 }
 
-.client-login-panel h2 {
+.user-login-panel h2 {
   max-width: 680px;
   margin: 0;
   color: var(--sda-navy);
@@ -1040,27 +1044,27 @@
   line-height: 1.08;
 }
 
-.client-login-intro {
+.user-login-intro {
   max-width: 680px;
   margin: 0.85rem 0 0;
   color: var(--sda-muted);
   font-size: 1.04rem;
 }
 
-.client-login-support {
+.user-login-support {
   margin: 1rem 0 0;
   color: var(--sda-muted);
   font-size: 0.9rem;
   line-height: 1.5;
 }
 
-.client-login-support strong {
+.user-login-support strong {
   color: var(--sda-ink);
   font-family: var(--sda-sans);
   font-weight: 800;
 }
 
-.client-login-privacy {
+.user-login-privacy {
   margin: 0.8rem 0 0;
   color: var(--sda-muted);
   font-size: 0.82rem;

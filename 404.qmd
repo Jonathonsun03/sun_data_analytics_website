@@ -18,7 +18,7 @@ format:
       <a class="text-link" href="/pages/services.html">Services</a>
       <a class="text-link" href="/pages/portfolio.html">Portfolio</a>
       <a class="text-link" href="/pages/insights.html">Insights</a>
-      <a class="text-link" href="/pages/client-login.html">Client Login</a>
+      <a class="text-link" href="/pages/user-login.html">User Login</a>
       <a class="text-link" href="/pages/about.html">About</a>
       <a class="text-link" href="mailto:jonathon@sun-dataanalytics.com">Contact</a>
     </nav>
