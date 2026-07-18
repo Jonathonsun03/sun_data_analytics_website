@@ -1,0 +1,26 @@
+---
+title: "User Login"
+description: "Access information for private Sun Data Analytics user workspaces, reports, and analytics tools."
+---
+
+```{=html}
+<section class="user-login-panel">
+  <p class="service-kicker">User access</p>
+  <h2>Already have access?</h2>
+  <p class="user-login-intro">
+    Open the Sun Data Analytics user portal to access your private workspace, reports, and available analytics tools.
+  </p>
+  <div class="hero-actions">
+    <a class="button-link" href="https://user.sun-dataanalytics.com">Open User Portal</a>
+  </div>
+
+  <p class="user-login-support">
+    <strong>Having trouble signing in?</strong><br>
+    Access expired or invitation missing? <a href="mailto:jonathon@sun-dataanalytics.com?subject=User%20portal%20access">Request access help</a>.
+  </p>
+
+  <p class="user-login-privacy">
+    Private reports and user credentials are never exposed through the public website.
+  </p>
+</section>
+```
