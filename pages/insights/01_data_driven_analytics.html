@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-06-02">
+<meta name="description" content="Sun Data Analytics began from my own experience trying to make sense of creator data across streams, dashboards, transcripts, and platform metrics. This post reflects on how collecting and analyzing my own content creation data helped me move from anxiety and guesswork toward clearer, evidence-informed decisions. It also explains how that process shaped my goal of helping creators and small teams turn scattered data into useful reporting systems">
+
+<title>Inspiration for Sun Data Analytics – Sun Data Analytics</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/logos/sda-mark.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bd306a59cf217353386d3106ed1d6f8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../css/styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/logos/sda-mark.svg" alt="Sun Data Analytics mark" class="navbar-logo light-content">
+    <img src="../../assets/logos/sda-mark.svg" alt="Sun Data Analytics mark" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Sun Data Analytics</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-services" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Services</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-services">    
+        <li>
+    <a class="dropdown-item" href="../../pages/services.html">
+ <span class="dropdown-text">Services Overview</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/portfolio/data-collection.html">
+ <span class="dropdown-text">Data Collection</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/services/automated-reporting.html">
+ <span class="dropdown-text">Automated Reporting Systems</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../pages/services/unified-methods.html">
+ <span class="dropdown-text">Unified Methods</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/portfolio.html"> 
+<span class="menu-text">Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/insights.html"> 
+<span class="menu-text">Insights</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/user-login.html"> 
+<span class="menu-text">User Login</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../pages/about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Jonathonsun03"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:jonathon@sun-dataanalytics.com"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Inspiration for Sun Data Analytics</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Content Creation</div>
+    <div class="quarto-category">Reporting Systems</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Sun Data Analytics began from my own experience trying to make sense of creator data across streams, dashboards, transcripts, and platform metrics. This post reflects on how collecting and analyzing my own content creation data helped me move from anxiety and guesswork toward clearer, evidence-informed decisions. It also explains how that process shaped my goal of helping creators and small teams turn scattered data into useful reporting systems
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 2, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!--
+Copy this template for new insight pages.
+
+Suggested filename pattern:
+pages/insights/02_short-descriptive-slug.qmd
+
+Keep client data, private reports, raw source files, and identifying details out
+of public posts unless they are explicitly intended for publication.
+-->
+<section id="a-foray-into-content-creation-analytics" class="level2">
+<h2 class="anchored" data-anchor-id="a-foray-into-content-creation-analytics">A Foray into Content Creation Analytics</h2>
+<p>My interest in content creation analytics started with a simple frustration: content platforms collect an enormous amount of data about creators, but creators often have limited ways to access, organize, and make sense of that data for themselves.</p>
+<p>As someone who has dabbled in content creation, I knew there was useful information sitting behind every stream. Platforms track chat activity, transcripts, stream length, views, audience engagement, and countless other metrics. The data exists. The harder question is whether creators can actually use it in ways that help them make better decisions.</p>
+<p>At the same time, I was growing my own quantitative skill set. Much of my academic training had focused on qualitative research, where text, stories, interviews, and lived experiences are central. That work remains foundational to how I think. But I also saw value in quantitative data, especially when it could help answer practical questions about what was working, what was not working, and where to invest time and energy.</p>
+<p>Content creation gave me a dataset I cared about.</p>
+<p>I had played around with other kinds of data before, including game data from Fire Emblem Heroes or Mario Kart. Those projects were fun, but they were also distant from my own life. Streaming was different. I understood the experience from the inside. I knew what it felt like to plan a stream, worry about the schedule, chase a trend, try a collaboration, or wonder whether streaming longer would actually make a difference.</p>
+<p>Those questions became the starting point:</p>
+<ol type="1">
+<li>What is the optimal day to stream?</li>
+<li>What is the optimal topic to stream?</li>
+<li>Are collaborations actually helping?</li>
+<li>Does it make sense to stream for four hours?</li>
+<li>Which efforts are producing real growth, and which ones only feel productive?</li>
+</ol>
+<p>These are common questions for creators. Search online and you will find countless videos, posts, and recommendations about what creators should do. Some of that advice is useful. But much of it is anecdotal, generalized, or shaped by people whose audiences, platforms, and goals may look very different from your own.</p>
+<p>As a qualitative researcher, I do not dismiss anecdotal evidence. Stories, observations, and creator experience matter. But those forms of evidence become more powerful when they are supported by other kinds of data. I wanted to know whether my instincts matched what my own data was showing.</p>
+<section id="the-challenge-of-collecting-creator-data" class="level3">
+<h3 class="anchored" data-anchor-id="the-challenge-of-collecting-creator-data">The Challenge of Collecting Creator Data</h3>
+<p>The first challenge was simply getting the data.</p>
+<p>At first, this seemed like it should have been easy. After all, the platforms were already collecting these metrics. YouTube Analytics had dashboards. Other sites were tracking public streamer statistics. The information was clearly being generated somewhere.</p>
+<p>But viewing data in a dashboard is not the same as being able to analyze it.</p>
+<p>I did not just want to click through individual pages. I wanted to collect my data over time, organize it, clean it, and connect it across sources. I wanted to build dashboards, run simple statistical models, and answer questions that mattered to me as a creator.</p>
+<p>That process was much harder than expected.</p>
+<p>I had to figure out how to collect the data, automate parts of the workflow, clean messy exports, standardize fields, and prepare everything for analysis. The data did not arrive in a perfect format. It required structure before it could become useful.</p>
+<p>That experience taught me one of the central lessons behind Sun Data Analytics: a lot of meaningful analysis depends on the less glamorous work that comes first. Before there can be dashboards, models, or insights, there has to be a reliable process for collecting, cleaning, and organizing the data.</p>
+</section>
+<section id="anxiety-and-analytics" class="level3">
+<h3 class="anchored" data-anchor-id="anxiety-and-analytics">Anxiety and Analytics</h3>
+<p>Once I finally had the data in a usable format, I started to get answers.</p>
+<p>Some of those answers were humbling.</p>
+<p>For example, I had spent a lot of time thinking about whether jumping on major trends would help my stream grow. The data suggested that, at my size, those trends did not make a major difference. Everyone else was chasing the same visibility, and my channel was not large enough at the time for those trends to reliably change my trajectory.</p>
+<p>The same was true for scheduling. I had put real energy into thinking about the best day to stream, but the results suggested that the day itself was not the major factor I imagined it to be.</p>
+<p>Collaborations and longer streams also did not produce the kind of clear growth I had hoped for. That did not mean they were worthless. It meant they were not automatically solving the bigger problem.</p>
+<p>In some ways, the data confirmed what I already felt: I was putting a lot of anxiety into decisions that were not moving the channel in a meaningful way.</p>
+<p>But that realization was useful.</p>
+<p>Instead of treating every disappointing stream as a personal failure, I could see the broader pattern. Instead of assuming that the next trend, schedule change, or collaboration would finally be the thing that changed everything, I could ask a better question: what evidence do I have that this is working?</p>
+<p>That is where analytics became less about chasing numbers and more about reducing uncertainty.</p>
+<p>The goal was not to remove creativity from content creation. The goal was to make decisions with more clarity. Data could not tell me everything about what to make, who to collaborate with, or what kind of community I wanted to build. But it could help me stop driving in the dark.</p>
+</section>
+<section id="finding-the-small-signals" class="level3">
+<h3 class="anchored" data-anchor-id="finding-the-small-signals">Finding the Small Signals</h3>
+<p>One of the most useful parts of the process was learning to look for small signals. The big answers were not always encouraging. My channel was small. Visibility was limited. Many of the strategies I tried did not create dramatic changes.</p>
+<p>But the data still helped me ask better questions:</p>
+<ol type="1">
+<li>Where were the small wins?</li>
+<li>Which topics showed signs of promise?</li>
+<li>Which streams brought in viewers who stayed?</li>
+<li>Which formats seemed worth testing again?</li>
+<li>Where was I seeing random fluctuation, and where might there be a real pattern?</li>
+</ol>
+<p>This is where analytics became more constructive. The point was not simply to say, “This did not work.” The point was to identify where future effort might be better spent.</p>
+<p>Maybe the issue was not the stream topic itself, but the lack of discoverability around it. Maybe a stream performed poorly live but had potential as a short-form clip. Maybe collaborations were not immediately increasing views but were helping with community-building in ways that needed to be measured differently. Maybe the best strategy was not to stream longer, but to use time more intentionally across streaming, editing, posting, and promotion.</p>
+<p>The data did not provide a magic answer. But it helped create a more grounded way to experiment.</p>
+</section>
+<section id="why-this-became-sun-data-analytics" class="level3">
+<h3 class="anchored" data-anchor-id="why-this-became-sun-data-analytics">Why This Became Sun Data Analytics</h3>
+<p>Ultimately, I went on an indefinite hiatus from streaming. I realized I was not willing to invest the amount of time and energy required to grow the channel in the way I wanted.</p>
+<p>But I also realized something else: I loved the analytics work.</p>
+<p>I enjoyed figuring out how to collect messy data, clean it, organize it, and turn it into something interpretable. I enjoyed building reports that could answer practical questions. I enjoyed connecting quantitative patterns with qualitative context. Most of all, I enjoyed helping people make sense of the data they were already producing but could not easily use.</p>
+<p>That experience became part of the foundation for Sun Data Analytics.</p>
+<p>Sun Data Analytics is built around a simple idea: people and organizations often have valuable data scattered across platforms, exports, transcripts, dashboards, and documents, but they need help turning that information into something useful.</p>
+<p>For content creators, that might mean collecting YouTube analytics, chat logs, transcripts, stream metadata, and performance metrics into a cleaner reporting system. For other clients, it might mean preparing messy source files, documenting workflows, building dashboards, or creating reports that explain what the data can and cannot say.</p>
+<p>The goal is not to pretend that data has all the answers. It does not.</p>
+<p>The goal is to use data carefully, honestly, and systematically so that people can make better decisions with the information available to them.</p>
+<p>My own streaming data did not tell me how to become a massive creator. But it did help me understand what was not working, where I was overextending myself, and where there were small opportunities worth paying attention to.</p>
+<p>That is the kind of work I want Sun Data Analytics to support.</p>
+<p>Instead of guessing blindly, we can collect the evidence. Instead of relying only on generalized advice, we can examine the patterns in your own data. Instead of running into the same wall repeatedly, we can ask what the data suggests, what it leaves unresolved, and what might be worth trying next.</p>
+<p>We may still need trial and error. But with better data, we do not have to flounder in the dark.</p>
+</section>
+</section>
+<section id="relevant-posts" class="level2">
+<h2 class="anchored" data-anchor-id="relevant-posts">Relevant Posts</h2>
+<div class="card-grid more-insights" data-more-insights="">
+  <article class="content-card">
+    <h3 class="anchored">Browse All Insights</h3>
+    <p>See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.</p>
+    <p><a href="../insights.html">Back to Insights</a></p>
+  </article>
+</div>
+
+<script>
+(() => {
+  const posts = [
+    {
+      title: "Inspiration for Sun Data Analytics",
+      href: "01_data_driven_analytics.html",
+      date: "2026-06-02",
+      categories: ["Content Creation", "Reporting Systems", "Creator Analytics"],
+      summary: "How creator analytics helped turn scattered platform data into calmer, evidence-informed decisions."
+    },
+    {
+      title: "Utilizing LLMs for Qualitative Analysis",
+      href: "02_leveraging_LLMs_for_Qual.html",
+      date: "2026-06-02",
+      categories: ["Method Notes", "Mixed-Methods Analysis", "Data Collection"],
+      summary: "How transcripts, chat logs, and other text-heavy materials can be organized for qualitative analysis at a larger scale."
+    },
+    {
+      title: "Using the Creator Performance Report",
+      href: "03_using_creator_performance_report.html",
+      date: "2026-06-02",
+      categories: ["Creator Performance Report", "Creator Analytics", "Reporting Systems"],
+      summary: "A short companion guide for understanding what the Creator Performance Report is for and how to use it."
+    },
+    {
+      title: "Numbers Go Brr: Terms and Definitions",
+      href: "04_Terms_to_Remember.html",
+      date: "2026-06-02",
+      categories: ["Creator Performance Report", "Method Notes", "Reporting Systems"],
+      summary: "A glossary of common report terms, metrics, and interpretation notes used across creator performance reports."
+    },
+    {
+      title: "How Stream Title Classification Works",
+      href: "06_classification_definitions.html",
+      date: "2026-06-03",
+      categories: ["Creator Performance Report", "Creator Analytics", "Classification", "Methods"],
+      summary: "A public-facing guide to how stream titles are grouped into broad interpretive categories for reporting."
+    },
+    {
+      title: "How to Read Creator Report Charts",
+      href: "07_reading_creator_report_charts.html",
+      date: "2026-06-02",
+      categories: ["Creator Performance Report", "Creator Analytics", "Reporting Systems", "Methods"],
+      summary: "A chart-by-chart guide for interpreting content type comparisons, revenue trends, boxplots, audience composition, timing, topics, and tags."
+    }
+  ];
+
+  const container = document.querySelector("[data-more-insights]");
+  if (!container) return;
+
+  const currentPath = window.location.pathname.split("/").pop();
+  const currentPost = posts.find((post) => post.href === currentPath);
+  const reportGuideOrder = [
+    "03_using_creator_performance_report.html",
+    "07_reading_creator_report_charts.html",
+    "04_Terms_to_Remember.html",
+    "06_classification_definitions.html"
+  ];
+
+  const isCreatorPerformanceReport = currentPost?.categories.includes("Creator Performance Report");
+  const candidatePosts = isCreatorPerformanceReport
+    ? posts
+        .filter((post) => post.categories.includes("Creator Performance Report"))
+        .sort((a, b) => reportGuideOrder.indexOf(a.href) - reportGuideOrder.indexOf(b.href))
+    : posts;
+
+  const relevantPosts = candidatePosts
+    .filter((post) => post.href !== currentPath)
+    .slice(0, 3);
+
+  const cards = relevantPosts.length
+    ? relevantPosts.map((post) => `
+        <article class="content-card">
+          <h3>${post.title}</h3>
+          <p>${post.summary}</p>
+          <p><a href="${post.href}">Read insight</a></p>
+        </article>
+      `)
+    : [`
+        <article class="content-card">
+          <h3>More Insights Coming Soon</h3>
+          <p>Future insight pages will appear here as they are published.</p>
+        </article>
+      `];
+
+  cards.push(`
+    <article class="content-card">
+      <h3>Browse All Insights</h3>
+      <p>See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.</p>
+      <p><a href="../insights.html">Back to Insights</a></p>
+    </article>
+  `);
+
+  container.innerHTML = cards.join("");
+})();
+</script>
+
+
+</section>
+
+</main> <!-- /main -->
+<footer class="site-footer" aria-label="Site footer">
+  <div class="site-footer-inner">
+    <div class="footer-brand-row">
+      <a class="footer-brand" href="../../index.html">
+        <img src="../../assets/logos/sda-logo-full.svg" alt="Sun Data Analytics logo">
+        <span>Sun Data Analytics</span>
+      </a>
+      <p>Analytics consulting, reproducible data work, and practical reporting systems.</p>
+    </div>
+
+    <nav class="footer-columns" aria-label="Footer navigation">
+      <section class="footer-column">
+        <h2>Sections</h2>
+        <a href="../../pages/services.html">Services</a>
+        <a href="../../pages/portfolio.html">Portfolio</a>
+        <a href="../../pages/insights.html">Insights</a>
+        <a href="../../pages/user-login.html">User Login</a>
+        <a href="../../pages/about.html">About</a>
+      </section>
+
+      <section class="footer-column">
+        <h2>Work</h2>
+        <a href="../../pages/services.html">Consulting services</a>
+        <a href="../../pages/portfolio.html">Selected work</a>
+        <a href="../../pages/portfolio.html">Report and dashboard samples</a>
+        <a href="../../pages/insights.html">Research notes</a>
+      </section>
+
+      <section class="footer-column">
+        <h2>Methods</h2>
+        <a href="../../pages/services.html">Reporting systems</a>
+        <a href="../../pages/services.html">Qualitative analysis</a>
+        <a href="../../pages/portfolio/data-collection.html">Reproducible materials</a>
+        <a href="../../pages/insights.html">Method explainers</a>
+      </section>
+
+      <section class="footer-column footer-contact">
+        <h2>Connect</h2>
+        <a href="https://github.com/Jonathonsun03">GitHub</a>
+        <a href="mailto:jonathon@sun-dataanalytics.com">jonathon@sun-dataanalytics.com</a>
+      </section>
+    </nav>
+
+    <div class="footer-bottom">
+      <p>Copyright 2026 Sun Data Analytics.</p>
+      <p>Built for clear decisions, documented data, and readable reporting.</p>
+    </div>
+  </div>
+</footer>
+<script src="../../js/insight-reading-aids.js"></script>
+<script src="../../js/insights-category-filter.js"></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/pages/insights.html",
+    "items": [
+      "/pages/insights/05_discord_social_media_lawsuits.html",
+      "/pages/insights/06_classification_definitions.html",
+      "/pages/insights/01_data_driven_analytics.html",
+      "/pages/insights/02_leveraging_LLMs_for_Qual.html",
+      "/pages/insights/03_using_creator_performance_report.html",
+      "/pages/insights/04_Terms_to_Remember.html",
+      "/pages/insights/07_reading_creator_report_charts.html"
+    ]
+  },
+  {
+    "listing": "/pages/portfolio.html",
+    "items": [
+      "/pages/portfolio/side_projects/00_Anime_News_Network_Analysis.html",
+      "/pages/portfolio/automated_reporting/01_creator-dashboard.html",
+      "/pages/portfolio/automated_reporting/00_creator-performance-report-sample copy.html"
+    ]
+  }
+]

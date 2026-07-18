@@ -1,0 +1,604 @@
+[
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "Sun Data Analytics is an independent analytics practice focused on clear reporting, reproducible data work, research support, and practical decision systems."
+  },
+  {
+    "objectID": "pages/about.html#staff",
+    "href": "pages/about.html#staff",
+    "title": "About",
+    "section": "Staff",
+    "text": "Staff\n\n\n\n\nJonathon Sun\n\n\nSun Data Analytics is led by Dr. Jonathon Sun, who earned his Ph.D. in Higher Education from the University of Pennsylvania. His work focuses on data reporting, reproducible research workflows, mixed-methods analysis, and practical decision systems. Jonathon specializes in Quantitative Ethnography and qualitative analytics: turning interviews, transcripts, open-ended responses, documents, chat logs, and other text-heavy source materials into structured evidence. His work combines qualitative coding, quantitative analysis, visual reporting, and reproducible workflows to help make complex information easier to interpret and act on. Across qualitative, quantitative, and visual data projects, he helps transform messy source materials into clearer reports, dashboards, coding systems, and analysis-ready outputs.\n\n\n\n\n\n\nZhuni Excel\n\n\nZhuni Excel brings firsthand experience from the content creator side of digital media. As a VTuber, musician, livestreamer, and community-focused creator, he has produced content across music, gaming, collaboration streams, short-form videos, and live audience engagement.\nHis work gives Sun Data Analytics practical insight into the everyday realities of creator life: building a recognizable identity, maintaining a content schedule, collaborating with other creators, engaging a community, and translating creative work into formats that audiences can discover, share, and return to.\nZhuni also brings experience with convention organizing and live creator events, adding a grounded understanding of how online communities extend into in-person spaces. His perspective helps connect analytics to the actual pressures, rhythms, and decisions creators face.\nYouTube"
+  },
+  {
+    "objectID": "pages/about.html#contact-context",
+    "href": "pages/about.html#contact-context",
+    "title": "About",
+    "section": "Contact Context",
+    "text": "Contact Context\nGood-fit projects usually involve messy but valuable source material, unclear reporting processes, recurring manual work, research questions that need structure, or stakeholders who need a clearer explanation of the evidence.\nFor questions, project fit, or collaboration, contact jonathon@sun-dataanalytics.com."
+  },
+  {
+    "objectID": "pages/archive/tools-data.html",
+    "href": "pages/archive/tools-data.html",
+    "title": "Tools & Reports",
+    "section": "",
+    "text": "Tools & Reports is a public shelf of dashboards, report examples, reference guides, and reusable analysis resources. These are visible artifacts, not service descriptions: examples of how Sun Data Analytics organizes performance data, creator content, text evidence, and reporting logic into things people can inspect."
+  },
+  {
+    "objectID": "pages/archive/tools-data.html#report-companions",
+    "href": "pages/archive/tools-data.html#report-companions",
+    "title": "Tools & Reports",
+    "section": "Report Companions",
+    "text": "Report Companions\nThe reports are meant to be read, not just displayed. These companion pieces explain the charts, categories, and source limits behind the public examples.\n\n  \n    Chart guide\n    How to Read Creator Report Charts\n    Explains boxplots, trends, content type comparisons, audience composition, timing, topics, and tags.\n  \n\n  \n    Classification reference\n    Stream Title Classification Guide\n    Shows how titles are grouped into categories that support creator analytics and content comparison.\n  \n\n  \n    Media report\n    Anime News Network Report\n    Shows how public media source material can be collected, structured, and turned into a readable report."
+  },
+  {
+    "objectID": "pages/archive/tools-data.html#what-the-tools-show",
+    "href": "pages/archive/tools-data.html#what-the-tools-show",
+    "title": "Tools & Reports",
+    "section": "What The Tools Show",
+    "text": "What The Tools Show\n\n  \n    \n      Dashboard view\n      \n      \n      \n    \n    \n      Browse the result\n      Dashboards make the current state easier to inspect.\n      They are useful when the reader needs to move between summary metrics, charts, tables, and video-level details without reading a full written report from top to bottom.\n    \n  \n\n  \n    \n      Classification view\n      \n        COMMUNITY_MILESTONES\n        INTERACTIVE_ENTERTAINMENT\n        PERSONALITY_CONVERSATION\n      \n    \n    \n      Compare consistently\n      Classification references make patterns easier to interpret.\n      Shared definitions help organize titles, topics, formats, interaction patterns, and audience-facing signals across larger sets of creator content.\n    \n  \n\n  \n    \n      Data handoff\n      \n        exports\n        clean tables\n        report\n      \n    \n    \n      Reuse the source work\n      Data tools keep reports connected to source material.\n      Prepared outputs, source notes, field definitions, and validation checks make it easier to understand where the analysis came from and how it can be updated."
+  },
+  {
+    "objectID": "pages/archive/tools-data.html#trend-and-research-utilities",
+    "href": "pages/archive/tools-data.html#trend-and-research-utilities",
+    "title": "Tools & Reports",
+    "section": "Trend And Research Utilities",
+    "text": "Trend And Research Utilities\nSome tools are built for monitoring a changing context rather than producing a single report. They can support creator strategy, media tracking, topic monitoring, or research work where the important question is what is changing around the client, audience, or industry.\n\n  \n    Monitoring patterns\n    Public signals become structured records.\n    Reusable collection and review patterns can track public sources, media coverage, topics, publication dates, and other context that helps explain what is happening around the work.\n  \n  \n    source\n    topic\n    date\n    category\n    note\n  \n\nRelated pages\n\n  \n    Automated Reporting Systems\n    See how dashboards and reports can become part of a repeatable reporting system.\n    View automated reporting\n  \n\n  \n    Data Collection\n    See how source files, platform exports, transcripts, and public data become analysis-ready tables.\n    View data collection\n  \n\n  \n    Portfolio\n    Browse selected public examples and project descriptions from Sun Data Analytics.\n    View portfolio"
+  },
+  {
+    "objectID": "pages/insights/06_classification_definitions.html",
+    "href": "pages/insights/06_classification_definitions.html",
+    "title": "How Stream Title Classification Works",
+    "section": "",
+    "text": "Stream titles often contain useful signals about what a creator is doing, how the content is framed, and what kind of audience response the stream is trying to invite. For this project, titles are classified into broad interpretive categories that help organize streams across larger reporting periods.\nThese classifications are not meant to replace human interpretation. They provide a structured way to summarize patterns across many titles, especially when comparing content types, formats, topics, and audience-facing strategies."
+  },
+  {
+    "objectID": "pages/insights/06_classification_definitions.html#how-to-read-the-classification-categories",
+    "href": "pages/insights/06_classification_definitions.html#how-to-read-the-classification-categories",
+    "title": "How Stream Title Classification Works",
+    "section": "How to Read the Classification Categories",
+    "text": "How to Read the Classification Categories\nA single stream title can contain more than one signal. For example, a stream may be both a collaboration and a gaming stream, or both a milestone event and a music performance. In these cases, the classification system tries to preserve the main activity while also marking important secondary signals.\nThe goal is not to reduce every title to one label. Instead, the classifications help describe the different ways creators frame their content.\n\n  Search categories\n  \n  \n    \n\n\n\n\n\n\n\n\n\n\nClassification Sort\n\n\nWhat It Captures Sort\n\n\nCommon Title Signals Sort\n\n\nHow to Interpret It Sort\n\n\n\n\n\nCOLLABORATIVE_ENERGY\nContent framed around multiple creators, guests, group appearances, or shared activity.\nTitles that emphasize playing, appearing, or performing with others. This may include guest framing, group events, duo formats, or team-based activity.\nThis category helps identify when a stream's appeal is partly based on creator-to-creator interaction. The underlying topic should still be interpreted through the main activity, such as gaming, music, discussion, or a special event.\n\n\nCOMMUNITY_MILESTONES\nContent tied to audience growth, creator milestones, anniversaries, debuts, celebrations, or other community-facing moments.\nTitles that frame the stream as a special occasion, major update, thank-you event, launch, celebration, or milestone.\nThis category is useful for identifying streams that are not routine uploads but are instead organized around community attention, creator identity, or audience recognition. These streams may overlap with music, chatting, gaming, or other formats.\n\n\nINTERACTIVE_ENTERTAINMENT\nContent centered on active play, challenges, competition, progression, or audience-facing entertainment.\nTitles that clearly indicate gameplay, game-specific activity, ranked play, challenges, tournaments, co-op formats, progression, or similar interactive framing.\nThis category usually points to gaming or play-centered content. It should be read as evidence that the stream is anchored by an active entertainment format rather than only discussion or commentary.\n\n\nMEME_VIRAL\nContent framed through internet humor, trend participation, parody, absurdity, or intentionally viral phrasing.\nTitles that rely on meme logic, trend references, ironic framing, exaggerated hooks, or short-form viral language.\nThis category is more interpretive than some of the others. It is best understood as a signal of title style or audience hook rather than a topic by itself. Confidence may vary when the title depends on niche references or ambiguous humor.\n\n\nMONETIZATION\nContent explicitly connected to commercial activity, paid support, sponsorship, merchandise, membership, ticketed events, or similar calls to action.\nTitles that foreground sponsored content, paid offerings, merch, membership, promotions, or revenue-linked events.\nThis category does not necessarily mean the whole stream is \"about\" monetization. It marks when commercial framing is visible in the title and may be relevant to interpreting the creator's broader content strategy.\n\n\nNARRATIVE_SERIALIZATION\nContent positioned as part of a sequence, arc, episode structure, season, chapter, or ongoing series.\nTitles that suggest continuation, numbered parts, finales, arcs, episodes, seasons, or serialized progression.\nThis category helps identify when creators are organizing content as part of a longer narrative or recurring structure. The main topic should still come from the core activity, such as gaming, storytelling, or a recurring show format.\n\n\nPERFORMANCE_ARTISTRY\nContent centered on music, singing, performance, covers, concerts, music videos, or other artistic presentation.\nTitles that clearly frame the content as a performance, musical work, vocal stream, cover, concert, or standalone song-style presentation.\nThis category helps distinguish performance-centered content from casual background music or unrelated streams. In some cases, a title may use recognizable song-and-artist formatting even without explicitly saying that it is a cover or karaoke stream.\n\n\nPERSONALITY_CONVERSATION\nContent centered on direct conversation, reactions, updates, questions, commentary, or personality-driven interaction.\nTitles that suggest chatting, Q&A, reactions, personal updates, storytime, open discussion, or audience-submitted prompts.\nThis category is useful for identifying streams where the creator's voice, personality, or relationship with the audience is the main draw. More specific categories may take priority when the title clearly indicates a debut, ASMR stream, art stream, work-along, or other specialized format.\n\n\n\n\n  \n  Showing 8 categories."
+  },
+  {
+    "objectID": "pages/insights/06_classification_definitions.html#classification-principles",
+    "href": "pages/insights/06_classification_definitions.html#classification-principles",
+    "title": "How Stream Title Classification Works",
+    "section": "Classification Principles",
+    "text": "Classification Principles\nThe classification system follows several general principles:\n\nThe main activity matters most. When a title includes multiple signals, the system tries to keep the topic aligned with the core activity rather than only the most attention-grabbing phrase.\nTitles can carry multiple meanings. A collaboration can also be a gaming stream. A milestone can also be a music performance. A viral short can still be based on gameplay or personality content.\nSome signals describe topic, while others describe framing. For example, gaming and music often describe what the content is about, while milestone, collaboration, and meme/viral framing often describe how the content is being presented.\nClassification is interpretive, not purely mechanical. The system uses recurring title patterns, visible framing, and contextual clues, but ambiguous titles may still require cautious interpretation.\nThe public categories are simplified. The internal workflow uses more detailed rules to improve consistency, but the categories shown here are intended to help readers understand the reports rather than reproduce the classification process."
+  },
+  {
+    "objectID": "pages/insights/06_classification_definitions.html#why-this-matters",
+    "href": "pages/insights/06_classification_definitions.html#why-this-matters",
+    "title": "How Stream Title Classification Works",
+    "section": "Why This Matters",
+    "text": "Why This Matters\nThese classifications make it easier to summarize large amounts of creator content without reading every title one by one. They help answer questions such as:\n\nHow often does a creator rely on collaborations?\nWhich streams are framed as special events or milestones?\nHow much content is centered on gaming, music, conversation, or short-form viral appeal?\nAre certain title strategies associated with higher reach, engagement, or audience response?\nDoes a creator’s content mix change over time?\n\nThe classifications should be read as structured interpretation, not as final judgments about the quality, intent, or value of a stream."
+  },
+  {
+    "objectID": "pages/insights/06_classification_definitions.html#relevant-posts",
+    "href": "pages/insights/06_classification_definitions.html#relevant-posts",
+    "title": "How Stream Title Classification Works",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights/04_Terms_to_Remember.html",
+    "href": "pages/insights/04_Terms_to_Remember.html",
+    "title": "Numbers Go Brr: Terms and Definitions",
+    "section": "",
+    "text": "These terms are used throughout creator analytics reports. Use the search, category filter, and sort controls to quickly find the definition you need.\n\n  \n    \n      Search terms\n      \n    \n    \n      Primary category\n      \n        All categories\n      \n    \n    \n      Sort by\n      \n        Term A-Z\n        Term Z-A\n        Primary category A-Z\n        Primary category Z-A\n        Definition A-Z\n        Definition Z-A\n      \n    \n  \n\n  \n    \n\n\n\n\n\n\n\n\nTerm Sort\n\n\nDefinition Sort\n\n\n\n\n\n\n\n  \n  Loading terms..."
+  },
+  {
+    "objectID": "pages/insights/04_Terms_to_Remember.html#terms-and-definitions-to-remember",
+    "href": "pages/insights/04_Terms_to_Remember.html#terms-and-definitions-to-remember",
+    "title": "Numbers Go Brr: Terms and Definitions",
+    "section": "",
+    "text": "These terms are used throughout creator analytics reports. Use the search, category filter, and sort controls to quickly find the definition you need.\n\n  \n    \n      Search terms\n      \n    \n    \n      Primary category\n      \n        All categories\n      \n    \n    \n      Sort by\n      \n        Term A-Z\n        Term Z-A\n        Primary category A-Z\n        Primary category Z-A\n        Definition A-Z\n        Definition Z-A\n      \n    \n  \n\n  \n    \n\n\n\n\n\n\n\n\nTerm Sort\n\n\nDefinition Sort\n\n\n\n\n\n\n\n  \n  Loading terms..."
+  },
+  {
+    "objectID": "pages/insights/04_Terms_to_Remember.html#relevant-posts",
+    "href": "pages/insights/04_Terms_to_Remember.html#relevant-posts",
+    "title": "Numbers Go Brr: Terms and Definitions",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights/02_leveraging_LLMs_for_Qual.html",
+    "href": "pages/insights/02_leveraging_LLMs_for_Qual.html",
+    "title": "Utilizing LLMs for Qualitative Analysis",
+    "section": "",
+    "text": "While a lot of video analytics can be tied to classifying titles by categories and looking at views, watch time, and other metrics, there is also a lot of value in looking at the content of the videos themselves. Transcripts, chat logs, and other text data can provide insights into what is happening in the stream beyond just the numbers. For example, looking at the transcript of a stream can help identify what topics were discussed, what jokes landed, what questions were asked, and what the overall tone of the stream was. This kind of qualitative analysis can be very useful for understanding what is working and what is not working in a stream.\nMost people do some form of qualitative analysis as they watch streams. People pick up on short bits and patterns that reoccur across a stream or a set of streams. But that process is often informal, unstructured, and difficult to scale. It can be hard to keep track of all the different things that are happening in a stream, especially if there are multiple streams to analyze.\nFurthermore, to be able to process this kind of data, there needs to be some formalized way to organize and work through the data."
+  },
+  {
+    "objectID": "pages/insights/02_leveraging_LLMs_for_Qual.html#introduction-to-qualitative-analysis",
+    "href": "pages/insights/02_leveraging_LLMs_for_Qual.html#introduction-to-qualitative-analysis",
+    "title": "Utilizing LLMs for Qualitative Analysis",
+    "section": "",
+    "text": "While a lot of video analytics can be tied to classifying titles by categories and looking at views, watch time, and other metrics, there is also a lot of value in looking at the content of the videos themselves. Transcripts, chat logs, and other text data can provide insights into what is happening in the stream beyond just the numbers. For example, looking at the transcript of a stream can help identify what topics were discussed, what jokes landed, what questions were asked, and what the overall tone of the stream was. This kind of qualitative analysis can be very useful for understanding what is working and what is not working in a stream.\nMost people do some form of qualitative analysis as they watch streams. People pick up on short bits and patterns that reoccur across a stream or a set of streams. But that process is often informal, unstructured, and difficult to scale. It can be hard to keep track of all the different things that are happening in a stream, especially if there are multiple streams to analyze.\nFurthermore, to be able to process this kind of data, there needs to be some formalized way to organize and work through the data."
+  },
+  {
+    "objectID": "pages/insights/02_leveraging_LLMs_for_Qual.html#relevant-posts",
+    "href": "pages/insights/02_leveraging_LLMs_for_Qual.html#relevant-posts",
+    "title": "Utilizing LLMs for Qualitative Analysis",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights.html",
+    "href": "pages/insights.html",
+    "title": "Insights",
+    "section": "",
+    "text": "Insights collects written findings, research notes, practical explainers, and short posts about data methods, reporting decisions, creator analytics, qualitative coding, scraper workflows, and analysis automation."
+  },
+  {
+    "objectID": "pages/insights.html#published-insights",
+    "href": "pages/insights.html#published-insights",
+    "title": "Insights",
+    "section": "Published Insights",
+    "text": "Published Insights\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\nDiscord, YouTube, and Social Media Lawsuits\n\n\nWhat creators should know about lawsuits targeting platform design, recommendation systems, and community safety.\n\n\n\n\n\n\nJun 3, 2026\n\n\nHow Stream Title Classification Works\n\n\nA plain-language guide to how stream titles are grouped into interpretive categories for creator analytics.\n\n\n\n\n\n\nJun 2, 2026\n\n\nInspiration for Sun Data Analytics\n\n\nSun Data Analytics began from my own experience trying to make sense of creator data across streams, dashboards, transcripts, and platform metrics. This post reflects on how collecting and analyzing my own content creation data helped me move from anxiety and guesswork toward clearer, evidence-informed decisions. It also explains how that process shaped my goal of helping creators and small teams turn scattered data into useful reporting systems\n\n\n\n\n\n\nJun 2, 2026\n\n\nUtilizing LLMs for Qualitative Analysis\n\n\nUsing an LLM to drink from a fire hose\n\n\n\n\n\n\nJun 2, 2026\n\n\nUsing the Creator Performance Report\n\n\nA short companion guide for understanding what the Creator Performance Report is for, how to read it, and where to find deeper chart guidance.\n\n\n\n\n\n\nJun 2, 2026\n\n\nNumbers Go Brr: Terms and Definitions\n\n\nA list of terms and definitions that are regularly used throughout each report\n\n\n\n\n\n\nJun 2, 2026\n\n\nHow to Read Creator Report Charts\n\n\nA chart-by-chart guide for interpreting the Creator Performance Report sample, including content type comparisons, revenue trends, boxplots, audience composition, timing, topics, and tags.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/portfolio/side_projects/00_Anime_News_Network_Analysis.html",
+    "href": "pages/portfolio/side_projects/00_Anime_News_Network_Analysis.html",
+    "title": "Anime News Network Analysis",
+    "section": "",
+    "text": "This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.\nOpen the full report in this tab\n\n  \n  \n\nBack to Portfolio"
+  },
+  {
+    "objectID": "pages/portfolio/automated_reporting/00_creator-performance-report-sample copy.html",
+    "href": "pages/portfolio/automated_reporting/00_creator-performance-report-sample copy.html",
+    "title": "Creator Performance Report Sample",
+    "section": "",
+    "text": "This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.\nOpen the full report in this tab\n\n  \n  \n\nBack to Automated Reporting Systems"
+  },
+  {
+    "objectID": "pages/services/unified-methods.html",
+    "href": "pages/services/unified-methods.html",
+    "title": "Unified Methods",
+    "section": "",
+    "text": "Data can tell you what happened. Qualitative evidence can help explain why. Sun Data Analytics brings both together to uncover patterns that would be difficult to see through either approach alone.\nThis work combines:\n\ndescriptive statistics;\nqualitative and text analysis;\ngroup and trend comparisons;\nand advanced network modeling through Quantitative Ethnography and Epistemic Network Analysis.\n\nThe result is a clearer picture of not only which ideas, behaviors, or concerns appear in the data, but how they connect."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#see-more-than-counts-alone",
+    "href": "pages/services/unified-methods.html#see-more-than-counts-alone",
+    "title": "Unified Methods",
+    "section": "",
+    "text": "Data can tell you what happened. Qualitative evidence can help explain why. Sun Data Analytics brings both together to uncover patterns that would be difficult to see through either approach alone.\nThis work combines:\n\ndescriptive statistics;\nqualitative and text analysis;\ngroup and trend comparisons;\nand advanced network modeling through Quantitative Ethnography and Epistemic Network Analysis.\n\nThe result is a clearer picture of not only which ideas, behaviors, or concerns appear in the data, but how they connect."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#from-raw-data-to-clear-findings",
+    "href": "pages/services/unified-methods.html#from-raw-data-to-clear-findings",
+    "title": "Unified Methods",
+    "section": "From Raw Data to Clear Findings",
+    "text": "From Raw Data to Clear Findings\n\n  \n    Step 1\n    Describe the Pattern\n    Use counts, percentages, averages, medians, distributions, and trends to show what is happening.\n  \n\n  \n    Step 2\n    Explain the Meaning\n    Use transcripts, responses, documents, and coded evidence to understand the context behind the numbers.\n  \n\n  \n    Step 3\n    Reveal the Connections\n    Model how ideas and behaviors occur together, differ across groups, or change over time."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#quantitative-modeling-for-better-decisions",
+    "href": "pages/services/unified-methods.html#quantitative-modeling-for-better-decisions",
+    "title": "Unified Methods",
+    "section": "Quantitative Modeling for Better Decisions",
+    "text": "Quantitative Modeling for Better Decisions\nDescriptive statistics show what happened. Quantitative modeling helps determine which patterns are meaningful enough to guide action.\n\n  \n    01\n    \n      Benchmark Performance\n      Compare results across topics, formats, time periods, or groups using consistent performance standards.\n    \n  \n\n  \n    02\n    \n      Identify Opportunities\n      Combine multiple measures to highlight strengths, weaknesses, and areas where additional effort may have the greatest value.\n    \n  \n\n  \n    03\n    \n      Test Recommendations\n      Use statistical models and validation checks to determine whether a pattern is reliable enough to support planning.\n    \n  \n\nThese methods do not replace judgment. They make comparisons more consistent, assumptions more visible, and recommendations easier to explain."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#qualitative-and-text-analysis",
+    "href": "pages/services/unified-methods.html#qualitative-and-text-analysis",
+    "title": "Unified Methods",
+    "section": "Qualitative and Text Analysis",
+    "text": "Qualitative and Text Analysis\nText contains meaning that cannot always be reduced to a single metric.\nQualitative analysis helps examine how people describe an issue, explain their decisions, connect ideas, and interpret their experiences. Depending on the project, this can include coding interviews, transcripts, open-ended survey responses, documents, headlines, or other written materials.\nTraditional text analysis can show how often a topic appears. That is useful, but frequency does not always explain how ideas are being used or understood.\nEpistemic Network Analysis goes further by showing how coded ideas and behaviors are connected.\nFor example, two groups may discuss the same topics at similar rates while connecting those topics in very different ways. One group may associate risk with uncertainty and delay, while another associates risk with planning and adaptation.\nENA makes these differences visible through interpretable network models."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#example-ena-network",
+    "href": "pages/services/unified-methods.html#example-ena-network",
+    "title": "Unified Methods",
+    "section": "Example ENA Network",
+    "text": "Example ENA Network\nThe example below uses a small prepared dataset of anime news headlines coded by topic and event type.\nThe red network summarizes the overall pattern of connections between codes. Individual date-level points are hidden by default, but visitors can turn them on through the legend to examine how the pattern varies over time."
+  },
+  {
+    "objectID": "pages/services/unified-methods.html#turn-complex-data-into-connected-evidence",
+    "href": "pages/services/unified-methods.html#turn-complex-data-into-connected-evidence",
+    "title": "Unified Methods",
+    "section": "Turn Complex Data Into Connected Evidence",
+    "text": "Turn Complex Data Into Connected Evidence\nSun Data Analytics helps organizations move beyond isolated statistics or disconnected themes.\nThe goal is to produce findings that are measurable, interpretable, and grounded in the original evidence.\nBack to Services Overview"
+  },
+  {
+    "objectID": "pages/portfolio/data-collection.html",
+    "href": "pages/portfolio/data-collection.html",
+    "title": "Data Collection",
+    "section": "",
+    "text": "Useful data is often spread across platform exports, APIs, subtitle files, chat logs, spreadsheets, and public websites. Before that information can support a report or analysis, it needs to be collected, standardized, checked, and organized.\nSun Data Analytics builds repeatable workflows that move information from its original source into cleaner, analysis-ready tables.\nThese workflows can support a one-time project or become part of a reporting system that is refreshed on a recurring schedule.\n\n\n\n\n\n\nNote\n\n\n\nA collection workflow can stand on its own or connect directly to an automated report, dashboard, classification system, or mixed-methods analysis."
+  },
+  {
+    "objectID": "pages/portfolio/data-collection.html#build-a-reliable-starting-point",
+    "href": "pages/portfolio/data-collection.html#build-a-reliable-starting-point",
+    "title": "Data Collection",
+    "section": "",
+    "text": "Useful data is often spread across platform exports, APIs, subtitle files, chat logs, spreadsheets, and public websites. Before that information can support a report or analysis, it needs to be collected, standardized, checked, and organized.\nSun Data Analytics builds repeatable workflows that move information from its original source into cleaner, analysis-ready tables.\nThese workflows can support a one-time project or become part of a reporting system that is refreshed on a recurring schedule.\n\n\n\n\n\n\nNote\n\n\n\nA collection workflow can stand on its own or connect directly to an automated report, dashboard, classification system, or mixed-methods analysis."
+  },
+  {
+    "objectID": "pages/portfolio/data-collection.html#primary-data-workflows",
+    "href": "pages/portfolio/data-collection.html#primary-data-workflows",
+    "title": "Data Collection",
+    "section": "Primary Data Workflows",
+    "text": "Primary Data Workflows\nDifferent sources require different collection methods, but the goal is consistent: create dependable data that can be refreshed, inspected, and connected to later analysis. These are examples of repeatable import and preparation workflows, not separate one-off services.\n\n  \n    \n      Creator analytics\n      YouTube and Creator Platform Data\n      YouTube data can describe both the content a creator publishes and how that content performs over time. Sun Data Analytics can organize data from platform exports, authenticated analytics sources, public APIs, and existing creator records.\n\n      \n        Metadata\n        Performance\n        Audience\n        Revenue\n        Growth\n        Custom labels\n      \n\n      These sources can be combined into stable video-level, channel-level, or time-based tables for reporting and comparison.\n    \n\n    \n      Example Creator Data Structure\n      \n        \n          Content\n          Titles, dates, tags, categories, durations.\n        \n        \n          Performance\n          Views, watch time, impressions, click-through rate.\n        \n        \n          Audience\n          Age, geography, devices, subscriber status.\n        \n        \n          Revenue and Growth\n          Estimated revenue, revenue sources, subscriber changes.\n        \n      \n      Combined by video, channel, and reporting period.\n    \n  \n\n  \n    \n      Stream text\n      Subtitles, Transcripts, and Chat Logs\n      Performance metrics can show how a video or stream performed, but they do not describe everything that happened inside the content.\n\n      \n        Subtitles\n        Transcripts\n        Chat logs\n        Speaker labels\n        Timestamps\n        Coding fields\n      \n\n      This makes it possible to connect platform performance with the subjects, interactions, and audience responses found inside the content itself.\n    \n\n    \n      Stream Text Timeline\n      \n      \n        \n          00:00\n          Introduction\n        \n        \n          03:18\n          Topic discussion\n          Host Main segment\n          Analysis segment\n        \n        \n          11:05\n          Audience question\n        \n      \n      \n        Chat marker Audience question aligned to transcript time.\n      \n      \n        timestamp aligned\n        source labeled\n        coding ready\n      \n    \n  \n\n\n\n  \n    \n      Media monitoring\n      Public Web and Media Monitoring\n      Source-specific public collection can support research, trend monitoring, and media analysis where collection is technically and ethically appropriate.\n      Examples include: articles, publication dates, authors, publishers, topics, named entities.\n    \n    \n      Public sources\n      Standardized records\n      Monitoring dataset\n    \n  \n\n  \n    \n      Research files\n      Surveys, Research Text, and Internal Files\n      Not every project begins with an API. Many begin with spreadsheets, survey exports, transcripts, manually maintained records, or files created by several different people.\n      Examples include: survey cleanup, transcripts, field definitions, duplicate checks, date cleanup, reshaping.\n    \n    \n      Inconsistent files\n      Clean source table"
+  },
+  {
+    "objectID": "pages/portfolio/data-collection.html#what-happens-during-collection",
+    "href": "pages/portfolio/data-collection.html#what-happens-during-collection",
+    "title": "Data Collection",
+    "section": "What Happens During Collection",
+    "text": "What Happens During Collection\n\n  \n    01\n    Import\n    Bring source materials together.\n  \n  \n    02\n    Standardize\n    Align fields, dates, and identifiers.\n  \n  \n    03\n    Validate\n    Check duplicates and gaps.\n  \n  \n    04\n    Document\n    Record sources and assumptions.\n  \n  \n    05\n    Refresh\n    Prepare for future updates."
+  },
+  {
+    "objectID": "pages/portfolio/data-collection.html#typical-outputs",
+    "href": "pages/portfolio/data-collection.html#typical-outputs",
+    "title": "Data Collection",
+    "section": "Typical Outputs",
+    "text": "Typical Outputs\n\n  \n    Prepared Data\n    \n      Analysis-Ready Tables\n      Clean tables organized around the useful unit of analysis.\n    \n  \n\n  \n    Reusable Logic\n    \n      Import Scripts\n      Documented R, Python, API, or file-processing workflows.\n    \n  \n\n  \n    Shared Context\n    \n      Source and Field Documentation\n      Definitions, source notes, transformation rules, and limitations.\n    \n  \n\n  \n    Next Update\n    \n      Refreshable Data Stores\n      Stable structures and update processes for recurring work.\n    \n  \n\nRelated content\n\n  \n    Explore Automated Reporting\n    See how recurring reports can turn refreshed source data into repeatable analysis outputs.\n    View automated reporting\n  \n\n  \n    Explore Unified Methods\n    See how performance data, text classification, and qualitative interpretation can work together.\n    View unified methods\n  \n\n  \n    Back to Services Overview\n    Return to the main services page to compare reporting, data collection, and analysis support.\n    View services"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sun Data Analytics",
+    "section": "",
+    "text": "Sun Data Analytics is an independent analytics studio and public portfolio for practical data projects. I build reports, dashboards, tools, and workflows that make messy information easier to understand and use."
+  },
+  {
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
+    "title": "Sun Data Analytics",
+    "section": "Featured Work",
+    "text": "Featured Work\n\n  \n    \n      \n      \n    \n    \n      Featured Report\n      Creator Performance Report\n      A recurring analytics report that turns platform data into a clearer picture of audience behavior, content performance, revenue patterns, and publishing strategy.\n    \n  \n\n  \n    \n      Data Workflow\n      Automated Data Collection\n      Repeatable workflows for collecting, cleaning, and organizing exports, APIs, transcripts, and public data.\n    \n\n    \n      Research System\n      Qualitative Coding Pipeline\n      Tools for turning transcripts, open-ended responses, and messy text into structured findings.\n    \n\n    \n      Methods Note\n      How to Read Creator Analytics\n      Plain-language notes on metrics, charts, assumptions, and interpretation."
+  },
+  {
+    "objectID": "index.html#latest-from-the-studio",
+    "href": "index.html#latest-from-the-studio",
+    "title": "Sun Data Analytics",
+    "section": "Latest From the Studio",
+    "text": "Latest From the Studio\n\n  \n    Insight\n    What descriptive statistics can and cannot tell you\n  \n\n  \n    Report Design\n    Making creator reports easier to interpret\n  \n\n  \n    Data Collection\n    Why repeatable workflows matter more than one-off dashboards\n  \n\n  \n    Portfolio\n    Selected projects across dashboards, reports, and research systems"
+  },
+  {
+    "objectID": "index.html#about-the-work",
+    "href": "index.html#about-the-work",
+    "title": "Sun Data Analytics",
+    "section": "About the Work",
+    "text": "About the Work\nSun Data Analytics sits between consulting, research, and public data work. Some projects are built for clients. Others are portfolio pieces, experiments, or notes that document how the analysis was made.\nThe common thread is practical interpretation: collecting the right data, cleaning it carefully, building useful outputs, and explaining what the results mean."
+  },
+  {
+    "objectID": "index.html#working-with-me",
+    "href": "index.html#working-with-me",
+    "title": "Sun Data Analytics",
+    "section": "Working with me",
+    "text": "Working with me\n\n  \n    Service\n    Reporting Systems\n    Build dashboards, recurring reports, metric definitions, and refresh workflows that make routine reporting easier to trust.\n  \n\n  \n    Service\n    Data Collection and Workflow Automation\n    Turn scattered exports, API pulls, transcripts, and spreadsheets into cleaner, repeatable analysis materials.\n  \n\n  \n    Service\n    Research, Evaluation, and Mixed-Methods Analysis\n    Design practical analyses, code qualitative data, classify text, and connect findings to decisions.\n  \n\nIf you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact jonathon@sun-dataanalytics.com."
+  },
+  {
+    "objectID": "pages/services.html",
+    "href": "pages/services.html",
+    "title": "Services",
+    "section": "",
+    "text": "Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, and unified methods."
+  },
+  {
+    "objectID": "pages/services.html#interested-in-working-together",
+    "href": "pages/services.html#interested-in-working-together",
+    "title": "Services",
+    "section": "Interested In Working Together?",
+    "text": "Interested In Working Together?\nIf you are interested in data collection, automated reporting, or unified methods, you can contact me at jonathon@sun-dataanalytics.com.\nIn your message, feel free to briefly describe the kind of data you have, the question you are trying to answer, or the report or workflow you are hoping to build. I can help determine whether Sun Data Analytics is a good fit for your project."
+  },
+  {
+    "objectID": "pages/services.html#service-areas",
+    "href": "pages/services.html#service-areas",
+    "title": "Services",
+    "section": "Service Areas",
+    "text": "Service Areas\n\n\n\nData Collection\n\n\nCollect, clean, and organize data from APIs, spreadsheets, platform exports, surveys, transcripts, scraped public sources, and other source materials.\n\n\nLearn about data collection\n\n\n\n\nAutomated Reporting Systems\n\n\nBuild recurring report systems that turn raw data into readable reports, dashboards, tables, charts, and interpretation-ready summaries.\n\n\nExplore automated reporting\n\n\n\n\nUnified Methods\n\n\nCombine quantitative summaries with qualitative evidence from transcripts, surveys, interviews, open-ended responses, and contextual notes.\n\n\nSee unified methods\n\n\n\nClient data, private reports, and source files stay confidential. Public pages on this site describe the structure of the work and the kinds of questions the systems can answer.\nFor availability or project fit, contact jonathon@sun-dataanalytics.com."
+  },
+  {
+    "objectID": "pages/services/automated-reporting.html",
+    "href": "pages/services/automated-reporting.html",
+    "title": "Automated Reporting Systems",
+    "section": "",
+    "text": "Automated reporting systems\n  \n  \n    Sun Data Analytics builds reporting systems for teams that need to understand performance over time, not just check a dashboard once. Each report cycle brings updated data into a consistent structure, making it easier to compare results, identify meaningful changes, and decide what deserves attention next.\n  \n  \n    View a sample report\n    Discuss a reporting workflow"
+  },
+  {
+    "objectID": "pages/services/automated-reporting.html#a-repeatable-reporting-workflow",
+    "href": "pages/services/automated-reporting.html#a-repeatable-reporting-workflow",
+    "title": "Automated Reporting Systems",
+    "section": "A Repeatable Reporting Workflow",
+    "text": "A Repeatable Reporting Workflow\nAutomated reporting should do more than refresh numbers. A strong reporting system gives each new data update the same analytical structure, so changes can be compared clearly instead of interpreted from scratch every time.\nFor creator and content work, that can mean combining platform analytics with titles, transcripts, stream summaries, chat logs, and audience interactions. The result is a report that shows not only the latest performance, but also what shifted, what remained stable, and what deserves closer attention.\n\n  \n    Layer 1\n    Update the Source Data\n    Bring video analytics, stream metadata, titles, transcripts, chat exports, and other source material into a structure that can be reused across reports.\n  \n  \n    Layer 2\n    Use Consistent Definitions\n    Apply the same content labels, topic definitions, talent-specific notes, and comparison rules so results stay comparable over time.\n  \n  \n    Layer 3\n    Identify What Changed\n    Turn updated metrics and text evidence into plain-language findings about what improved, declined, stabilized, or needs closer review.\n  \n  \n    Layer 4\n    Produce Review-Ready Outputs\n    Generate HTML reports, dashboards, charts, tables, and summary notes that are ready to share, scan, and revisit."
+  },
+  {
+    "objectID": "pages/services/automated-reporting.html#reporting-modules",
+    "href": "pages/services/automated-reporting.html#reporting-modules",
+    "title": "Automated Reporting Systems",
+    "section": "Reporting Modules",
+    "text": "Reporting Modules\n\n  \n    Performance tracking\n    Track the content patterns behind the numbers.\n    \n      A performance section can compare videos, streams, publishing periods, topics, formats, and outcomes across each report period. Title and content classification make the results easier to compare than raw views or watch time alone.\n    \n    \n      topic, format, title, and content-type comparisons\n      charts, tables, and dashboards for scanning recurring patterns\n      benchmarking across weeks, months, campaigns, or creators\n      repeatable report sections for what improved, declined, or changed shape\n    \n  \n\n  \n    Audience interaction analysis\n    Summarize audience dynamics across reporting cycles.\n    \n      Stream summaries, transcripts, and chat analysis can show how audience interaction works across different streams. Reports can track whether conversations are chat-led, creator-led, collaborative, quiet, chaotic, ritualized, supportive, or shaped by specific audience prompts.\n    \n    \n      per-stream summaries grounded in transcript and chat text\n      recurring interaction patterns across streams\n      qualitative codebooks and text-grounded interpretation notes\n      evidence limits clearly separated from interpretation\n    \n  \n\n  \n    Monetization patterns\n    Monitor how paid moments function over time.\n    \n      Monetization analysis can examine visible paid-message moments alongside the surrounding stream context, creator response, and chat response. This helps show how paid interactions function over time while keeping evidence limits clear.\n    \n    \n      giver-motive, streamer-attractor, and relationship-function coding\n      paid vs. non-paid interaction comparisons\n      coverage notes when the available text cannot support strong claims\n    \n  \n\n  \n    Channel identity and positioning\n    Track what makes a creator or channel non-interchangeable.\n    \n      Positioning analysis connects open-coded evidence into a clearer picture of what makes a creator, channel, or content strategy distinctive. Reports can separate stable tendencies from recent shifts in interaction style, humor, pacing, care, boundaries, and audience relationship.\n    \n    \n      monthly and overall personality or channel-style highlights\n      stable tendencies separated from recent or episodic shifts\n      plain-language synthesis backed by traceable text evidence\n      review notes that separate strong findings from open questions\n    \n  \n\n\n  \n    Example output\n    Creator performance report sample\n    \n      The public sample shows one version of this reporting structure: performance readouts, classification-backed comparisons, charts, tables, interpretation notes, and reusable reporting logic. Client reports can use the same kind of structure while keeping private data and source material confidential.\n    \n  \n  Open sample report"
+  },
+  {
+    "objectID": "pages/services/automated-reporting.html#good-fit-for-clients-who-need",
+    "href": "pages/services/automated-reporting.html#good-fit-for-clients-who-need",
+    "title": "Automated Reporting Systems",
+    "section": "Good Fit For Clients Who Need",
+    "text": "Good Fit For Clients Who Need\n\n  \n    Recurring strategic readouts\n    You need monthly, quarterly, campaign, or project-based reports that make performance easier to compare over time.\n  \n  \n    A repeatable reporting path\n    You already have exports, dashboards, or source files, but need a clearer path from updated data to finished analysis.\n  \n  \n    Creator, audience, or content modules\n    You want structured sections for performance, audience relationship, monetization behavior, channel identity, or topic strategy.\n  \n  \n    Confidential reporting workflows\n    You need private reports and source data handled carefully, with clear documentation of report logic, source notes, and evidence limits."
+  },
+  {
+    "objectID": "pages/services/automated-reporting.html#typical-deliverables",
+    "href": "pages/services/automated-reporting.html#typical-deliverables",
+    "title": "Automated Reporting Systems",
+    "section": "Typical Deliverables",
+    "text": "Typical Deliverables\n\n  \n    01\n    Rendered Reports\n    HTML reports, dashboards, chart and table packages, report bundles, and summaries produced from consistent reporting logic.\n  \n  \n    02\n    Reporting Infrastructure\n    Refresh scripts, render scripts, source notes, metric dictionaries, classification exports, prompt labels, reusable templates, and documentation for maintaining the reporting system.\n  \n  \n    03\n    Decision Summaries\n    Plain-language notes that compare the current report window to earlier results and explain what changed, what matters, what is uncertain, and what remains open.\n  \n\nFor availability or project fit, contact jonathon@sun-dataanalytics.com.\nBack to Services Overview"
+  },
+  {
+    "objectID": "pages/services/archive/custom-reports.html",
+    "href": "pages/services/archive/custom-reports.html",
+    "title": "Custom Reports",
+    "section": "",
+    "text": "Sun Data Analytics produces one-off and tailored reports for specific client questions, research needs, or decision points."
+  },
+  {
+    "objectID": "pages/services/archive/custom-reports.html#overview",
+    "href": "pages/services/archive/custom-reports.html#overview",
+    "title": "Custom Reports",
+    "section": "Overview",
+    "text": "Overview\nCustom reports are useful when you do not need a full recurring reporting system, but you do need a clear answer, a defensible method, or a polished explanation of existing evidence. Reports can be concise or detailed depending on the question and audience."
+  },
+  {
+    "objectID": "pages/services/archive/custom-reports.html#report-formats",
+    "href": "pages/services/archive/custom-reports.html#report-formats",
+    "title": "Custom Reports",
+    "section": "Report Formats",
+    "text": "Report Formats\n\n\nData Briefs\nShort reports with key findings, charts, tables, assumptions, and plain-language interpretation.\n\n\nTechnical Notes\nMethod-focused documents that explain source data, cleaning choices, calculations, limitations, or validation steps.\n\n\nExecutive Summaries\nDecision-oriented summaries that highlight the main findings, implications, and recommended next questions.\n\n\nResearch Memos\nWritten synthesis for research, evaluation, exploratory analysis, public-safe summaries, or client-facing findings documents."
+  },
+  {
+    "objectID": "pages/services/archive/custom-reports.html#typical-deliverables",
+    "href": "pages/services/archive/custom-reports.html#typical-deliverables",
+    "title": "Custom Reports",
+    "section": "Typical Deliverables",
+    "text": "Typical Deliverables\n\n  \n    Chart and Table Reports\n    Readable reports that combine visuals, summary tables, notes, and interpretation.\n  \n  \n    Public-Safe Summaries\n    Summaries that describe methods and findings without publishing private client data or sensitive source material.\n  \n  \n    Findings Documents\n    Client-facing documents that explain what the evidence says and what decisions it can support."
+  },
+  {
+    "objectID": "pages/services/archive/custom-reports.html#good-fit-for-clients-who-need",
+    "href": "pages/services/archive/custom-reports.html#good-fit-for-clients-who-need",
+    "title": "Custom Reports",
+    "section": "Good Fit For Clients Who Need",
+    "text": "Good Fit For Clients Who Need\n\n\nA Specific Question Answered\nYou have a defined question and need a clear report rather than an ongoing dashboard.\n\n\nA Better Explanation Of Existing Data\nYou already have spreadsheets, exports, survey results, transcripts, or notes, but need help turning them into findings.\n\n\nA Professional Deliverable\nYou need a report, memo, brief, or summary that can be shared with collaborators, stakeholders, or clients.\n\n\nBack to Services Overview"
+  },
+  {
+    "objectID": "pages/portfolio/automated_reporting/01_creator-dashboard.html",
+    "href": "pages/portfolio/automated_reporting/01_creator-dashboard.html",
+    "title": "Creator Performance Dashboard Sample",
+    "section": "",
+    "text": "This sample shows the structure of a creator performance report while keeping the visitor inside the Sun Data Analytics website.\nOpen the full report in this tab\n\n  \n  \n\nBack to Automated Reporting Systems"
+  },
+  {
+    "objectID": "pages/portfolio.html",
+    "href": "pages/portfolio.html",
+    "title": "Portfolio",
+    "section": "",
+    "text": "Selected work includes analytics systems, private report pipelines, research support, and reusable reporting workflows. Client reports and raw datasets stay private; the entries below describe the public-safe shape of the work, the methods used, and the kinds of decisions the systems support."
+  },
+  {
+    "objectID": "pages/portfolio.html#projects",
+    "href": "pages/portfolio.html#projects",
+    "title": "Portfolio",
+    "section": "Projects",
+    "text": "Projects\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAnime News Network Analysis\n\n\nA side project to find trends in Anime News Networks reporting\n\n\n\n\n\n\nCreator Performance Dashboard Sample\n\n\nAn example automated dashboard for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure.\n\n\n\n\n\n\nCreator Performance Report Sample\n\n\nAn example automated report for creator analytics, showing how video performance, content-type comparisons, audience-facing outcomes, charts, tables, and interpretation notes can be organized into a readable report structure.\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "pages/portfolio.html#work-themes",
+    "href": "pages/portfolio.html#work-themes",
+    "title": "Portfolio",
+    "section": "Work Themes",
+    "text": "Work Themes\n\n  \n    Private Reports, Public Methods\n    Client-facing report contents are kept private, while the website can describe the analysis design, automation patterns, and kinds of questions answered.\n  \n  \n    Reproducible Pipelines\n    Workflows use documented entry points, repeatable render scripts, source notes, validation checks, and stable output folders.\n  \n  \n    Mixed-Methods Interpretation\n    Quantitative performance data is paired with text classification, transcript coding, and plain-language explanation."
+  },
+  {
+    "objectID": "pages/insights/01_data_driven_analytics.html",
+    "href": "pages/insights/01_data_driven_analytics.html",
+    "title": "Inspiration for Sun Data Analytics",
+    "section": "",
+    "text": "My interest in content creation analytics started with a simple frustration: content platforms collect an enormous amount of data about creators, but creators often have limited ways to access, organize, and make sense of that data for themselves.\nAs someone who has dabbled in content creation, I knew there was useful information sitting behind every stream. Platforms track chat activity, transcripts, stream length, views, audience engagement, and countless other metrics. The data exists. The harder question is whether creators can actually use it in ways that help them make better decisions.\nAt the same time, I was growing my own quantitative skill set. Much of my academic training had focused on qualitative research, where text, stories, interviews, and lived experiences are central. That work remains foundational to how I think. But I also saw value in quantitative data, especially when it could help answer practical questions about what was working, what was not working, and where to invest time and energy.\nContent creation gave me a dataset I cared about.\nI had played around with other kinds of data before, including game data from Fire Emblem Heroes or Mario Kart. Those projects were fun, but they were also distant from my own life. Streaming was different. I understood the experience from the inside. I knew what it felt like to plan a stream, worry about the schedule, chase a trend, try a collaboration, or wonder whether streaming longer would actually make a difference.\nThose questions became the starting point:\n\nWhat is the optimal day to stream?\nWhat is the optimal topic to stream?\nAre collaborations actually helping?\nDoes it make sense to stream for four hours?\nWhich efforts are producing real growth, and which ones only feel productive?\n\nThese are common questions for creators. Search online and you will find countless videos, posts, and recommendations about what creators should do. Some of that advice is useful. But much of it is anecdotal, generalized, or shaped by people whose audiences, platforms, and goals may look very different from your own.\nAs a qualitative researcher, I do not dismiss anecdotal evidence. Stories, observations, and creator experience matter. But those forms of evidence become more powerful when they are supported by other kinds of data. I wanted to know whether my instincts matched what my own data was showing.\n\n\nThe first challenge was simply getting the data.\nAt first, this seemed like it should have been easy. After all, the platforms were already collecting these metrics. YouTube Analytics had dashboards. Other sites were tracking public streamer statistics. The information was clearly being generated somewhere.\nBut viewing data in a dashboard is not the same as being able to analyze it.\nI did not just want to click through individual pages. I wanted to collect my data over time, organize it, clean it, and connect it across sources. I wanted to build dashboards, run simple statistical models, and answer questions that mattered to me as a creator.\nThat process was much harder than expected.\nI had to figure out how to collect the data, automate parts of the workflow, clean messy exports, standardize fields, and prepare everything for analysis. The data did not arrive in a perfect format. It required structure before it could become useful.\nThat experience taught me one of the central lessons behind Sun Data Analytics: a lot of meaningful analysis depends on the less glamorous work that comes first. Before there can be dashboards, models, or insights, there has to be a reliable process for collecting, cleaning, and organizing the data.\n\n\n\nOnce I finally had the data in a usable format, I started to get answers.\nSome of those answers were humbling.\nFor example, I had spent a lot of time thinking about whether jumping on major trends would help my stream grow. The data suggested that, at my size, those trends did not make a major difference. Everyone else was chasing the same visibility, and my channel was not large enough at the time for those trends to reliably change my trajectory.\nThe same was true for scheduling. I had put real energy into thinking about the best day to stream, but the results suggested that the day itself was not the major factor I imagined it to be.\nCollaborations and longer streams also did not produce the kind of clear growth I had hoped for. That did not mean they were worthless. It meant they were not automatically solving the bigger problem.\nIn some ways, the data confirmed what I already felt: I was putting a lot of anxiety into decisions that were not moving the channel in a meaningful way.\nBut that realization was useful.\nInstead of treating every disappointing stream as a personal failure, I could see the broader pattern. Instead of assuming that the next trend, schedule change, or collaboration would finally be the thing that changed everything, I could ask a better question: what evidence do I have that this is working?\nThat is where analytics became less about chasing numbers and more about reducing uncertainty.\nThe goal was not to remove creativity from content creation. The goal was to make decisions with more clarity. Data could not tell me everything about what to make, who to collaborate with, or what kind of community I wanted to build. But it could help me stop driving in the dark.\n\n\n\nOne of the most useful parts of the process was learning to look for small signals. The big answers were not always encouraging. My channel was small. Visibility was limited. Many of the strategies I tried did not create dramatic changes.\nBut the data still helped me ask better questions:\n\nWhere were the small wins?\nWhich topics showed signs of promise?\nWhich streams brought in viewers who stayed?\nWhich formats seemed worth testing again?\nWhere was I seeing random fluctuation, and where might there be a real pattern?\n\nThis is where analytics became more constructive. The point was not simply to say, “This did not work.” The point was to identify where future effort might be better spent.\nMaybe the issue was not the stream topic itself, but the lack of discoverability around it. Maybe a stream performed poorly live but had potential as a short-form clip. Maybe collaborations were not immediately increasing views but were helping with community-building in ways that needed to be measured differently. Maybe the best strategy was not to stream longer, but to use time more intentionally across streaming, editing, posting, and promotion.\nThe data did not provide a magic answer. But it helped create a more grounded way to experiment.\n\n\n\nUltimately, I went on an indefinite hiatus from streaming. I realized I was not willing to invest the amount of time and energy required to grow the channel in the way I wanted.\nBut I also realized something else: I loved the analytics work.\nI enjoyed figuring out how to collect messy data, clean it, organize it, and turn it into something interpretable. I enjoyed building reports that could answer practical questions. I enjoyed connecting quantitative patterns with qualitative context. Most of all, I enjoyed helping people make sense of the data they were already producing but could not easily use.\nThat experience became part of the foundation for Sun Data Analytics.\nSun Data Analytics is built around a simple idea: people and organizations often have valuable data scattered across platforms, exports, transcripts, dashboards, and documents, but they need help turning that information into something useful.\nFor content creators, that might mean collecting YouTube analytics, chat logs, transcripts, stream metadata, and performance metrics into a cleaner reporting system. For other clients, it might mean preparing messy source files, documenting workflows, building dashboards, or creating reports that explain what the data can and cannot say.\nThe goal is not to pretend that data has all the answers. It does not.\nThe goal is to use data carefully, honestly, and systematically so that people can make better decisions with the information available to them.\nMy own streaming data did not tell me how to become a massive creator. But it did help me understand what was not working, where I was overextending myself, and where there were small opportunities worth paying attention to.\nThat is the kind of work I want Sun Data Analytics to support.\nInstead of guessing blindly, we can collect the evidence. Instead of relying only on generalized advice, we can examine the patterns in your own data. Instead of running into the same wall repeatedly, we can ask what the data suggests, what it leaves unresolved, and what might be worth trying next.\nWe may still need trial and error. But with better data, we do not have to flounder in the dark."
+  },
+  {
+    "objectID": "pages/insights/01_data_driven_analytics.html#a-foray-into-content-creation-analytics",
+    "href": "pages/insights/01_data_driven_analytics.html#a-foray-into-content-creation-analytics",
+    "title": "Inspiration for Sun Data Analytics",
+    "section": "",
+    "text": "My interest in content creation analytics started with a simple frustration: content platforms collect an enormous amount of data about creators, but creators often have limited ways to access, organize, and make sense of that data for themselves.\nAs someone who has dabbled in content creation, I knew there was useful information sitting behind every stream. Platforms track chat activity, transcripts, stream length, views, audience engagement, and countless other metrics. The data exists. The harder question is whether creators can actually use it in ways that help them make better decisions.\nAt the same time, I was growing my own quantitative skill set. Much of my academic training had focused on qualitative research, where text, stories, interviews, and lived experiences are central. That work remains foundational to how I think. But I also saw value in quantitative data, especially when it could help answer practical questions about what was working, what was not working, and where to invest time and energy.\nContent creation gave me a dataset I cared about.\nI had played around with other kinds of data before, including game data from Fire Emblem Heroes or Mario Kart. Those projects were fun, but they were also distant from my own life. Streaming was different. I understood the experience from the inside. I knew what it felt like to plan a stream, worry about the schedule, chase a trend, try a collaboration, or wonder whether streaming longer would actually make a difference.\nThose questions became the starting point:\n\nWhat is the optimal day to stream?\nWhat is the optimal topic to stream?\nAre collaborations actually helping?\nDoes it make sense to stream for four hours?\nWhich efforts are producing real growth, and which ones only feel productive?\n\nThese are common questions for creators. Search online and you will find countless videos, posts, and recommendations about what creators should do. Some of that advice is useful. But much of it is anecdotal, generalized, or shaped by people whose audiences, platforms, and goals may look very different from your own.\nAs a qualitative researcher, I do not dismiss anecdotal evidence. Stories, observations, and creator experience matter. But those forms of evidence become more powerful when they are supported by other kinds of data. I wanted to know whether my instincts matched what my own data was showing.\n\n\nThe first challenge was simply getting the data.\nAt first, this seemed like it should have been easy. After all, the platforms were already collecting these metrics. YouTube Analytics had dashboards. Other sites were tracking public streamer statistics. The information was clearly being generated somewhere.\nBut viewing data in a dashboard is not the same as being able to analyze it.\nI did not just want to click through individual pages. I wanted to collect my data over time, organize it, clean it, and connect it across sources. I wanted to build dashboards, run simple statistical models, and answer questions that mattered to me as a creator.\nThat process was much harder than expected.\nI had to figure out how to collect the data, automate parts of the workflow, clean messy exports, standardize fields, and prepare everything for analysis. The data did not arrive in a perfect format. It required structure before it could become useful.\nThat experience taught me one of the central lessons behind Sun Data Analytics: a lot of meaningful analysis depends on the less glamorous work that comes first. Before there can be dashboards, models, or insights, there has to be a reliable process for collecting, cleaning, and organizing the data.\n\n\n\nOnce I finally had the data in a usable format, I started to get answers.\nSome of those answers were humbling.\nFor example, I had spent a lot of time thinking about whether jumping on major trends would help my stream grow. The data suggested that, at my size, those trends did not make a major difference. Everyone else was chasing the same visibility, and my channel was not large enough at the time for those trends to reliably change my trajectory.\nThe same was true for scheduling. I had put real energy into thinking about the best day to stream, but the results suggested that the day itself was not the major factor I imagined it to be.\nCollaborations and longer streams also did not produce the kind of clear growth I had hoped for. That did not mean they were worthless. It meant they were not automatically solving the bigger problem.\nIn some ways, the data confirmed what I already felt: I was putting a lot of anxiety into decisions that were not moving the channel in a meaningful way.\nBut that realization was useful.\nInstead of treating every disappointing stream as a personal failure, I could see the broader pattern. Instead of assuming that the next trend, schedule change, or collaboration would finally be the thing that changed everything, I could ask a better question: what evidence do I have that this is working?\nThat is where analytics became less about chasing numbers and more about reducing uncertainty.\nThe goal was not to remove creativity from content creation. The goal was to make decisions with more clarity. Data could not tell me everything about what to make, who to collaborate with, or what kind of community I wanted to build. But it could help me stop driving in the dark.\n\n\n\nOne of the most useful parts of the process was learning to look for small signals. The big answers were not always encouraging. My channel was small. Visibility was limited. Many of the strategies I tried did not create dramatic changes.\nBut the data still helped me ask better questions:\n\nWhere were the small wins?\nWhich topics showed signs of promise?\nWhich streams brought in viewers who stayed?\nWhich formats seemed worth testing again?\nWhere was I seeing random fluctuation, and where might there be a real pattern?\n\nThis is where analytics became more constructive. The point was not simply to say, “This did not work.” The point was to identify where future effort might be better spent.\nMaybe the issue was not the stream topic itself, but the lack of discoverability around it. Maybe a stream performed poorly live but had potential as a short-form clip. Maybe collaborations were not immediately increasing views but were helping with community-building in ways that needed to be measured differently. Maybe the best strategy was not to stream longer, but to use time more intentionally across streaming, editing, posting, and promotion.\nThe data did not provide a magic answer. But it helped create a more grounded way to experiment.\n\n\n\nUltimately, I went on an indefinite hiatus from streaming. I realized I was not willing to invest the amount of time and energy required to grow the channel in the way I wanted.\nBut I also realized something else: I loved the analytics work.\nI enjoyed figuring out how to collect messy data, clean it, organize it, and turn it into something interpretable. I enjoyed building reports that could answer practical questions. I enjoyed connecting quantitative patterns with qualitative context. Most of all, I enjoyed helping people make sense of the data they were already producing but could not easily use.\nThat experience became part of the foundation for Sun Data Analytics.\nSun Data Analytics is built around a simple idea: people and organizations often have valuable data scattered across platforms, exports, transcripts, dashboards, and documents, but they need help turning that information into something useful.\nFor content creators, that might mean collecting YouTube analytics, chat logs, transcripts, stream metadata, and performance metrics into a cleaner reporting system. For other clients, it might mean preparing messy source files, documenting workflows, building dashboards, or creating reports that explain what the data can and cannot say.\nThe goal is not to pretend that data has all the answers. It does not.\nThe goal is to use data carefully, honestly, and systematically so that people can make better decisions with the information available to them.\nMy own streaming data did not tell me how to become a massive creator. But it did help me understand what was not working, where I was overextending myself, and where there were small opportunities worth paying attention to.\nThat is the kind of work I want Sun Data Analytics to support.\nInstead of guessing blindly, we can collect the evidence. Instead of relying only on generalized advice, we can examine the patterns in your own data. Instead of running into the same wall repeatedly, we can ask what the data suggests, what it leaves unresolved, and what might be worth trying next.\nWe may still need trial and error. But with better data, we do not have to flounder in the dark."
+  },
+  {
+    "objectID": "pages/insights/01_data_driven_analytics.html#relevant-posts",
+    "href": "pages/insights/01_data_driven_analytics.html#relevant-posts",
+    "title": "Inspiration for Sun Data Analytics",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html",
+    "href": "pages/insights/03_using_creator_performance_report.html",
+    "title": "Using the Creator Performance Report",
+    "section": "",
+    "text": "The Creator Performance Report is a high-level snapshot of creator performance across a selected reporting window. It is designed to help readers understand scale, consistency, audience behavior, monetization patterns, and content strategy signals without treating the report as a causal model or prediction system.\n\n\n\n\n\n\nNoteView the report\n\n\n\nThis companion note is meant to be read alongside the Creator Performance Report sample. For chart-by-chart interpretation help, see How to Read Creator Report Charts."
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html#main-point",
+    "href": "pages/insights/03_using_creator_performance_report.html#main-point",
+    "title": "Using the Creator Performance Report",
+    "section": "",
+    "text": "The Creator Performance Report is a high-level snapshot of creator performance across a selected reporting window. It is designed to help readers understand scale, consistency, audience behavior, monetization patterns, and content strategy signals without treating the report as a causal model or prediction system.\n\n\n\n\n\n\nNoteView the report\n\n\n\nThis companion note is meant to be read alongside the Creator Performance Report sample. For chart-by-chart interpretation help, see How to Read Creator Report Charts."
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html#what-the-report-does",
+    "href": "pages/insights/03_using_creator_performance_report.html#what-the-report-does",
+    "title": "Using the Creator Performance Report",
+    "section": "What the Report Does",
+    "text": "What the Report Does\nThe report summarizes what happened during a selected period of time. That window might be the last 7, 30, or 90 days, or it might cover the full lifetime of available data. The reporting window matters because recent strategy, audience behavior, and posting frequency may differ from older content.\nAt a high level, the report brings together views, on-stream donation revenue, video counts, average and median performance, engagement distributions, audience composition, timing patterns, collaborations, topics, and classified title tags. These sections are meant to help creators and teams ask better questions about what is working and where to look more closely.\n\n\n\n\n\n\nNoteDescriptive, not causal\n\n\n\nThe report describes historical patterns. It does not prove that a specific topic, tag, timing choice, collaboration, or content format caused higher performance."
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html#how-to-use-it",
+    "href": "pages/insights/03_using_creator_performance_report.html#how-to-use-it",
+    "title": "Using the Creator Performance Report",
+    "section": "How to Use It",
+    "text": "How to Use It\nStart with the overall snapshot before jumping into detailed sections. Totals show overall contribution, while averages and medians help compare per-video performance. A content type, topic, or tag can look strong because it appears often, because it performs well each time, or because one unusually successful video is pulling the result upward.\nWhen reading any table or chart, check the video count behind the metric. Patterns based on many videos are usually more reliable than patterns based on one or two uploads. Use the report as a way to identify areas worth reviewing, not as a final verdict on what the creator should do next."
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html#practical-takeaway",
+    "href": "pages/insights/03_using_creator_performance_report.html#practical-takeaway",
+    "title": "Using the Creator Performance Report",
+    "section": "Practical Takeaway",
+    "text": "Practical Takeaway\nUse the Creator Performance Report as a structured starting point. It helps identify what deserves attention: formats with strong reach, topics with meaningful revenue, tags that repeat across successful videos, audience segments that are changing, or timing patterns that may be worth testing. The strongest decisions come from reading these patterns together rather than relying on any single chart."
+  },
+  {
+    "objectID": "pages/insights/03_using_creator_performance_report.html#relevant-posts",
+    "href": "pages/insights/03_using_creator_performance_report.html#relevant-posts",
+    "title": "Using the Creator Performance Report",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "",
+    "text": "Recently, media coverage has pointed to a number of lawsuits against social media, gaming, and community platforms. These lawsuits include major platforms such as Meta, YouTube, TikTok, Snap, Roblox, and Discord. For content creators, the important point is not that any one platform should be abandoned. The more useful lesson is that courts, attorneys general, school districts, and plaintiffs are increasingly asking whether digital platforms create harm through their own design systems: recommendation algorithms, engagement loops, messaging tools, discovery features, age controls, moderation systems, and warnings.\nThat matters because creators rely on those same systems. YouTube recommendations, short-form feeds, Discord servers, Roblox groups, Twitch chats, and private community spaces are not just distribution channels. They are part of how audiences are formed, retained, and moved across platforms. If legal or regulatory pressure pushes platforms to change how they rank content, recommend videos, limit teen engagement, or govern private communities, creators and brands may need to adjust how they build their content and community infrastructure."
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#the-main-point",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#the-main-point",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "The Main Point",
+    "text": "The Main Point\n\nMDL-3047: In Re: Social Media Adolescent Addiction/Personal Injury Products Liability Litigation focuses on claims that social media platforms were designed to maximize adolescent screen time and encourage compulsive use.\nMDL-3166: In Re: Roblox Corporation Child Sexual Exploitation and Assault Litigation focuses on claims that Roblox and related communication pathways created unsafe conditions where minors could be contacted, groomed, or exploited.\nFor creators, the practical takeaway is that platform strategy and community safety strategy are becoming harder to separate. The question is not only, “What content are we posting?” but also, “What kind of audience system are we building around that content?”\n\n\n\n\n\n\n\nNoteLearn More: What is an MDL?\n\n\n\n\n\nMDL stands for multidistrict litigation. It is a federal court procedure used when civil lawsuits filed in different federal districts share common factual questions. Under 28 U.S.C. § 1407, those cases can be transferred to one federal district court for coordinated or consolidated pretrial proceedings when doing so would be convenient for the parties and promote the just and efficient handling of the cases.1\nIn plain English, an MDL does not automatically mean every lawsuit has been decided together. It means related cases are coordinated before one judge for pretrial management, discovery, motions, and sometimes bellwether trials.\n\n\n\n\n\n\n\n\n\nCautionImportant Caveat\n\n\n\nThese are lawsuits and allegations, not final findings across every case. Some claims may be dismissed, narrowed, settled, appealed, or decided differently depending on the court, the platform, and the legal theory. This post is a lay summary for creators, not legal advice."
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#mdl-3047-social-media-addiction-and-platform-design",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#mdl-3047-social-media-addiction-and-platform-design",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "MDL-3047: Social Media Addiction and Platform Design",
+    "text": "MDL-3047: Social Media Addiction and Platform Design\nTraditionally, lawsuits against social media platforms have often faced a powerful defense under Section 230 of the Communications Decency Act, usually referenced simply as Section 230.2 Section 230 generally prevents online platforms from being treated as the publisher or speaker of content created by third-party users. In plain terms, this means a platform can host user-generated content without automatically being held legally responsible for the effects of that content.\nFor many years, Section 230 has blocked or limited many content-based lawsuits against social media companies. The lawsuits in MDL-3047 take a different angle. Rather than arguing only that individual posts harmed children, plaintiffs argue that the platforms’ own recommendation systems and engagement tools are part of the problem. The Northern District of California’s case summary describes MDL-3047 as involving defendants including Meta, Instagram, Snap, TikTok, ByteDance, YouTube, Google, and Alphabet, with plaintiffs alleging that the platforms are defective because they are designed to maximize screen time and can encourage addictive behavior in adolescents.3\nThis distinction matters because the lawsuit shifts attention from content moderation to platform architecture. The plaintiffs are effectively challenging the systems that determine what users see, how often they see it, how aggressively content is recommended, and how long young users are encouraged to stay on the platform. In more familiar creator language, the argument is not simply “bad content appeared online.” The argument is closer to “the recommendation and engagement system itself is part of the harmful product design.”\nOne important version of this argument is a public nuisance theory, especially in claims brought by school districts, local governments, and state attorneys general. These plaintiffs argue that engagement-driven platform systems have contributed to a broader youth mental-health and public-health burden, forcing public institutions to spend money on counseling, behavioral support, staff training, discipline, and other remedial services. In New Mexico’s case against Meta, Reuters reported that the state asked a judge to declare Meta’s platforms a public nuisance and sought platform changes such as age verification, algorithm redesign for minors, and limits on autoplay and infinite scroll.4\nWhile this post focuses on the federal MDL, related cases are also moving through state courts. In California, a Los Angeles jury found Meta and Google liable in a social media addiction case involving Instagram and YouTube, with Reuters describing the verdict as finding the companies negligent in designing or operating their platforms and failing to adequately warn users.5 In New Mexico, a jury found Meta violated the state’s consumer protection law in a case involving child safety claims; Meta has said it will appeal.6"
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#mdl-3166-roblox-discord-and-the-movement-across-platforms",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#mdl-3166-roblox-discord-and-the-movement-across-platforms",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "MDL-3166: Roblox, Discord, and the Movement Across Platforms",
+    "text": "MDL-3166: Roblox, Discord, and the Movement Across Platforms\nMDL-3166 makes a related but somewhat different argument about child safety and platform design. Whereas MDL-3047 focuses on social media platforms allegedly using engagement-driven systems to keep adolescents online, MDL-3166 focuses on Roblox as a child-facing gaming and social platform that allegedly allowed predators to find, contact, groom, and exploit minors. The federal MDL, formally titled In Re: Roblox Corporation Child Sexual Exploitation and Assault Litigation, was centralized in the Northern District of California for coordinated pretrial proceedings.7\nThe connection to Discord is especially important for creators because Discord is often where public audiences become private communities. A YouTube channel, Twitch stream, Roblox group, or social media page may be the first point of discovery, but Discord is often where fans build closer relationships with creators, moderators, and each other. The JPML transfer order states that plaintiffs allege predators targeted and groomed minors through Roblox and then persuaded them to continue interactions on a second platform such as Discord, Snapchat, Instagram, texting, or video calls.8\nThat does not mean creators should abandon Discord. It means creators should treat Discord servers as serious community infrastructure, not just casual fan spaces. Discord itself provides safety tools such as Family Center, activity summaries for parents and guardians, reporting, blocking, privacy controls, and age-restricted channels.9 But platform tools are only one layer. Creator communities still need clear rules, active moderation, limits on adult-minor private contact, reporting pathways, and careful control over channels where users can form private relationships.\nThe core claim in MDL-3166 is not simply that a bad actor used the internet to harm a child. The claim is that platform design choices — including age and identity verification, parental controls, messaging features, safety warnings, and moderation safeguards — can affect whether children are placed in unsafe situations. Put more simply, these lawsuits show how harm can move across platforms. A child may discover a community in one place, interact socially in another, and then be moved into private messages where the risk becomes harder to see."
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#so-what-why-this-matters-for-content-creators",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#so-what-why-this-matters-for-content-creators",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "So What? Why This Matters for Content Creators",
+    "text": "So What? Why This Matters for Content Creators\nFor creators, brands, and companies, these lawsuits are important because they point to a possible shift in how platforms define “safe” growth. For years, creators have been trained to optimize for watch time, retention, repeat engagement, click-through rates, comments, shares, and community activity. Those signals still matter. But if platforms face more legal pressure around minors, addiction, grooming, or harmful recommendation loops, then platform incentives may change.\nThe “so what” is that creator strategy may increasingly need to account for safety-aware distribution. Algorithms may still reward engagement, but platforms may become more cautious about content and community patterns that appear to encourage compulsive use, expose minors to inappropriate spaces, or move young users into unsupervised private contact. This does not mean creators should stop building engaged communities. It means creators should build communities that can survive a world where platforms care not only about how long people stay, but also about how safely people participate.\n\n\nAlgorithm Risk\nCreators who depend heavily on algorithmic recommendations should assume that ranking systems can change when platforms face legal, regulatory, or reputational pressure. Content that relies only on outrage, compulsive loops, parasocial intensity, or youth-targeted retention may become more fragile if platforms adjust recommendation systems around teen safety or well-being.\n\n\nCommunity Risk\nA Discord server, fan server, Roblox group, or private community is not just an add-on to the content. It is part of the audience experience. If minors are present, creators should think about the server as a governed space with rules, permissions, moderation coverage, and escalation paths.\n\n\nBrand Risk\nSponsors, parents, collaborators, and institutions may increasingly ask whether a creator’s community is safe, moderated, and age-aware. A creator with clear community standards, trained moderators, and documented safety practices may be better positioned than a creator whose community depends on unmanaged private interactions."
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#practical-action-steps-for-creator-communities",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#practical-action-steps-for-creator-communities",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "Practical Action Steps for Creator Communities",
+    "text": "Practical Action Steps for Creator Communities\nThe takeaway is not to panic. The takeaway is to professionalize community operations.\nFor creator communities, especially those where minors may be present, a basic safety review should ask:\n\nWho can join the server or community space?\nAre there separate spaces for minors and adults, or at least clear rules about appropriate interaction?\nAre adult-minor direct messages discouraged or prohibited when connected to the community?\nAre moderators trained to identify grooming, harassment, coercive behavior, and suspicious attempts to move users off-platform?\nAre reporting pathways visible and easy to use?\nAre age-restricted channels correctly labeled and permissioned?\nAre moderators keeping records of serious incidents, bans, and escalation decisions?\nAre creators making it clear that “community” does not mean unlimited access to minors, creators, moderators, or other fans?"
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#what-to-do-with-this",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#what-to-do-with-this",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "What To Do With This",
+    "text": "What To Do With This\nCreators and companies should treat platform dependency and community governance as part of the same operating system. On the content side, that means building a strategy that does not rely only on maximizing attention at any cost. On the community side, it means treating Discord and similar platforms as managed spaces with rules, permissions, moderation, and safety expectations.\nThe practical question is not, “Should creators stop using YouTube, Discord, Roblox, or social platforms?” The better question is, “If my content brings people into a community, have I built that community in a way that is safe, age-aware, and resilient if platform rules change?”"
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#relevant-posts",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#relevant-posts",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/insights/05_discord_social_media_lawsuits.html#footnotes",
+    "href": "pages/insights/05_discord_social_media_lawsuits.html#footnotes",
+    "title": "Discord, YouTube, and Social Media Lawsuits",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n28 U.S.C. § 1407, Cornell Legal Information Institute. https://www.law.cornell.edu/uscode/text/28/1407↩︎\n47 U.S.C. § 230, Cornell Legal Information Institute. https://www.law.cornell.edu/uscode/text/47/230↩︎\nU.S. District Court, Northern District of California, MDL-3047 case summary. https://cand.uscourts.gov/cases-e-filing/cases/422-md-03047-ygr/re-social-media-adolescent-addictionpersonal-injury-products↩︎\nReuters, “New Mexico seeks changes to Meta platforms in youth harm trial,” May 4, 2026. https://www.reuters.com/legal/government/new-mexico-seeks-changes-meta-platforms-youth-harm-trial-2026-05-04/↩︎\nReuters, “What did jury decide in social media case against Meta, Google?,” March 25, 2026. https://www.reuters.com/legal/litigation/what-did-jury-decide-social-media-case-against-meta-google-2026-03-25/↩︎\nReuters, “Jury orders Meta to pay $37.5 mln in New Mexico lawsuit over child sexual exploitation,” March 24, 2026. https://www.reuters.com/sustainability/boards-policy-regulation/jury-orders-meta-pay-375-mln-new-mexico-lawsuit-over-child-sexual-exploitation-2026-03-24/↩︎\nJudicial Panel on Multidistrict Litigation, MDL-3166 Transfer Order. https://www.jpml.uscourts.gov/sites/jpml/files/MDL-3166-Transfer_Order-12-25.pdf↩︎\nJudicial Panel on Multidistrict Litigation, MDL-3166 Transfer Order. https://www.jpml.uscourts.gov/sites/jpml/files/MDL-3166-Transfer_Order-12-25.pdf↩︎\nDiscord Family Center and Discord age-restricted channels documentation. https://discord.com/safety-family-center; https://support.discord.com/hc/en-us/articles/115000084051-Age-Restricted-Channels-and-Content↩︎"
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html",
+    "href": "pages/insights/07_reading_creator_report_charts.html",
+    "title": "How to Read Creator Report Charts",
+    "section": "",
+    "text": "This guide explains how to read the main charts and tables in the Creator Performance Report. It is longer than a typical insight because it functions as a reference companion for readers who want help interpreting the report section by section.\n\n\n\n\n\n\nNoteView the report\n\n\n\nUse this guide alongside the Creator Performance Report sample. For the shorter overview, see Using the Creator Performance Report."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#main-point",
+    "href": "pages/insights/07_reading_creator_report_charts.html#main-point",
+    "title": "How to Read Creator Report Charts",
+    "section": "",
+    "text": "This guide explains how to read the main charts and tables in the Creator Performance Report. It is longer than a typical insight because it functions as a reference companion for readers who want help interpreting the report section by section.\n\n\n\n\n\n\nNoteView the report\n\n\n\nUse this guide alongside the Creator Performance Report sample. For the shorter overview, see Using the Creator Performance Report."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#reader-note-guide",
+    "href": "pages/insights/07_reading_creator_report_charts.html#reader-note-guide",
+    "title": "How to Read Creator Report Charts",
+    "section": "Reader Note Guide",
+    "text": "Reader Note Guide\nThis guide uses color-coded notes to separate background context, practical reading instructions, scope limits, and interpretation cautions.\n\n\n\n\n\n\n\n\nColor\nNote type\nWhat it means\n\n\n\n\n\nExtra context\nBackground that explains where a metric, category, or report convention comes from.\n\n\n\nHow to read\nPractical guidance for interpreting a chart, table, or visual element.\n\n\n\nScope / limits\nReminders about what the data includes, excludes, or depends on.\n\n\n\nInterpretation guardrail\nCautions against over-reading small samples, shares, correlations, or descriptive comparisons."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#overall-performance-snapshot",
+    "href": "pages/insights/07_reading_creator_report_charts.html#overall-performance-snapshot",
+    "title": "How to Read Creator Report Charts",
+    "section": "Overall Performance Snapshot",
+    "text": "Overall Performance Snapshot\nThis section establishes the baseline for the report. It summarizes overall scale, per-video efficiency, monetization, retention, and content format patterns before moving into more detailed trend, audience, timing, topic, and tag analyses.\n\nViews by Content Type\nThis chart compares creator performance by format using two related but distinct measures: total views and average views per video.\n\n\n\n\n\n\nNoteTotals vs. averages\n\n\n\nTotals show overall contribution. Averages show per-video efficiency. A format, topic, or tag may have a high total because it appears often, because it performs well each time, or both. Read totals and averages together before deciding whether something is truly strong or simply frequent.\n\n\nThe Total Views panel shows overall audience volume, while the Average Views per Video panel shows per-upload efficiency. Reading both panels together helps separate formats that generate views through overall scale from formats that perform especially well each time they are posted. This matters because a format may lead in total views because it has strong individual performance, a high number of uploads, or both.\nA format that ranks highly in both panels is both a major source of audience traffic and strong on a per-video basis. A format with high total views but a lower average may be benefiting from posting volume. A format with lower total views but a strong average may be a smaller but efficient option worth testing more often.\nThis chart should also be interpreted in relation to the creator’s goals. Views do not measure view duration or depth of engagement. Shorts may bring in more traffic and visibility, but standard videos and live streams may provide more space for sustained engagement, community building, brand recognition, and monetization."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#combined-performance-trends",
+    "href": "pages/insights/07_reading_creator_report_charts.html#combined-performance-trends",
+    "title": "How to Read Creator Report Charts",
+    "section": "Combined Performance Trends",
+    "text": "Combined Performance Trends\nThis chart compares two performance signals over time: views and on-stream donation revenue. The views panel shows how audience traffic changed across the reporting period, while the revenue panel shows how much money was generated through donations made during streams.\n\n\n\n\n\n\nNoteRevenue scope\n\n\n\nUnless stated otherwise, revenue in this report refers to available on-stream donation revenue captured in the dataset. It does not represent total creator income and does not include Streamlabs donations, YouTube memberships, ad revenue, sponsorships, merchandise, subscriptions, or other off-platform income.\n\n\nThe value of this chart is that it allows readers to compare audience movement and donation movement side by side. When views and donation revenue rise together, it may suggest that higher audience traffic is also translating into stronger direct support. When views rise but donation revenue does not, the creator may be reaching more people without necessarily increasing financial engagement. When donation revenue rises without a similar increase in views, it may indicate stronger support from a smaller or more committed audience.\nViews and donations measure different kinds of performance. Views show reach and visibility, while on-stream donations reflect direct financial support from viewers. A strong month is not always the month with the most views; depending on the creator’s goals, a month with fewer views but stronger donation activity may be just as meaningful."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#total-revenue-by-content-type",
+    "href": "pages/insights/07_reading_creator_report_charts.html#total-revenue-by-content-type",
+    "title": "How to Read Creator Report Charts",
+    "section": "Total Revenue by Content Type",
+    "text": "Total Revenue by Content Type\nThis chart shows total on-stream donation revenue by content type and publish month. The x-axis shows the month and year when videos were published, while the bars show how much donation revenue was associated with each content type in that period.\nThis is important to read as a publish-month cohort view, not a cash-flow chart. In other words, the chart groups videos by when they were published and summarizes the revenue associated with those videos. It should not be interpreted as revenue earned only during that specific calendar month.\nThe colors and legend allow readers to isolate specific month-and-content-type combinations. Because the legend can include many entries, users may need to scroll through it to find the period or format they want to focus on.\nThe labels on the bars provide the total revenue value, and the n= label shows how many videos are included in that group. This is important because a high revenue total may reflect one strong upload, several smaller uploads, or a combination of both.\n\n\n\n\n\n\nNoteWatch the video count\n\n\n\nAlways check the number of videos behind a metric. A category with only a few videos can look unusually strong or weak because one outlier has a large effect. Patterns based on more videos are usually more reliable than patterns based on only one or two uploads.\n\n\nA sortable table is included below the chart for readers who want to inspect the aggregated data directly. The table can be used to sort by month, content type, total revenue, video count, or average revenue per video, and it can also be downloaded for further review.\n\n\n\n\n\n\nNoteHow to use the tables\n\n\n\nThe tables provide the exact values behind the charts. Use the search box to find a specific topic, tag, content type, or video. Use the sorting controls to compare metrics such as total views, average views per video, median views, total revenue, and video count. Use the CSV button to download the aggregated data for additional review."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#engagement-distribution",
+    "href": "pages/insights/07_reading_creator_report_charts.html#engagement-distribution",
+    "title": "How to Read Creator Report Charts",
+    "section": "Engagement Distribution",
+    "text": "Engagement Distribution\nThis chart shows the distribution of Average View Percentage by content type. Average View Percentage measures how much of a video viewers watched on average, making this chart useful for understanding retention rather than raw audience size.\n\n\n\n\n\n\nNoteHow to read a boxplot\n\n\n\nEach box summarizes the range of Average View Percentage values for videos in that content type. The line in the middle of the box is the median, or the typical middle value. The bottom and top of the box show the middle range of videos, from the 25th percentile to the 75th percentile. The lines extending above and below the box, often called whiskers, show the lower and higher ends of the typical range.\n\n\n\n\n\n\n\n\n\n\n\nHighlighted points represent videos in the top quartile for their content type, meaning they are among the stronger performers within that format. Readers can hover over these points to identify the specific videos or streams behind the standout results.\nThis chart should be interpreted with format differences in mind. Shorts are expected to have higher average view percentages because they are short by design. Live streams often have lower average view percentages because they are longer and viewers may join for only part of the broadcast. That does not automatically mean live streams are performing poorly; it means they serve a different purpose."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#trends-over-time",
+    "href": "pages/insights/07_reading_creator_report_charts.html#trends-over-time",
+    "title": "How to Read Creator Report Charts",
+    "section": "Trends Over Time",
+    "text": "Trends Over Time\nTrend charts show how performance changes across the reporting window. They help readers see whether a format is gaining momentum, staying relatively stable, declining, or depending on occasional spikes.\n\nRevenue over time by content type\nThis chart shows how on-stream donation revenue changes over time by content type. Each panel separates a different format, such as live streams, Shorts, and standard videos, so readers can compare whether revenue patterns are stable, rising, declining, or highly variable across formats.\nThe x-axis shows the publish date, while the y-axis shows total estimated revenue associated with the content in that panel. The individual points show observed revenue values over time, and the darker trend line helps summarize the broader direction of the data.\n\n\n\n\n\n\nNotePoints, lines, and trends\n\n\n\nIn trend charts, individual points show observed performance values, while the darker line summarizes the broader direction over time. A single spike may represent a standout upload or event, but the trend line helps show whether performance is generally rising, falling, flattening, or changing inconsistently.\n\n\n\n\nViews over time by content type\nThis chart shows how total views change over time by content type. Each panel separates a different format so readers can compare audience demand across formats without combining very different kinds of content into one trend.\nThis chart should be read alongside the revenue trend chart. Views and revenue do not always move together. A format may bring in more audience traffic without generating much direct donation revenue, while another format may have fewer views but stronger monetization or deeper viewer support."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#audience-composition",
+    "href": "pages/insights/07_reading_creator_report_charts.html#audience-composition",
+    "title": "How to Read Creator Report Charts",
+    "section": "Audience Composition",
+    "text": "Audience Composition\nAudience composition charts describe who the content is reaching, not just how many people watched.\n\nAudience Age and Gender Trends\nOne limitation of standard YouTube analytics exports is that they do not always make it easy to view age and gender together as a combined audience segment over time.\nThis chart shows how the audience mix changes over time by age group and gender. Each panel separates viewers by gender, while the colored lines show the share of the audience represented by each age group.\n\n\n\n\n\n\nNoteShares are not raw counts\n\n\n\nCharts that show audience share or share of total performance are percentage-based. If a group’s share increases, that means it became a larger portion of the measured total. It does not always mean the raw number of viewers or revenue dollars increased.\n\n\nThe main purpose of this chart is to help creators understand whether their content is reaching the audience they expect, whether their audience is broadening, and whether certain demographic groups are becoming more or less central over time."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#content-strategy-deep-dive",
+    "href": "pages/insights/07_reading_creator_report_charts.html#content-strategy-deep-dive",
+    "title": "How to Read Creator Report Charts",
+    "section": "Content Strategy Deep Dive",
+    "text": "Content Strategy Deep Dive\nThis part of the report looks at timing, collaborations, topics, and classified title tags. These sections are useful for planning, but they should be read carefully because they are descriptive comparisons.\n\nTiming Effects: Weekend vs Weekday\nThis chart compares per-video performance for uploads published on weekdays versus weekends. It uses two related measures: views per video and on-stream donation revenue per video.\nEach point represents an individual video. The boxes summarize the typical range of performance for weekday and weekend uploads, while the middle line in each box shows the median. The white point represents the mean, or average.\n\n\n\n\n\n\nNoteDescriptive comparison, not causation\n\n\n\nTiming, topic, collaboration, and tag charts describe historical patterns. They should not be read as proof that a specific day, topic, tag, or collaboration caused higher performance. Other factors such as format, promotion, stream length, audience availability, and special events may also shape the result.\n\n\n\n\nTiming Effects: Day-of-week distribution\nThis chart shows the share of total performance attributed to each day of the week. The top panel shows each weekday’s share of on-stream donation revenue, while the bottom panel shows each weekday’s share of total views.\nLarger bars mean that videos published on that day contributed a larger portion of total views or total donation revenue during the selected reporting window. A larger share does not necessarily mean that a weekday is automatically better; some days may have more videos published, stronger topics, collaborations, or special events.\n\n\nCollaboration Effectiveness\nThis chart compares average per-video performance for collaborative and non-collaborative uploads. This is different from comparing total views or total revenue. By using averages per video, the chart asks a more direct question: when this creator posts a collaborative or non-collaborative upload, which type tends to perform better per upload?\nThe table below the chart provides the detailed comparison. It includes video counts, total views, total revenue, average views per video, average revenue per video, and lift compared with non-collaborative uploads.\n\n\nTopic Performance\nThis chart compares performance across classified content topics using two measures: total views and on-stream donation revenue. Each bar represents a topic category, making it easier to see which types of content contributed the most audience traffic and direct donation activity during the selected reporting window.\n\n\n\n\n\n\nNoteHow are topics defined\n\n\n\nTopics are created as broad interpretive groups from title signals, not exact one-to-one labels. A single title can contain more than one signal, so the classification process tries to preserve the main activity while also marking important framing cues such as collaborations, milestones, monetization, serialization, performance, conversation, or meme/viral hooks. For more detail, see How Stream Title Classification Works.\n\n\nThe views panel shows which topics generated the largest share of audience reach. The revenue panel shows which topics generated the most on-stream donation revenue. Reading the two panels together helps identify whether the same topics are driving both visibility and financial support.\n\n\nTag Performance\nThis chart compares performance across the most common classified title tags in the report. These tags are created during the title-classification process, where each YouTube title is analyzed and assigned structured labels based on the wording of the title.\nThese tags should be understood as analytic tags, not necessarily the original tags entered into YouTube Studio. They are generated from the report’s classification schema to help summarize patterns across titles.\n\n\n\n\n\n\nNoteTags are analytic labels\n\n\n\nThe tags in this report are generated through the title-classification process. They are not necessarily the same as the original tags entered into YouTube Studio. Because one video can receive multiple analytic tags, tag categories can overlap and should be interpreted as directional signals rather than mutually exclusive groups.\n\n\nBecause tags can overlap, this chart should not be read as a set of mutually exclusive categories. The same video may contribute to several tag totals. For that reason, tag performance is best interpreted as a directional signal.\n\n\nAverage Views per Tag\nThis chart shows the average views per tagged video for each classified title tag. Unlike the previous tag performance chart, which focuses on total views and total revenue, this chart focuses on per-video efficiency: when a video has a given tag, how many views does it receive on average?\nThis distinction matters because a tag can appear strong for different reasons. A tag may have high total views because it appears on many videos, but that does not necessarily mean each tagged video performs especially well. Average views per tagged video helps control for posting volume by showing which tags tend to perform better each time they appear.\nThe table below provides the detailed tag-level data, including video count, total views, average views per video, total revenue, average revenue per video, share of views, and share of revenue. A tag with a high average but only a few videos may be promising, but it needs more testing before being treated as a reliable pattern."
+  },
+  {
+    "objectID": "pages/insights/07_reading_creator_report_charts.html#relevant-posts",
+    "href": "pages/insights/07_reading_creator_report_charts.html#relevant-posts",
+    "title": "How to Read Creator Report Charts",
+    "section": "Relevant Posts",
+    "text": "Relevant Posts\n\n  \n    Browse All Insights\n    See published notes by category, including creator analytics, reporting systems, data collection, and mixed-methods analysis.\n    Back to Insights"
+  },
+  {
+    "objectID": "pages/user-login.html",
+    "href": "pages/user-login.html",
+    "title": "User Login",
+    "section": "",
+    "text": "User access\n  Already have access?\n  \n    Open the Sun Data Analytics user portal to access your private workspace, reports, and available analytics tools.\n  \n  \n    Open User Portal\n  \n\n  \n    Having trouble signing in?\n    Access expired or invitation missing? Request access help.\n  \n\n  \n    Private reports and user credentials are never exposed through the public website."
+  }
+]

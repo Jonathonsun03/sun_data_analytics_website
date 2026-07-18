@@ -1,0 +1,17 @@
+date,article_id,title,is_anime,is_manga,is_game,is_film_theatrical,is_screening_event,is_announcement,is_release,is_ending,is_casting,is_adaptation,is_licensing
+2026-02-21,ann-001,Studio reveals anime adaptation with new cast,1,0,0,0,0,1,0,0,1,1,0
+2026-02-21,ann-002,Publisher licenses manga volume for North American release,0,1,0,0,0,0,1,0,0,0,1
+2026-02-22,ann-003,Mobile game announces collaboration event and release date,0,0,1,0,1,1,1,0,0,0,0
+2026-02-22,ann-004,Anime film screens early with staff talk,1,0,0,1,1,0,1,0,1,0,0
+2026-02-23,ann-005,Manga ends final arc as anime adaptation is confirmed,1,1,0,0,0,1,0,1,0,1,0
+2026-02-23,ann-006,Streaming service adds licensed anime film,1,0,0,1,0,0,1,0,0,0,1
+2026-02-24,ann-007,Console game reveals anime opening and cast members,1,0,1,0,0,1,0,0,1,0,0
+2026-02-24,ann-008,Theatrical anime movie opens with special screening event,1,0,0,1,1,0,1,0,0,0,0
+2026-02-25,ann-009,Webtoon gets TV anime adaptation announcement,1,1,0,0,0,1,0,0,0,1,0
+2026-02-25,ann-010,Game franchise launches film project and staff reveal,0,0,1,1,0,1,1,0,1,0,0
+2026-02-26,ann-011,Anime project suspends activities after delay,1,0,0,0,0,0,0,1,0,0,0
+2026-02-26,ann-012,Manga publisher announces new licensing slate,0,1,0,0,0,1,0,0,0,0,1
+2026-02-27,ann-013,Film premiere confirms additional cast and release window,0,0,0,1,1,1,1,0,1,0,0
+2026-02-27,ann-014,Anime adaptation streams trailer for mobile game tie-in,1,0,1,0,0,0,1,0,0,1,0
+2026-02-28,ann-015,Final volume reveals ending for long-running manga,0,1,0,0,0,1,0,1,0,0,0
+2026-02-28,ann-016,Game event screens anime short during launch campaign,1,0,1,0,1,0,1,0,0,0,0
