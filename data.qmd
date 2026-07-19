@@ -1,6 +1,6 @@
 ---
 title: "Reports"
-description: "Reproducible materials, reporting templates, and analysis outputs from Sun Data Analytics."
+description: "Reproducible materials, reporting templates, and analysis outputs from Sun Data Analytics, LLC."
 ---
 
 This page shares public-safe descriptions of reusable reporting materials, data workflows, and analysis systems. Private reports and raw client data stay private; public entries can still document source notes, methodology, and workflow design.

@@ -1,9 +1,9 @@
 ---
 title: "Tools & Reports"
-description: "Dashboards, report samples, reading guides, classification references, and reusable analytics tools from Sun Data Analytics."
+description: "Dashboards, report samples, reading guides, classification references, and reusable analytics tools from Sun Data Analytics, LLC."
 ---
 
-Tools & Reports is a public shelf of dashboards, report examples, reference guides, and reusable analysis resources. These are visible artifacts, not service descriptions: examples of how Sun Data Analytics organizes performance data, creator content, text evidence, and reporting logic into things people can inspect.
+Tools & Reports is a public shelf of dashboards, report examples, reference guides, and reusable analysis resources. These are visible artifacts, not service descriptions: examples of how Sun Data Analytics, LLC organizes performance data, creator content, text evidence, and reporting logic into things people can inspect.
 
 ```{=html}
 <section class="tools-hero">

@@ -5,7 +5,7 @@ description: "Qualitative insight, quantitative evidence, and network analysis b
 
 ## See More Than Counts Alone
 
-Data can tell you **what happened**. Qualitative evidence can help explain **why**. Sun Data Analytics brings both together to uncover patterns that would be difficult to see through either approach alone.
+Data can tell you **what happened**. Qualitative evidence can help explain **why**. Sun Data Analytics, LLC brings both together to uncover patterns that would be difficult to see through either approach alone.
 
 This work combines:
 

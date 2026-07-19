@@ -1,12 +1,12 @@
 ---
 title: "About"
-description: "Background, methods, tools, and contact context for Sun Data Analytics."
+description: "Background, methods, tools, and contact context for Sun Data Analytics, LLC."
 format:
   html:
     body-class: about-page
 ---
 
-Sun Data Analytics is an independent analytics practice focused on clear reporting, reproducible data work, research support, and practical decision systems.
+Sun Data Analytics, LLC is an independent analytics practice focused on clear reporting, reproducible data work, research support, and practical decision systems.
 
 ## Staff
 

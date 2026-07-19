@@ -1,6 +1,6 @@
 ---
 title: "Automated Reporting Systems"
-description: "Recurring creator, content, audience, and text-analysis reports from Sun Data Analytics."
+description: "Recurring creator, content, audience, and text-analysis reports from Sun Data Analytics, LLC."
 ---
 
 ```{=html}
@@ -8,7 +8,7 @@ description: "Recurring creator, content, audience, and text-analysis reports fr
   <p class="service-kicker">Automated reporting systems</p>
   <h2>Repeatable reports that connect performance, audience behavior, and text evidence.</h2>
   <p>
-    Sun Data Analytics builds reporting systems for teams that need to understand performance over time, not just check a dashboard once. Each report cycle brings updated data into a consistent structure, making it easier to compare results, identify meaningful changes, and decide what deserves attention next.
+    Sun Data Analytics, LLC builds reporting systems for teams that need to understand performance over time, not just check a dashboard once. Each report cycle brings updated data into a consistent structure, making it easier to compare results, identify meaningful changes, and decide what deserves attention next.
   </p>
   <div class="hero-actions">
     <a class="button-link" href="../portfolio/automated_reporting/00_creator-performance-report-sample.html">View a sample report</a>

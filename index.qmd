@@ -15,7 +15,7 @@ title: "Sun Data Analytics"
 </div>
 ```
 
-Sun Data Analytics is an independent analytics studio and public portfolio for practical data projects. I build reports, dashboards, tools, and workflows that make messy information easier to understand and use.
+Sun Data Analytics, LLC is an independent analytics studio and public portfolio for practical data projects. I build reports, dashboards, tools, and workflows that make messy information easier to understand and use.
 
 ## Featured Work
 

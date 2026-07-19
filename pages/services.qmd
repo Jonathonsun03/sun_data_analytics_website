@@ -1,9 +1,9 @@
 ---
 title: "Services"
-description: "Analytics consulting, reporting systems, research support, automation, and unified methods from Sun Data Analytics."
+description: "Analytics consulting, reporting systems, research support, automation, and unified methods from Sun Data Analytics, LLC."
 ---
 
-Sun Data Analytics helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, and unified methods.
+Sun Data Analytics, LLC helps clients collect, organize, analyze, and explain complex information through practical data workflows, automated reporting systems, and unified methods.
 
 ## Interested In Working Together?
 

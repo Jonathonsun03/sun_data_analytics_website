@@ -1,6 +1,6 @@
 # Sun Data Analytics Website
 
-Quarto website for Sun Data Analytics.
+Quarto website for Sun Data Analytics, LLC.
 
 ## Preview locally
 

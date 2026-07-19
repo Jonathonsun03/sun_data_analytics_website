@@ -1,9 +1,9 @@
 ---
 title: "Custom Reports"
-description: "One-off reports, technical notes, executive summaries, and client-facing findings documents from Sun Data Analytics."
+description: "One-off reports, technical notes, executive summaries, and client-facing findings documents from Sun Data Analytics, LLC."
 ---
 
-Sun Data Analytics produces one-off and tailored reports for specific client questions, research needs, or decision points.
+Sun Data Analytics, LLC produces one-off and tailored reports for specific client questions, research needs, or decision points.
 
 ## Overview
 

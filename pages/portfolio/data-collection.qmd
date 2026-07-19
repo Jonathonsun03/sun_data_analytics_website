@@ -7,7 +7,7 @@ description: "Repeatable workflows for importing YouTube analytics, subtitles, c
 
 Useful data is often spread across platform exports, APIs, subtitle files, chat logs, spreadsheets, and public websites. Before that information can support a report or analysis, it needs to be collected, standardized, checked, and organized.
 
-Sun Data Analytics builds repeatable workflows that move information from its original source into cleaner, analysis-ready tables.
+Sun Data Analytics, LLC builds repeatable workflows that move information from its original source into cleaner, analysis-ready tables.
 
 These workflows can support a one-time project or become part of a reporting system that is refreshed on a recurring schedule.
 

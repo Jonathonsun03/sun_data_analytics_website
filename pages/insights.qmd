@@ -1,6 +1,6 @@
 ---
 title: "Insights"
-description: "Blog-style analysis posts, research notes, short findings, and methodological explainers from Sun Data Analytics."
+description: "Blog-style analysis posts, research notes, short findings, and methodological explainers from Sun Data Analytics, LLC."
 listing:
   id: published-insights
   contents:
