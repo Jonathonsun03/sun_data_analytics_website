@@ -11,7 +11,7 @@ description: "Access information for private Sun Data Analytics user workspaces,
     Open the Sun Data Analytics user portal to access your private workspace, reports, and available analytics tools.
   </p>
   <div class="hero-actions">
-    <a class="button-link" href="https://user.sun-dataanalytics.com">Open User Portal</a>
+    <a class="button-link" href="https://apps.sun-dataanalytics.com">Open User Portal</a>
   </div>
 
   <p class="user-login-support">

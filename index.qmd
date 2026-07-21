@@ -15,6 +15,7 @@ title: "Sun Data Analytics"
 </div>
 ```
 
+
 Sun Data Analytics, LLC is an independent analytics studio and public portfolio for practical data projects. I build reports, dashboards, tools, and workflows that make messy information easier to understand and use.
 
 ## Featured Work
@@ -55,6 +56,7 @@ Sun Data Analytics, LLC is an independent analytics studio and public portfolio 
 </section>
 ```
 
+
 ## Latest From the Studio
 
 ```{=html}
@@ -80,6 +82,7 @@ Sun Data Analytics, LLC is an independent analytics studio and public portfolio 
   </a>
 </section>
 ```
+
 
 ## About the Work
 
@@ -110,5 +113,6 @@ The common thread is practical interpretation: collecting the right data, cleani
   </article>
 </section>
 ```
+
 
 If you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact [jonathon@sun-dataanalytics.com](mailto:jonathon@sun-dataanalytics.com).
