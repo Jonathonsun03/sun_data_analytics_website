@@ -238,6 +238,90 @@
     "text": "Typical Outputs\n\n  \n    Prepared Data\n    \n      Analysis-Ready Tables\n      Clean tables organized around the useful unit of analysis.\n    \n  \n\n  \n    Reusable Logic\n    \n      Import Scripts\n      Documented R, Python, API, or file-processing workflows.\n    \n  \n\n  \n    Shared Context\n    \n      Source and Field Documentation\n      Definitions, source notes, transformation rules, and limitations.\n    \n  \n\n  \n    Next Update\n    \n      Refreshable Data Stores\n      Stable structures and update processes for recurring work.\n    \n  \n\nRelated content\n\n  \n    Explore Automated Reporting\n    See how recurring reports can turn refreshed source data into repeatable analysis outputs.\n    View automated reporting\n  \n\n  \n    Explore Unified Methods\n    See how performance data, text classification, and qualitative interpretation can work together.\n    View unified methods\n  \n\n  \n    Back to Services Overview\n    Return to the main services page to compare reporting, data collection, and analysis support.\n    View services"
   },
   {
+    "objectID": "terms/index.html",
+    "href": "terms/index.html",
+    "title": "Terms of Service",
+    "section": "",
+    "text": "Effective date: September 1, 2026\nThese Terms of Service govern your use of the Sun Data Analytics, LLC website, account areas, and web-based services. By using these services, you agree to these terms. A separate written client agreement takes priority if it conflicts with these terms."
+  },
+  {
+    "objectID": "terms/index.html#use-of-the-services",
+    "href": "terms/index.html#use-of-the-services",
+    "title": "Terms of Service",
+    "section": "Use of the Services",
+    "text": "Use of the Services\nYou may use our services only for lawful purposes and in accordance with these terms. You agree not to interfere with the service, attempt to gain unauthorized access, misuse another person’s account, introduce malicious code, or use the service in a way that harms Sun Data Analytics or others."
+  },
+  {
+    "objectID": "terms/index.html#accounts",
+    "href": "terms/index.html#accounts",
+    "title": "Terms of Service",
+    "section": "Accounts",
+    "text": "Accounts\nYou are responsible for the activity under your account and for keeping your sign-in credentials secure. Please notify us promptly if you believe your account has been accessed without authorization. We may limit or suspend access when reasonably necessary to protect users, data, or our systems."
+  },
+  {
+    "objectID": "terms/index.html#your-data",
+    "href": "terms/index.html#your-data",
+    "title": "Terms of Service",
+    "section": "Your Data",
+    "text": "Your Data\nYou retain ownership of the data and materials you provide. You authorize us to access, store, process, and display that data only as needed to provide the requested services, maintain security, meet legal obligations, and follow your instructions.\nYou are responsible for ensuring that you have the right to provide the data and that your use of the service complies with applicable law. Our handling of personal data is described in our Privacy Policy."
+  },
+  {
+    "objectID": "terms/index.html#confidentiality",
+    "href": "terms/index.html#confidentiality",
+    "title": "Terms of Service",
+    "section": "Confidentiality",
+    "text": "Confidentiality\nWe treat client data, private reports, and source files as confidential. We do not sell personal data. Information needed to deliver the service is stored on our internal servers and systems, subject to the disclosures described in our Privacy Policy."
+  },
+  {
+    "objectID": "terms/index.html#analytics-and-professional-services",
+    "href": "terms/index.html#analytics-and-professional-services",
+    "title": "Terms of Service",
+    "section": "Analytics and Professional Services",
+    "text": "Analytics and Professional Services\nReports, dashboards, analyses, and other outputs are prepared from the information available to us and may contain limitations or uncertainty. Unless expressly stated in a written agreement, these outputs are provided for informational and decision-support purposes and are not legal, financial, medical, or other regulated professional advice. You remain responsible for decisions made using the services."
+  },
+  {
+    "objectID": "terms/index.html#intellectual-property",
+    "href": "terms/index.html#intellectual-property",
+    "title": "Terms of Service",
+    "section": "Intellectual Property",
+    "text": "Intellectual Property\nSun Data Analytics retains ownership of its website, software, methods, branding, and reusable materials. Except as allowed by law or a written agreement, you may not copy, modify, distribute, reverse engineer, or commercially exploit those materials."
+  },
+  {
+    "objectID": "terms/index.html#third-party-services",
+    "href": "terms/index.html#third-party-services",
+    "title": "Terms of Service",
+    "section": "Third-Party Services",
+    "text": "Third-Party Services\nSome features may rely on or link to third-party services, including account providers. Your use of those services may be subject to their own terms and policies. We are not responsible for third-party services that we do not control."
+  },
+  {
+    "objectID": "terms/index.html#availability-and-disclaimer",
+    "href": "terms/index.html#availability-and-disclaimer",
+    "title": "Terms of Service",
+    "section": "Availability and Disclaimer",
+    "text": "Availability and Disclaimer\nWe work to keep our services reliable and secure, but we do not guarantee uninterrupted or error-free availability. To the extent permitted by law, services provided without a separate written warranty are provided “as is” and “as available.”"
+  },
+  {
+    "objectID": "terms/index.html#limitation-of-liability",
+    "href": "terms/index.html#limitation-of-liability",
+    "title": "Terms of Service",
+    "section": "Limitation of Liability",
+    "text": "Limitation of Liability\nTo the extent permitted by law, Sun Data Analytics will not be liable for indirect, incidental, special, consequential, or punitive damages arising from use of the services. Nothing in these terms excludes liability that cannot legally be excluded."
+  },
+  {
+    "objectID": "terms/index.html#changes-and-termination",
+    "href": "terms/index.html#changes-and-termination",
+    "title": "Terms of Service",
+    "section": "Changes and Termination",
+    "text": "Changes and Termination\nWe may update these terms by posting a revised version here and changing the effective date. Continued use after an update means you accept the revised terms. You may stop using the services at any time, and we may suspend or terminate access when these terms are violated or when necessary to protect the service or its users."
+  },
+  {
+    "objectID": "terms/index.html#contact",
+    "href": "terms/index.html#contact",
+    "title": "Terms of Service",
+    "section": "Contact",
+    "text": "Contact\nFor questions about these terms, contact jonathon@sun-dataanalytics.com."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sun Data Analytics",
@@ -271,6 +355,76 @@
     "title": "Sun Data Analytics",
     "section": "Working with me",
     "text": "Working with me\n\n  \n    Service\n    Reporting Systems\n    Build dashboards, recurring reports, metric definitions, and refresh workflows that make routine reporting easier to trust.\n  \n\n  \n    Service\n    Data Collection and Workflow Automation\n    Turn scattered exports, API pulls, transcripts, and spreadsheets into cleaner, repeatable analysis materials.\n  \n\n  \n    Service\n    Research, Evaluation, and Mixed-Methods Analysis\n    Design practical analyses, code qualitative data, classify text, and connect findings to decisions.\n  \n\nIf you need a cleaner report, a dashboard people can actually use, a repeatable data workflow, or help turning research material into findings, contact jonathon@sun-dataanalytics.com."
+  },
+  {
+    "objectID": "privacy/index.html",
+    "href": "privacy/index.html",
+    "title": "Privacy Policy",
+    "section": "",
+    "text": "Effective date: September 1, 2026\nSun Data Analytics, LLC respects your privacy. We do not sell your personal data. Information needed to provide our services is stored on our internal servers and systems and is used only for the purposes described below."
+  },
+  {
+    "objectID": "privacy/index.html#information-we-collect",
+    "href": "privacy/index.html#information-we-collect",
+    "title": "Privacy Policy",
+    "section": "Information We Collect",
+    "text": "Information We Collect\nWe may collect:\n\ninformation you provide directly, such as your name, email address, messages, files, or project data;\naccount and authentication information you authorize when signing in, which may include your name, email address, and account identifier; and\nlimited technical information needed to operate and secure the service, such as IP addresses, browser information, timestamps, and system logs.\n\nWe collect only the information reasonably needed to provide, maintain, and protect our services."
+  },
+  {
+    "objectID": "privacy/index.html#how-we-use-information",
+    "href": "privacy/index.html#how-we-use-information",
+    "title": "Privacy Policy",
+    "section": "How We Use Information",
+    "text": "How We Use Information\nWe use information to:\n\nauthenticate users and manage account access;\nprovide requested analytics, reports, dashboards, and related services;\ncommunicate with users and respond to support requests;\nmaintain, troubleshoot, and secure our systems; and\nmeet legal obligations and enforce our agreements.\n\nWe do not use personal data for unrelated advertising or sell it to third parties."
+  },
+  {
+    "objectID": "privacy/index.html#google-user-data",
+    "href": "privacy/index.html#google-user-data",
+    "title": "Privacy Policy",
+    "section": "Google User Data",
+    "text": "Google User Data\nIf you choose to sign in with Google or authorize access to Google data, we access only the information and permissions shown on Google’s consent screen. We use that data only to authenticate you and provide the features you request.\nWe do not sell Google user data, use it for advertising, or allow people to read it except when necessary to provide or secure the service, when required by law, or with your permission. Our use and transfer of information received from Google APIs complies with the Google API Services User Data Policy, including its Limited Use requirements."
+  },
+  {
+    "objectID": "privacy/index.html#storage-and-security",
+    "href": "privacy/index.html#storage-and-security",
+    "title": "Privacy Policy",
+    "section": "Storage and Security",
+    "text": "Storage and Security\nService data is stored on our internal servers and systems. We use reasonable administrative and technical safeguards designed to protect it from unauthorized access, loss, misuse, or alteration. No storage or transmission method can be guaranteed to be completely secure."
+  },
+  {
+    "objectID": "privacy/index.html#sharing-and-disclosure",
+    "href": "privacy/index.html#sharing-and-disclosure",
+    "title": "Privacy Policy",
+    "section": "Sharing and Disclosure",
+    "text": "Sharing and Disclosure\nWe do not sell or rent personal data. We may disclose information only:\n\nto service providers that are necessary to operate or secure the service and that are expected to protect the information;\nwhen required by law, legal process, or a valid government request;\nto protect the rights, safety, and security of users, Sun Data Analytics, or others; or\nwhen you direct us or give us permission."
+  },
+  {
+    "objectID": "privacy/index.html#retention-and-deletion",
+    "href": "privacy/index.html#retention-and-deletion",
+    "title": "Privacy Policy",
+    "section": "Retention and Deletion",
+    "text": "Retention and Deletion\nWe retain information only as long as reasonably needed to provide the service, maintain required records, resolve disputes, or meet legal obligations. You may request access to, correction of, or deletion of your personal data by contacting us. Some information may be retained when required by law or for legitimate security and recordkeeping purposes."
+  },
+  {
+    "objectID": "privacy/index.html#third-party-services",
+    "href": "privacy/index.html#third-party-services",
+    "title": "Privacy Policy",
+    "section": "Third-Party Services",
+    "text": "Third-Party Services\nOur website or services may link to or integrate with third-party services. Their privacy practices are governed by their own policies, and we encourage you to review them."
+  },
+  {
+    "objectID": "privacy/index.html#changes-to-this-policy",
+    "href": "privacy/index.html#changes-to-this-policy",
+    "title": "Privacy Policy",
+    "section": "Changes to This Policy",
+    "text": "Changes to This Policy\nWe may update this Privacy Policy as our services or legal obligations change. We will post the revised policy here and update the effective date above."
+  },
+  {
+    "objectID": "privacy/index.html#contact",
+    "href": "privacy/index.html#contact",
+    "title": "Privacy Policy",
+    "section": "Contact",
+    "text": "Contact\nFor privacy questions or data requests, contact jonathon@sun-dataanalytics.com."
   },
   {
     "objectID": "pages/services.html",
