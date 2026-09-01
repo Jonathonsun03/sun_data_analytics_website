@@ -1,0 +1,55 @@
+---
+title: "Terms of Service"
+description: "Basic terms governing use of the Sun Data Analytics website, account areas, and web-based services."
+---
+
+**Effective date: September 1, 2026**
+
+These Terms of Service govern your use of the Sun Data Analytics, LLC website, account areas, and web-based services. By using these services, you agree to these terms. A separate written client agreement takes priority if it conflicts with these terms.
+
+## Use of the Services
+
+You may use our services only for lawful purposes and in accordance with these terms. You agree not to interfere with the service, attempt to gain unauthorized access, misuse another person's account, introduce malicious code, or use the service in a way that harms Sun Data Analytics or others.
+
+## Accounts
+
+You are responsible for the activity under your account and for keeping your sign-in credentials secure. Please notify us promptly if you believe your account has been accessed without authorization. We may limit or suspend access when reasonably necessary to protect users, data, or our systems.
+
+## Your Data
+
+You retain ownership of the data and materials you provide. You authorize us to access, store, process, and display that data only as needed to provide the requested services, maintain security, meet legal obligations, and follow your instructions.
+
+You are responsible for ensuring that you have the right to provide the data and that your use of the service complies with applicable law. Our handling of personal data is described in our [Privacy Policy](/privacy/).
+
+## Confidentiality
+
+We treat client data, private reports, and source files as confidential. We do not sell personal data. Information needed to deliver the service is stored on our internal servers and systems, subject to the disclosures described in our Privacy Policy.
+
+## Analytics and Professional Services
+
+Reports, dashboards, analyses, and other outputs are prepared from the information available to us and may contain limitations or uncertainty. Unless expressly stated in a written agreement, these outputs are provided for informational and decision-support purposes and are not legal, financial, medical, or other regulated professional advice. You remain responsible for decisions made using the services.
+
+## Intellectual Property
+
+Sun Data Analytics retains ownership of its website, software, methods, branding, and reusable materials. Except as allowed by law or a written agreement, you may not copy, modify, distribute, reverse engineer, or commercially exploit those materials.
+
+## Third-Party Services
+
+Some features may rely on or link to third-party services, including account providers. Your use of those services may be subject to their own terms and policies. We are not responsible for third-party services that we do not control.
+
+## Availability and Disclaimer
+
+We work to keep our services reliable and secure, but we do not guarantee uninterrupted or error-free availability. To the extent permitted by law, services provided without a separate written warranty are provided "as is" and "as available."
+
+## Limitation of Liability
+
+To the extent permitted by law, Sun Data Analytics will not be liable for indirect, incidental, special, consequential, or punitive damages arising from use of the services. Nothing in these terms excludes liability that cannot legally be excluded.
+
+## Changes and Termination
+
+We may update these terms by posting a revised version here and changing the effective date. Continued use after an update means you accept the revised terms. You may stop using the services at any time, and we may suspend or terminate access when these terms are violated or when necessary to protect the service or its users.
+
+## Contact
+
+For questions about these terms, contact [jonathon@sun-dataanalytics.com](mailto:jonathon@sun-dataanalytics.com).
+

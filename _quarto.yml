@@ -6,6 +6,8 @@ project:
   render:
     - 404.qmd
     - index.qmd
+    - privacy/index.qmd
+    - terms/index.qmd
     - pages/services.qmd
     - pages/portfolio/data-collection.qmd
     - pages/services/automated-reporting.qmd

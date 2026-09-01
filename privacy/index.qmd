@@ -1,0 +1,66 @@
+---
+title: "Privacy Policy"
+description: "How Sun Data Analytics, LLC collects, uses, stores, and protects information provided through its website and services."
+---
+
+**Effective date: September 1, 2026**
+
+Sun Data Analytics, LLC respects your privacy. We do not sell your personal data. Information needed to provide our services is stored on our internal servers and systems and is used only for the purposes described below.
+
+## Information We Collect
+
+We may collect:
+
+- information you provide directly, such as your name, email address, messages, files, or project data;
+- account and authentication information you authorize when signing in, which may include your name, email address, and account identifier; and
+- limited technical information needed to operate and secure the service, such as IP addresses, browser information, timestamps, and system logs.
+
+We collect only the information reasonably needed to provide, maintain, and protect our services.
+
+## How We Use Information
+
+We use information to:
+
+- authenticate users and manage account access;
+- provide requested analytics, reports, dashboards, and related services;
+- communicate with users and respond to support requests;
+- maintain, troubleshoot, and secure our systems; and
+- meet legal obligations and enforce our agreements.
+
+We do not use personal data for unrelated advertising or sell it to third parties.
+
+## Google User Data
+
+If you choose to sign in with Google or authorize access to Google data, we access only the information and permissions shown on Google's consent screen. We use that data only to authenticate you and provide the features you request.
+
+We do not sell Google user data, use it for advertising, or allow people to read it except when necessary to provide or secure the service, when required by law, or with your permission. Our use and transfer of information received from Google APIs complies with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements.
+
+## Storage and Security
+
+Service data is stored on our internal servers and systems. We use reasonable administrative and technical safeguards designed to protect it from unauthorized access, loss, misuse, or alteration. No storage or transmission method can be guaranteed to be completely secure.
+
+## Sharing and Disclosure
+
+We do not sell or rent personal data. We may disclose information only:
+
+- to service providers that are necessary to operate or secure the service and that are expected to protect the information;
+- when required by law, legal process, or a valid government request;
+- to protect the rights, safety, and security of users, Sun Data Analytics, or others; or
+- when you direct us or give us permission.
+
+## Retention and Deletion
+
+We retain information only as long as reasonably needed to provide the service, maintain required records, resolve disputes, or meet legal obligations. You may request access to, correction of, or deletion of your personal data by contacting us. Some information may be retained when required by law or for legitimate security and recordkeeping purposes.
+
+## Third-Party Services
+
+Our website or services may link to or integrate with third-party services. Their privacy practices are governed by their own policies, and we encourage you to review them.
+
+## Changes to This Policy
+
+We may update this Privacy Policy as our services or legal obligations change. We will post the revised policy here and update the effective date above.
+
+## Contact
+
+For privacy questions or data requests, contact [jonathon@sun-dataanalytics.com](mailto:jonathon@sun-dataanalytics.com).
+
