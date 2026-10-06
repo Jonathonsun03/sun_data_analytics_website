@@ -15,7 +15,7 @@ format:
 
 <div class="home-title-lockup">
   <img src="assets/logos/sda-logo-full.svg" alt="Sun Data Analytics mark">
-  <p class="home-title-name" aria-hidden="true">Sun Data Analytics</p>
+  <h1>Sun Data Analytics</h1>
 </div>
 ```
 
