@@ -53,7 +53,7 @@
   height: auto;
 }
 
-.home-title-lockup h1 {
+.home-title-name {
   max-width: 760px;
   margin: 0;
   font-size: clamp(2.55rem, 7vw, 4.4rem);
