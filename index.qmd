@@ -1,5 +1,9 @@
 ---
 title: "Sun Data Analytics"
+description: "Analytics consulting, automated reporting systems, reproducible data workflows, and mixed-methods research support from Sun Data Analytics, LLC."
+format:
+  html:
+    include-in-header: site-parts/organization-schema.html
 ---
 
 ```{=html}
@@ -11,7 +15,7 @@ title: "Sun Data Analytics"
 
 <div class="home-title-lockup">
   <img src="assets/logos/sda-logo-full.svg" alt="Sun Data Analytics mark">
-  <h1>Sun Data Analytics</h1>
+  <p class="home-title-name" aria-hidden="true">Sun Data Analytics</p>
 </div>
 ```
 

@@ -26,6 +26,17 @@ project:
 
 website:
   title: "Sun Data Analytics"
+  site-url: "https://sun-dataanalytics.com"
+  description: "Analytics consulting, reproducible data work, automated reporting systems, and mixed-methods research support from Sun Data Analytics, LLC."
+  open-graph:
+    locale: en_US
+    site-name: "Sun Data Analytics"
+    image: assets/logos/Sun_Data_Analytics_Logo.jpg
+    image-alt: "Sun Data Analytics logo"
+  twitter-card:
+    card-style: summary_large_image
+    image: assets/logos/Sun_Data_Analytics_Logo.jpg
+    image-alt: "Sun Data Analytics logo"
   favicon: assets/logos/sda-mark.svg
   navbar:
     background: white
@@ -63,5 +74,6 @@ format:
   html:
     theme: cosmo
     css: css/styles.css
+    canonical-url: true
     include-after-body: site-parts/footer.html
     toc: false

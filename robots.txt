@@ -1,0 +1,5 @@
+# Crawl public pages and discover the canonical URL inventory.
+User-agent: *
+Allow: /
+
+Sitemap: https://sun-dataanalytics.com/sitemap.xml
